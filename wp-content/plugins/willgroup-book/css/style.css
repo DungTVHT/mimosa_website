@@ -1,0 +1,269 @@
+.lightpick__month-title > .lightpick__select {
+    background: none;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+.lightpick__next-action, .lightpick__previous-action {
+    margin: 0;
+}
+
+.willgroup-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.willgroup-col-12, .willgroup-col-sm-6 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.willgroup-col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+@media (min-width: 576px) {
+    .willgroup-col-sm-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+@media (min-width: 992px) {
+    .willgroup-col-lg-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .willgroup-col-lg-4 {
+        -ms-flex: 0 0 33.3333%;
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+    }
+}
+
+.willgroup-form-group {
+    margin-bottom: 1rem;
+}
+.willgroup-form-label {
+    display: inline-block;
+    margin-bottom: 0.25rem;
+}
+.willgroup-form-input,
+.willgroup-form-select {
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    box-shadow: none;
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    margin: 0;
+}
+.willgroup-form-radio {
+    margin-bottom: 0;
+}
+.willgroup-form-input-group {
+    display: flex;
+}
+.willgroup-form-input-group-text {
+    border: 1px solid #ced4da;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0.75rem;
+    margin-right: -1px;
+}
+.willgroup-form-input + .willgroup-form-input-group-text {
+    margin-left: -1px;
+    margin-right: 0;
+}
+.willgroup-form-radio,
+.willgroup-form-checkbox {
+    margin-right: 0.5rem;
+    margin-bottom: 0;
+}
+.willgroup-button {
+    color: #fff;
+    background-color: #ff7e00 !important;
+    border: 1px solid #ff7e00 !important;
+    display: inline-block;
+    height: auto;
+    min-height: 0;
+    line-height: 1.5;
+    padding: 0.375rem 1rem;
+    margin-bottom: 0;
+}
+.willgroup-button:hover,
+.willgroup-button:focus {
+    color: #fff;
+    background-color: #EF7800 !important;
+    border-color: #EF7800 !important;
+}
+.willgroup-button-block {
+    width: 100%;
+}
+.willgroup-button .icon {
+    margin-left: 0.5rem;
+}
+
+.willgroup-form-book-mini-tour {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.willgroup-form-book-mini-tour .willgroup-form-label {
+    margin-bottom: 0;
+}
+.willgroup-form-book-mini-tour .willgroup-form-input-group {
+    margin-left: auto;
+}
+.willgroup-form-book-mini-tour-price,
+.willgroup-amount-adults,
+.willgroup-amount-children,
+.willgroup-amount-infants {
+    font-weight: 700;
+    color: #0c4999;
+    display: block;
+}
+.willgroup-departure .willgroup-form-input {
+    text-align: center;
+}
+.willgroup-quantity .willgroup-form-input {
+    text-align: center;
+}
+.willgroup-total-wrapper {
+    margin-bottom: 1rem;
+}
+.willgroup-total {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #f00;
+}
+@media (min-width: 992px) {
+    .willgroup-form-book-mini-tour .willgroup-form-group {
+        display: flex;
+        align-items: center;
+    }
+    .willgroup-departure .willgroup-form-input {
+        width: 7.5rem;
+    }
+    .willgroup-quantity .willgroup-form-input {
+        width: 3rem;
+    }
+}
+
+.willgroup-alert {
+    border: 1px solid transparent;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+}
+.willgroup-alert-error {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+.willgroup-alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.willgroup-book-tour {
+    border: 1px solid #dee2e6;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 1rem;
+}
+.willgroup-book-tour-image {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 20rem;
+}
+.willgroup-book-tour-info {
+    padding: 1.5rem;
+}
+.willgroup-book-tour-item {
+    margin-bottom: 0.5rem;
+}
+.willgroup-book-tour-note,
+.willgroup-book-tour-terms {
+    background-color: #f5f5f5;
+    border: 1px solid #dee2e6;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+}
+.willgroup-book-tour-note-icon {
+    margin-right: 0.5rem;
+}
+.willgroup-book-box {
+    border: 1px solid #dee2e6;
+    margin-bottom: 1rem;
+}
+.willgroup-book-box-header {
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #003c71;
+    display: flex;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+}
+.willgroup-book-box-header-number {
+    font-weight: 700;
+    color: #003c71;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+}
+.willgroup-book-box-content {
+    padding: 1rem;
+}
+.willgroup-book-tour-payment-method,
+.willgroup-book-tour-payment-method .willgroup-form-label {
+    display: flex;
+    align-items: center;
+}
+.willgroup-book-tour-payment-method .willgroup-form-label {
+    margin-bottom: 0;
+}
+.willgroup-book-tour-payment-method-text small {
+    color: #6c757d;
+    display: block;
+}
+.willgroup-book-tour-payment-method-icon {
+    font-size: 1.75rem;
+    margin-right: 0.5rem;
+}
+.willgroup-book-tour-payment-method-collapse {
+    padding-left: 2rem;
+}
+.willgroup-book-tour-payment-address,
+.willgroup-book-tour-bank-accounts {
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: 1px solid #b8daff;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+}
+.willgroup-book-tour-payment-address {
+	text-align: center;
+}
+.willgroup-book-tour-button {
+    width: 100%;
+    max-width: 30rem;
+}

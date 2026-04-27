@@ -1,0 +1,3393 @@
+# Copyright (C) 2019 YITH
+# This file is distributed under the same license as the YITH Booking and Appointment for WooCommerce Premium package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH Booking and Appointment for WooCommerce Premium 2.1.0\n"
+"Report-Msgid-Bugs-To: Your Inspiration Themes <plugins@yithemes.com>\n"
+"POT-Creation-Date: 2019-11-25 21:37+0700\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-11-25 22:37+0700\n"
+"Language-Team: Your Inspiration Themes <info@yithemes.com>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 2.2\n"
+"Last-Translator: \n"
+"Language: vi\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/assets/class.yith-wcbk-admin-assets.php:64
+msgid "Are you sure you want to delete logs?"
+msgstr "Bạn có chắc chắn muốn xóa nhật ký?"
+
+#: includes/assets/class.yith-wcbk-admin-assets.php:65
+#: views/product-tabs/utility/html-availability-rule.php:29
+#: views/product-tabs/utility/html-price-rule.php:54
+msgid "Untitled"
+msgstr "Chưa có tiêu đề"
+
+#: includes/assets/class.yith-wcbk-admin-assets.php:138
+msgid "Export to CSV"
+msgstr "Xuất sang CSV"
+
+#: includes/assets/class.yith-wcbk-admin-assets.php:139
+msgid "Export to ICS"
+msgstr "Xuất sang ICS"
+
+#: includes/assets/class.yith-wcbk-admin-assets.php:200
+msgid "Are you sure you want to delete this note? This action cannot be undone."
+msgstr "Bạn có chắc chắn muốn xóa ghi chú này không? Hành động này không thể được hoàn tác."
+
+#: includes/assets/class.yith-wcbk-common-assets.php:70
+msgid "select people"
+msgstr "chọn người"
+
+#: includes/assets/class.yith-wcbk-common-assets.php:71
+msgid "1 person"
+msgstr "1 người"
+
+#: includes/assets/class.yith-wcbk-common-assets.php:72
+msgid "%s persons"
+msgstr "%s người"
+
+#: includes/assets/class.yith-wcbk-common-assets.php:79
+msgid "Clear"
+msgstr "Thông thoáng"
+
+#: includes/assets/class.yith-wcbk-common-assets.php:95
+msgid "Select a duration"
+msgstr "Chọn thời lượng"
+
+#: includes/assets/class.yith-wcbk-common-assets.php:96
+msgid "Select a date"
+msgstr "Chọn một ngày"
+
+#: includes/assets/class.yith-wcbk-common-assets.php:97
+msgid "Select a date to choose the time"
+msgstr "Chọn một ngày để chọn thời gian"
+
+#: includes/assets/class.yith-wcbk-common-assets.php:98
+#: includes/class.yith-wcbk-ajax.php:577
+#: templates/single-product/add-to-cart/booking-form/dates/time.php:24
+msgid "Select Time"
+msgstr "Chọn thời gian"
+
+#: includes/assets/class.yith-wcbk-common-assets.php:99
+#: includes/objects/class.wc-product-booking.php:1635
+msgid "Minimum people: %s"
+msgstr "Số người tối thiểu: %s"
+
+#: includes/assets/class.yith-wcbk-common-assets.php:100
+#: includes/objects/class.wc-product-booking.php:1640
+msgid "Maximum people: %s"
+msgstr "Số người tối đa: %s"
+
+#: includes/assets/class.yith-wcbk-common-assets.php:101
+msgid "Minimum duration: %s"
+msgstr "Thời lượng tối thiểu: %s"
+
+#: includes/assets/class.yith-wcbk-common-assets.php:102
+msgid "Maximum duration: %s"
+msgstr "Thời lượng tối đa: %s"
+
+#: includes/background-process/class.yith-wcbk-background-process-google-calendar-sync.php:29
+#: includes/background-process/class.yith-wcbk-background-process-google-calendar-sync.php:30
+msgid "Google Calendar Sync - your booking products are being synchronized in the background."
+msgstr "Đồng bộ lịch Google - các sản phẩm đặt phòng của bạn đang được đồng bộ hóa trong nền."
+
+#: includes/background-process/class.yith-wcbk-background-process-google-calendar-sync.php:31
+msgid "Google Calendar Sync - synchronization completed!"
+msgstr "Đồng bộ hóa Lịch Google - đã hoàn tất đồng bộ hóa!"
+
+#: includes/booking/admin/class.yith-wcbk-booking-calendar.php:38
+#: includes/booking/admin/class.yith-wcbk-booking-calendar.php:39
+#: plugin-options/settings-options.php:289
+msgid "Calendar"
+msgstr "Lịch đặt phòng"
+
+#: includes/booking/admin/class.yith-wcbk-booking-calendar.php:140
+msgid "1 h"
+msgstr "1 h"
+
+#: includes/booking/admin/class.yith-wcbk-booking-calendar.php:141
+msgid "30 min"
+msgstr "30 phút"
+
+#: includes/booking/admin/class.yith-wcbk-booking-calendar.php:142
+msgid "15 min"
+msgstr "15 phút"
+
+#: includes/booking/admin/class.yith-wcbk-booking-create.php:47
+#: includes/booking/admin/class.yith-wcbk-booking-create.php:48
+#: views/html-booking-create.php:16 views/html-booking-create.php:105
+msgid "Create Booking"
+msgstr "Tạo Đặt phòng"
+
+#: includes/booking/admin/class.yith-wcbk-booking-create.php:91
+#: includes/booking/admin/class.yith-wcbk-booking-create.php:93
+#: includes/booking/admin/class.yith-wcbk-booking-create.php:126
+msgid "Error %d: Unable to create order. Please try again."
+msgstr "Lỗi %d : Không thể tạo đơn hàng. Vui lòng thử lại."
+
+#: includes/booking/admin/class.yith-wcbk-booking-create.php:182
+msgid "Error in creating booking"
+msgstr "Lỗi khi tạo đặt phòng"
+
+#: includes/booking/admin/class.yith-wcbk-booking-metabox.php:86
+msgid "Booking notes"
+msgstr "Ghi chú đặt phòng"
+
+#: includes/booking/admin/class.yith-wcbk-booking-metabox.php:92
+msgid "Booking actions"
+msgstr "Hành động đặt phòng"
+
+#: includes/booking/admin/class.yith-wcbk-booking-metabox.php:98
+msgid "Booking data"
+msgstr "Dữ liệu đặt phòng"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:206
+#: includes/class.yith-wcbk-post-types.php:78
+#: includes/class.yith-wcbk-post-types.php:95
+#: templates/myaccount/bookings-table.php:18
+#: templates/myaccount/bookings.php:18
+msgid "Booking"
+msgstr "Đặt trước"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:207
+#: templates/booking/booking-details.php:19
+#: templates/booking/pdf/booking-details.php:9
+#: templates/emails/email-booking-details.php:28
+#: templates/emails/plain/email-booking-details.php:11
+#: templates/myaccount/bookings-table.php:22
+#: templates/myaccount/bookings.php:22
+#: views/calendar/html-booking-calendar-single-booking-data.php:40
+msgid "Status"
+msgstr "Trạng thái"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:208
+#: templates/booking/booking-details.php:43
+#: templates/booking/pdf/booking-details.php:33
+#: templates/emails/email-booking-details.php:56
+#: templates/emails/plain/email-booking-details.php:19
+#: templates/myaccount/bookings.php:19
+#: views/calendar/html-booking-calendar-single-booking-data.php:111
+#: views/html-booking-create.php:60
+msgid "Order"
+msgstr "Booking"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:209
+#: templates/booking/pdf/user-info.php:22
+#: views/calendar/html-booking-calendar-single-booking-data.php:128
+#: views/html-booking-create.php:24
+msgid "User"
+msgstr "Người sử dụng"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:210
+#: includes/class.yith-wcbk-language.php:44
+#: views/calendar/html-booking-calendar-single-booking-data.php:60
+#: views/metaboxes/html-booking-meta-data.php:162
+msgid "Duration"
+msgstr "Thời lượng"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:211
+#: includes/class.yith-wcbk-language.php:46
+#: templates/myaccount/bookings-table.php:20
+#: templates/myaccount/bookings.php:20
+#: views/calendar/html-booking-calendar-single-booking-data.php:65
+#: views/metaboxes/html-booking-meta-data.php:168
+#: views/product-tabs/utility/html-availability-rule.php:74
+#: views/product-tabs/utility/html-availability-rule.php:197
+#: views/product-tabs/utility/html-price-rule-condition.php:72
+msgid "From"
+msgstr "Từ"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:212
+#: includes/class.yith-wcbk-language.php:55
+#: templates/myaccount/bookings-table.php:21
+#: templates/myaccount/bookings.php:21
+#: views/calendar/html-booking-calendar-single-booking-data.php:69
+#: views/metaboxes/html-booking-meta-data.php:181
+#: views/product-tabs/utility/html-availability-rule.php:96
+#: views/product-tabs/utility/html-availability-rule.php:203
+#: views/product-tabs/utility/html-price-rule-condition.php:128
+msgid "To"
+msgstr "Đến"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:213
+#: includes/class.yith-wcbk-language.php:49
+#: includes/class.yith-wcbk-post-types.php:122
+#: includes/class.yith-wcbk-post-types.php:123
+#: templates/booking/search-form/fields/persons-persons.php:16
+#: views/calendar/html-booking-calendar-single-booking-data.php:137
+#: views/metaboxes/html-booking-meta-data.php:209
+#: views/metaboxes/html-search-form-metabox.php:21
+#: views/product-tabs/utility/html-price-rule-condition.php:34
+#: views/product-tabs/utility/html-price-rule.php:46
+msgid "People"
+msgstr "Số lượng phòng"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:220
+#: views/settings-tabs/html-google-calendar.php:105
+msgid "Actions"
+msgstr "Hành động"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:274
+msgid "%s of %s"
+msgstr "%s của %s"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:297
+#: views/calendar/html-booking-calendar-single-booking-data.php:97
+#: views/html-booking-create.php:32
+msgid "Guest"
+msgstr "Khách"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:355
+msgid "Paid"
+msgstr "Đã thanh toán"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:361
+#: templates/booking/booking-actions.php:33
+msgid "Confirm"
+msgstr "Xác nhận"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:366
+msgid "Reject"
+msgstr "Từ chối"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:373
+#: templates/booking/booking-actions.php:26
+msgid "View"
+msgstr "Lượt xem"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:382
+#: views/metaboxes/html-booking-meta-actions.php:33
+msgid "Customer PDF"
+msgstr "PDF khách hàng"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:391
+#: views/metaboxes/html-booking-meta-actions.php:34
+msgid "Admin PDF"
+msgstr "Quản trị PDF"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:409
+msgid "Unpublished"
+msgstr "Chưa được công bố"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:412
+msgid "Y/m/d g:i:s a"
+msgstr "Y / m / dg: i: sa"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:419
+msgid "%s ago"
+msgstr "%s trước"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:421
+msgid "Y/m/d"
+msgstr "Y / m / ngày"
+
+#: includes/booking/class.yith-wcbk-booking-external.php:206
+msgid "External of #%s product"
+msgstr "Bên ngoài sản phẩm # %s"
+
+#: includes/booking/class.yith-wcbk-booking-external.php:273
+msgid "External"
+msgstr "Bên ngoài"
+
+#: includes/booking/class.yith-wcbk-booking-externals.php:348
+msgid "30 minutes"
+msgstr "30 phút"
+
+#: includes/booking/class.yith-wcbk-booking-externals.php:349
+msgid "1 hour"
+msgstr "1 giờ"
+
+#: includes/booking/class.yith-wcbk-booking-externals.php:350
+msgid "2 hours"
+msgstr "2 giờ"
+
+#: includes/booking/class.yith-wcbk-booking-externals.php:351
+msgid "6 hours"
+msgstr "6 tiếng"
+
+#: includes/booking/class.yith-wcbk-booking-externals.php:352
+msgid "12 hours"
+msgstr "12 giờ"
+
+#: includes/booking/class.yith-wcbk-booking-externals.php:353
+msgid "1 day"
+msgstr "1 ngày"
+
+#: includes/booking/class.yith-wcbk-booking-externals.php:354
+msgid "2 days"
+msgstr "2 ngày"
+
+#: includes/booking/class.yith-wcbk-booking-externals.php:355
+msgid "7 days"
+msgstr "7 ngày"
+
+#: includes/booking/class.yith-wcbk-booking-externals.php:356
+msgid "1 month"
+msgstr "1 tháng"
+
+#: includes/booking/class.yith-wcbk-booking.php:171
+msgid "Booking successfully created."
+msgstr "Đặt phòng được tạo thành công."
+
+#: includes/booking/class.yith-wcbk-booking.php:286
+msgid "(All Day)"
+msgstr "(Cả ngày)"
+
+#: includes/booking/class.yith-wcbk-booking.php:674
+msgid "by customer"
+msgstr "bởi khách hàng"
+
+#: includes/booking/class.yith-wcbk-booking.php:684
+msgid "Booking status updated to %s."
+msgstr "Tình trạng đặt phòng được cập nhật thành %s ."
+
+#: includes/class.yith-wcbk-ajax.php:94
+#: views/metaboxes/html-booking-meta-notes.php:28
+msgid "Delete note"
+msgstr "Xóa ghi chú"
+
+#: includes/class.yith-wcbk-ajax.php:109 includes/class.yith-wcbk-ajax.php:127
+#: includes/class.yith-wcbk-ajax.php:139 includes/class.yith-wcbk-ajax.php:157
+#: includes/class.yith-wcbk-ajax.php:169 includes/class.yith-wcbk-ajax.php:186
+msgid "Error: something went wrong"
+msgstr "Lỗi: đã xảy ra lỗi"
+
+#: includes/class.yith-wcbk-ajax.php:120 includes/class.yith-wcbk-ajax.php:150
+#: includes/class.yith-wcbk-ajax.php:177
+msgid "Error: %s"
+msgstr "Lỗi: %s"
+
+#: includes/class.yith-wcbk-ajax.php:377
+msgid "No booking available for this search"
+msgstr "Không có đặt phòng có sẵn cho tìm kiếm này"
+
+#: includes/class.yith-wcbk-ajax.php:596
+msgid "No time available"
+msgstr "Không có thời gian"
+
+#: includes/class.yith-wcbk-cart.php:219
+msgid "%s is not available: %s"
+msgstr "%s không có sẵn: %s"
+
+#: includes/class.yith-wcbk-cart.php:221
+msgid "%s is not available"
+msgstr "%s không có sẵn"
+
+#: includes/class.yith-wcbk-cart.php:230
+msgid "Minimum number of people: %s"
+msgstr "Số người tối thiểu: %s"
+
+#: includes/class.yith-wcbk-cart.php:235
+msgid "Maximum number of people: %s"
+msgstr "Số người tối đa: %s"
+
+#: includes/class.yith-wcbk-cart.php:260
+#: includes/objects/class.wc-product-booking.php:1710
+msgid "Too many people selected (%s remained)"
+msgstr "Quá nhiều người được chọn (vẫn giữ nguyên %s )"
+
+#: includes/class.yith-wcbk-cart.php:262
+#: includes/objects/class.wc-product-booking.php:1712
+msgid "(%s remained)"
+msgstr "( %s vẫn còn)"
+
+#: includes/class.yith-wcbk-cart.php:269
+msgid "View cart"
+msgstr "Xem giỏ hàng"
+
+#: includes/class.yith-wcbk-cart.php:270
+msgid "You cannot add another &quot;%s&quot; to your cart in the dates you selected. %s"
+msgstr "Bạn không thể thêm cái khác & quot; %s & quot; vào giỏ hàng của bạn trong những ngày bạn đã chọn. %s"
+
+#: includes/class.yith-wcbk-cart.php:428 includes/class.yith-wcbk-cart.php:456
+msgid "%s has been removed from your cart because it can no longer be booked."
+msgstr "%s đã bị xóa khỏi giỏ hàng của bạn vì không thể đặt trước được nữa."
+
+#: includes/class.yith-wcbk-cron.php:68
+msgid "Automatically reject booking after %d day(s) from creating"
+msgstr "Tự động từ chối đặt chỗ sau khi %d ngày tạo"
+
+#: includes/class.yith-wcbk-cron.php:93
+msgid "Automatically complete booking after %d day(s) from End Date"
+msgstr "Tự động hoàn tất đặt phòng sau %d ngày kể từ Ngày kết thúc"
+
+#: includes/class.yith-wcbk-endpoints.php:74
+msgid "Booking endpoints"
+msgstr "Đặt điểm cuối"
+
+#: includes/class.yith-wcbk-endpoints.php:79
+#: includes/class.yith-wcbk-endpoints.php:144
+#: includes/class.yith-wcbk-endpoints.php:208
+#: includes/class.yith-wcbk-post-types.php:77
+msgid "Bookings"
+msgstr "Đặt phòng"
+
+#: includes/class.yith-wcbk-endpoints.php:80
+msgid "Endpoint for the My Account &rarr; Bookings page"
+msgstr "Điểm cuối cho Tài khoản của tôi & rarr; Trang đặt chỗ"
+
+#: includes/class.yith-wcbk-endpoints.php:88
+#: includes/functions.yith-wcbk-template.php:294
+msgid "View booking"
+msgstr "Xem đặt phòng"
+
+#: includes/class.yith-wcbk-endpoints.php:89
+msgid "Endpoint for the My Account &rarr; View Booking page"
+msgstr "Điểm cuối cho Tài khoản của tôi & rarr; Xem trang Đặt phòng"
+
+#: includes/class.yith-wcbk-endpoints.php:206
+msgid "Bookings (page %d)"
+msgstr "Đặt phòng (trang %d )"
+
+#: includes/class.yith-wcbk-frontend-action-handler.php:42
+msgid "You must log in before asking for a booking confirmation"
+msgstr "Bạn phải đăng nhập trước khi yêu cầu xác nhận đặt phòng"
+
+#: includes/class.yith-wcbk-frontend-action-handler.php:45
+msgid "Log in"
+msgstr "Đăng nhập"
+
+#: includes/class.yith-wcbk-frontend-action-handler.php:85
+msgid "Request for booking confirmation sent"
+msgstr "Yêu cầu xác nhận đặt phòng đã được gửi"
+
+#: includes/class.yith-wcbk-frontend-action-handler.php:89
+msgid "Error in requesting booking confirmation"
+msgstr "Lỗi khi yêu cầu xác nhận đặt phòng"
+
+#: includes/class.yith-wcbk-frontend-action-handler.php:103
+msgid "This booking cannot be cancelled. Contact us for more info"
+msgstr "Đặt phòng này không thể bị hủy bỏ. Liên lạc với chúng tôi để biết thêm"
+
+#: includes/class.yith-wcbk-frontend-action-handler.php:111
+msgid "Booking %s cancelled"
+msgstr "Đặt phòng %s đã hủy"
+
+#: includes/class.yith-wcbk-frontend-action-handler.php:113
+msgid "Booking %s not cancelled"
+msgstr "Đặt phòng %s không bị hủy"
+
+#: includes/class.yith-wcbk-frontend-action-handler.php:140
+msgid "This booking cannot be paid. Contact us for more info"
+msgstr "Đặt phòng này không thể được thanh toán. Liên lạc với chúng tôi để biết thêm"
+
+#: includes/class.yith-wcbk-google-calendar-sync.php:66
+msgid "Google Calendar Sync"
+msgstr "Đồng bộ hóa lịch Google"
+
+#: includes/class.yith-wcbk-google-calendar-sync.php:83
+#: views/metaboxes/html-booking-meta-actions.php:42
+msgid "not synchronized"
+msgstr "không đồng bộ"
+
+#: includes/class.yith-wcbk-google-calendar-sync.php:87
+#: views/metaboxes/html-booking-meta-actions.php:46
+msgid "synchronized"
+msgstr "đồng bộ hóa"
+
+#: includes/class.yith-wcbk-google-calendar-sync.php:211
+msgid "Google Calendar: event successfully created"
+msgstr "Lịch Google: sự kiện được tạo thành công"
+
+#: includes/class.yith-wcbk-google-calendar-sync.php:215
+msgid "Google Calendar: event successfully updated"
+msgstr "Lịch Google: sự kiện được cập nhật thành công"
+
+#: includes/class.yith-wcbk-google-calendar-sync.php:219
+msgid "Google Calendar: event successfully %s"
+msgstr "Lịch Google: sự kiện thành công %s"
+
+#: includes/class.yith-wcbk-google-calendar.php:576
+#: includes/class.yith-wcbk-post-types.php:84
+#: includes/class.yith-wcbk-post-types.php:85
+msgid "View Booking"
+msgstr "Xem Đặt phòng"
+
+#: includes/class.yith-wcbk-language.php:38
+msgid "Additional Services"
+msgstr "Dịch vụ bổ sung"
+
+#: includes/class.yith-wcbk-language.php:39
+#: includes/functions.yith-wcbk-product.php:63
+#: views/product-tabs/utility/html-availability-rule.php:117
+#: views/product-tabs/utility/html-availability-rule.php:177
+#: views/product-tabs/utility/html-availability-rule.php:188
+msgid "Bookable"
+msgstr "Có thể đặt trước"
+
+#: includes/class.yith-wcbk-language.php:40
+#: includes/class.yith-wcbk-post-types.php:251
+#: includes/class.yith-wcbk-post-types.php:253
+#: includes/class.yith-wcbk-product-post-type-admin.php:165
+#: views/metaboxes/html-booking-meta-data.php:239
+msgid "Booking Services"
+msgstr "Dịch vụ đi kèm"
+
+#: includes/class.yith-wcbk-language.php:41
+msgid "Check-in"
+msgstr "Đăng ký vào"
+
+#: includes/class.yith-wcbk-language.php:42
+msgid "Check-out"
+msgstr "Kiểm tra"
+
+#: includes/class.yith-wcbk-language.php:43
+#: views/metaboxes/html-search-form-metabox.php:20
+msgid "Dates"
+msgstr "Vui lòng chọn ngày"
+
+#: includes/class.yith-wcbk-language.php:45
+msgid "End date"
+msgstr "Ngày cuối"
+
+#: includes/class.yith-wcbk-language.php:47
+msgid "Included Services"
+msgstr "Dịch vụ đi kèm"
+
+#: includes/class.yith-wcbk-language.php:48
+msgid "Not-bookable"
+msgstr "Không thể đặt trước"
+
+#: includes/class.yith-wcbk-language.php:52
+msgid "Start date"
+msgstr "Ngày bắt đầu"
+
+#: includes/class.yith-wcbk-language.php:53
+#: includes/objects/class.wc-product-booking.php:2176
+#: views/calendar/html-booking-calendar-single-booking-data.php:148
+#: views/metaboxes/html-search-form-metabox.php:22
+#: views/product-tabs/html-services-tab.php:19
+msgid "Services"
+msgstr "Dịch vụ"
+
+#: includes/class.yith-wcbk-language.php:54
+msgid "Time"
+msgstr "Thời gian"
+
+#: includes/class.yith-wcbk-language.php:56
+msgid "Total people"
+msgstr "Tổng số người"
+
+#: includes/class.yith-wcbk-orders.php:75
+msgid "You are trying to add the following Booking Products to the order: %s. You cannot add Booking products to orders through this box. To do it, please use the Create Booking page in Bookings menu"
+msgstr "Bạn đang cố gắng thêm các Sản phẩm Đặt phòng sau vào đơn hàng: %s . Bạn không thể thêm các sản phẩm Đặt phòng để đặt hàng thông qua hộp này. Để làm điều đó, vui lòng sử dụng trang Tạo Đặt phòng trong menu Đặt phòng"
+
+#: includes/class.yith-wcbk-orders.php:105
+msgid "Related Bookings"
+msgstr "Đặt phòng liên quan"
+
+#: includes/class.yith-wcbk-orders.php:369
+msgid "A new booking <a href=\"%s\">#%s</a> has been created from this order"
+msgstr "Đặt phòng mới <a href=\" %s \"> # %s </a> đã được tạo từ đơn đặt hàng này"
+
+#: includes/class.yith-wcbk-orders.php:378
+msgid "Booking associated to order <a href=\"%s\">#%s</a>"
+msgstr "Đặt phòng được liên kết để đặt hàng <a href=\" %s \"> # %s </a>"
+
+#: includes/class.yith-wcbk-orders.php:419
+msgid "Reason: order <a href=\"%s\">#%s</a> has been cancelled."
+msgstr "Lý do: đơn hàng <a href=\" %s \"> # %s </a> đã bị hủy."
+
+#: includes/class.yith-wcbk-post-types.php:79
+msgid "Add Booking"
+msgstr "Thêm đặt phòng"
+
+#: includes/class.yith-wcbk-post-types.php:80
+msgid "Add New Booking"
+msgstr "Thêm đặt phòng mới"
+
+#: includes/class.yith-wcbk-post-types.php:81
+msgid "Edit"
+msgstr "Chỉnh sửa"
+
+#: includes/class.yith-wcbk-post-types.php:82
+msgid "Edit Booking"
+msgstr "Chỉnh sửa đặt phòng"
+
+#: includes/class.yith-wcbk-post-types.php:83
+#: includes/emails/class.yith-wcbk-email-admin-new-booking.php:22
+#: includes/emails/class.yith-wcbk-email-customer-new-booking.php:20
+#: includes/emails/class.yith-wcbk-email-customer-new-booking.php:22
+#: includes/emails/class.yith-wcbk-email-vendor-new-booking.php:23
+msgid "New Booking"
+msgstr "Đặt phòng mới"
+
+#: includes/class.yith-wcbk-post-types.php:86
+msgid "Search Bookings"
+msgstr "Đặt phòng tìm kiếm"
+
+#: includes/class.yith-wcbk-post-types.php:87
+msgid "No bookings found"
+msgstr "Không tìm thấy đặt phòng"
+
+#: includes/class.yith-wcbk-post-types.php:88
+msgid "No bookings found in trash"
+msgstr "Không tìm thấy đặt trong thùng rác"
+
+#: includes/class.yith-wcbk-post-types.php:89
+msgid "Parent Bookings"
+msgstr "Đặt phòng cho phụ huynh"
+
+#: includes/class.yith-wcbk-post-types.php:91
+msgid "All Bookings"
+msgstr "Danh sách đặt phòng"
+
+#: includes/class.yith-wcbk-post-types.php:97
+msgid "This is where bookings are stored."
+msgstr "Đây là nơi đặt phòng được lưu trữ."
+
+#: includes/class.yith-wcbk-post-types.php:124
+msgid "Person"
+msgstr "Người"
+
+#: includes/class.yith-wcbk-post-types.php:125
+msgid "Add new type"
+msgstr "Thêm loại mới"
+
+#: includes/class.yith-wcbk-post-types.php:126
+msgid "New type"
+msgstr "Loại mới"
+
+#: includes/class.yith-wcbk-post-types.php:127
+msgid "Edit type"
+msgstr "Chỉnh sửa loại"
+
+#: includes/class.yith-wcbk-post-types.php:128
+msgid "View this type"
+msgstr "Xem loại này"
+
+#: includes/class.yith-wcbk-post-types.php:129
+msgid "Type not found"
+msgstr "Loại không tìm thấy"
+
+#: includes/class.yith-wcbk-post-types.php:130
+msgid "Type not found in trash"
+msgstr "Loại không tìm thấy trong thùng rác"
+
+#: includes/class.yith-wcbk-post-types.php:156
+#: includes/class.yith-wcbk-post-types.php:157
+msgid "Search Forms"
+msgstr "Biểu mẫu tìm kiếm"
+
+#: includes/class.yith-wcbk-post-types.php:158
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:80
+msgid "Search form"
+msgstr "Form tìm kiếm"
+
+#: includes/class.yith-wcbk-post-types.php:159
+msgid "Add search form"
+msgstr "Thêm hình thức tìm kiếm"
+
+#: includes/class.yith-wcbk-post-types.php:160
+msgid "New search form"
+msgstr "Hình thức tìm kiếm mới"
+
+#: includes/class.yith-wcbk-post-types.php:161
+msgid "Edit search form"
+msgstr "Chỉnh sửa mẫu tìm kiếm"
+
+#: includes/class.yith-wcbk-post-types.php:162
+msgid "View search form"
+msgstr "Xem mẫu tìm kiếm"
+
+#: includes/class.yith-wcbk-post-types.php:163
+msgid "Search form not found"
+msgstr "Không tìm thấy mẫu tìm kiếm"
+
+#: includes/class.yith-wcbk-post-types.php:164
+msgid "Search form not found in trash"
+msgstr "Tìm kiếm mẫu không tìm thấy trong thùng rác"
+
+#: includes/class.yith-wcbk-post-types.php:190
+#: includes/class.yith-wcbk-post-types.php:191
+#: views/product-tabs/html-costs-tab.php:152
+msgid "Extra Costs"
+msgstr "Chi phí phụ trội"
+
+#: includes/class.yith-wcbk-post-types.php:192
+msgid "Extra Cost"
+msgstr "Chi phi thêm"
+
+#: includes/class.yith-wcbk-post-types.php:193
+msgid "Add New Extra Cost"
+msgstr "Thêm chi phí mới"
+
+#: includes/class.yith-wcbk-post-types.php:194
+msgid "New Extra Cost"
+msgstr "Chi phí bổ sung mới"
+
+#: includes/class.yith-wcbk-post-types.php:195
+msgid "Edit Extra Cost"
+msgstr "Chỉnh sửa thêm chi phí"
+
+#: includes/class.yith-wcbk-post-types.php:196
+msgid "View this extra cost"
+msgstr "Xem chi phí thêm này"
+
+#: includes/class.yith-wcbk-post-types.php:197
+msgid "Extra cost not found"
+msgstr "Không tìm thấy thêm chi phí"
+
+#: includes/class.yith-wcbk-post-types.php:198
+msgid "Extra cost not found in trash"
+msgstr "Không tìm thấy thêm chi phí trong thùng rác"
+
+#: includes/class.yith-wcbk-post-types.php:254
+msgid "Booking Service"
+msgstr "Các dịch vụ thêm"
+
+#: includes/class.yith-wcbk-post-types.php:256
+msgid "All Booking Services"
+msgstr "Tất cả các dịch vụ đặt phòng"
+
+#: includes/class.yith-wcbk-post-types.php:257
+msgid "Edit Booking Service"
+msgstr "Chỉnh sửa dịch vụ đặt phòng"
+
+#: includes/class.yith-wcbk-post-types.php:258
+msgid "View Booking Service"
+msgstr "Xem dịch vụ đặt phòng"
+
+#: includes/class.yith-wcbk-post-types.php:259
+msgid "Update Booking Service"
+msgstr "Cập nhật dịch vụ đặt phòng"
+
+#: includes/class.yith-wcbk-post-types.php:260
+msgid "Add New Booking Service"
+msgstr "Thêm dịch vụ đặt phòng mới"
+
+#: includes/class.yith-wcbk-post-types.php:261
+msgid "New Booking Service Name"
+msgstr "Tên dịch vụ đặt phòng mới"
+
+#: includes/class.yith-wcbk-post-types.php:262
+msgid "Parent Booking Service"
+msgstr "Dịch vụ đặt phòng cho phụ huynh"
+
+#: includes/class.yith-wcbk-post-types.php:263
+msgid "Parent Booking Service:"
+msgstr "Dịch vụ đặt phòng của phụ huynh:"
+
+#: includes/class.yith-wcbk-post-types.php:264
+msgid "Search Booking Services"
+msgstr "Tìm kiếm dịch vụ đặt phòng"
+
+#: includes/class.yith-wcbk-post-types.php:265
+msgid "Separate booking services with commas"
+msgstr "Dịch vụ đặt phòng riêng biệt với dấu phẩy"
+
+#: includes/class.yith-wcbk-post-types.php:266
+msgid "Add or remove booking services"
+msgstr "Thêm hoặc xóa dịch vụ đặt phòng"
+
+#: includes/class.yith-wcbk-post-types.php:267
+msgid "Choose among the most popular booking services"
+msgstr "Chọn trong số các dịch vụ đặt phòng phổ biến nhất"
+
+#: includes/class.yith-wcbk-post-types.php:268
+msgid "No booking service found."
+msgstr "Không tìm thấy dịch vụ đặt phòng."
+
+#: includes/class.yith-wcbk-product-post-type-admin.php:78
+msgid "Export Future ICS"
+msgstr "Xuất khẩu tương lai ICS"
+
+#: includes/class.yith-wcbk-product-post-type-admin.php:83
+msgid "Booking Calendar"
+msgstr "Lịch đặt trước"
+
+#: includes/class.yith-wcbk-product-post-type-admin.php:141
+#: views/product-tabs/html-settings-tab.php:15
+msgid "Booking Settings"
+msgstr "Cài đặt đặt phòng"
+
+#: includes/class.yith-wcbk-product-post-type-admin.php:147
+msgid "Booking Costs"
+msgstr "Chi phí đặt phòng"
+
+#: includes/class.yith-wcbk-product-post-type-admin.php:153
+msgid "Booking Availability"
+msgstr "Đặt phòng"
+
+#: includes/class.yith-wcbk-product-post-type-admin.php:159
+#: views/metaboxes/html-booking-meta-data.php:207
+msgid "Booking People"
+msgstr "Cài đặt số lượng"
+
+#: includes/class.yith-wcbk-product-post-type-admin.php:171
+#: views/product-tabs/html-sync-tab.php:15
+msgid "Booking Sync"
+msgstr "Đồng bộ hóa đặt phòng"
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:47
+msgid "Shortcode"
+msgstr "Mã ngắn"
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:63
+#: views/settings-tabs/google-calendar-views/html-access-form.php:16
+#: views/settings-tabs/google-calendar-views/html-client-secret-form.php:28
+msgid "Copy to clipboard"
+msgstr "Sao chép vào clipboard"
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:83
+msgid "Search form shortcode"
+msgstr "Tìm kiếm mẫu mã ngắn"
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:93
+msgid "Search form options"
+msgstr "Tùy chọn mẫu tìm kiếm"
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:99
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:102
+#: plugin-options/settings-options.php:82
+msgid "Style"
+msgstr "Phong cách"
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:103
+msgid "Select a style for the form."
+msgstr "Chọn một kiểu cho mẫu."
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:106
+#: plugin-options/settings-options.php:119
+msgid "Default"
+msgstr "Mặc định"
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:107
+msgid "Informal"
+msgstr "Không chính thức"
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:108
+msgid "Elegant"
+msgstr "Thanh lịch"
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:109
+msgid "Casual"
+msgstr "Bình thường"
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:114
+msgid "Background"
+msgstr "Lý lịch"
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:115
+msgid "Select the background color of the form."
+msgstr "Chọn màu nền của mẫu."
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:120
+msgid "Text"
+msgstr "Bản văn"
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:121
+msgid "Select the label text color of the form."
+msgstr "Chọn màu văn bản nhãn của mẫu."
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:126
+msgid "Search button background"
+msgstr "Nút tìm kiếm nền"
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:127
+msgid "Select the search button background color."
+msgstr "Chọn màu nền của nút tìm kiếm."
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:132
+msgid "Search button text"
+msgstr "Nút tìm kiếm văn bản"
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:133
+msgid "Select the search button text color."
+msgstr "Chọn màu văn bản nút tìm kiếm."
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:138
+msgid "Search button on hover"
+msgstr "Nút tìm kiếm trên di chuột"
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:139
+msgid "Select the search button color on hover."
+msgstr "Chọn màu nút tìm kiếm khi di chuột."
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:146
+msgid "Options"
+msgstr "Tùy chọn"
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:149
+msgid "Show results"
+msgstr "Hiển thị kết quả"
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:150
+msgid "Select where you want to show results."
+msgstr "Chọn nơi bạn muốn hiển thị kết quả."
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:153
+msgid "Popup"
+msgstr "Popup"
+
+#: includes/class.yith-wcbk-search-form-post-type-admin.php:154
+msgid "Shop Page"
+msgstr "Trang cửa hàng"
+
+#: includes/class.yith-wcbk-service-tax-admin.php:84
+#: includes/class.yith-wcbk-service-tax-admin.php:226
+#: includes/class.yith-wcbk-service-tax-admin.php:344
+msgid "Optional"
+msgstr "Không bắt buộc"
+
+#: includes/class.yith-wcbk-service-tax-admin.php:85
+#: includes/class.yith-wcbk-service-tax-admin.php:233
+#: includes/class.yith-wcbk-service-tax-admin.php:351
+msgid "Hidden"
+msgstr "Ẩn"
+
+#: includes/class.yith-wcbk-service-tax-admin.php:86
+msgid "Multiply per units"
+msgstr "Nhân trên mỗi đơn vị"
+
+#: includes/class.yith-wcbk-service-tax-admin.php:87
+msgid "Multiply per people"
+msgstr "Nhân lên trên mỗi người"
+
+#: includes/class.yith-wcbk-service-tax-admin.php:88
+#: includes/class.yith-wcbk-service-tax-admin.php:263
+#: includes/class.yith-wcbk-service-tax-admin.php:381
+msgid "Has quantity"
+msgstr "Có số lượng"
+
+#: includes/class.yith-wcbk-service-tax-admin.php:91
+#: includes/class.yith-wcbk-service-tax-admin.php:220
+#: includes/class.yith-wcbk-service-tax-admin.php:337
+msgid "Price"
+msgstr "Giá bán"
+
+#: includes/class.yith-wcbk-service-tax-admin.php:148
+#: includes/class.yith-wcbk-service-tax-admin.php:239
+#: includes/class.yith-wcbk-service-tax-admin.php:357
+msgid "Hidden in search forms"
+msgstr "Ẩn trong các hình thức tìm kiếm"
+
+#: includes/class.yith-wcbk-service-tax-admin.php:223
+#: includes/class.yith-wcbk-service-tax-admin.php:341
+msgid "Select the price for this service."
+msgstr "Chọn giá cho dịch vụ này."
+
+#: includes/class.yith-wcbk-service-tax-admin.php:229
+#: includes/class.yith-wcbk-service-tax-admin.php:347
+msgid "Select if this service is optional (let customers choose to add it or not)."
+msgstr "Chọn nếu dịch vụ này là tùy chọn (cho phép khách hàng chọn thêm hay không)."
+
+#: includes/class.yith-wcbk-service-tax-admin.php:236
+#: includes/class.yith-wcbk-service-tax-admin.php:354
+msgid "Select if you want to hide this service to customers."
+msgstr "Chọn nếu bạn muốn ẩn dịch vụ này cho khách hàng."
+
+#: includes/class.yith-wcbk-service-tax-admin.php:242
+#: includes/class.yith-wcbk-service-tax-admin.php:360
+msgid "Select if you want to hide this service to customers in Booking Search Forms."
+msgstr "Chọn nếu bạn muốn ẩn dịch vụ này cho khách hàng trong Biểu mẫu Tìm kiếm Đặt phòng."
+
+#: includes/class.yith-wcbk-service-tax-admin.php:249
+#: includes/class.yith-wcbk-service-tax-admin.php:367
+msgid "Multiply cost by units selected"
+msgstr "Nhân chi phí theo đơn vị đã chọn"
+
+#: includes/class.yith-wcbk-service-tax-admin.php:252
+#: includes/class.yith-wcbk-service-tax-admin.php:370
+msgid "Select if you want to multiply the cost of this service by the number of units selected."
+msgstr "Chọn nếu bạn muốn nhân chi phí của dịch vụ này với số lượng đơn vị được chọn."
+
+#: includes/class.yith-wcbk-service-tax-admin.php:256
+#: includes/class.yith-wcbk-service-tax-admin.php:374
+msgid "Multiply cost by people"
+msgstr "Nhân chi phí theo người"
+
+#: includes/class.yith-wcbk-service-tax-admin.php:259
+#: includes/class.yith-wcbk-service-tax-admin.php:377
+msgid "Select if you want to multiply the cost of this service by the number of people selected."
+msgstr "Chọn nếu bạn muốn nhân chi phí của dịch vụ này với số người được chọn."
+
+#: includes/class.yith-wcbk-service-tax-admin.php:266
+#: includes/class.yith-wcbk-service-tax-admin.php:384
+msgid "Select if you want to allow a quantity selection for this service."
+msgstr "Chọn nếu bạn muốn cho phép lựa chọn số lượng cho dịch vụ này."
+
+#: includes/class.yith-wcbk-service-tax-admin.php:270
+#: includes/class.yith-wcbk-service-tax-admin.php:388
+msgid "Min quantity"
+msgstr "Số lượng tối thiểu"
+
+#: includes/class.yith-wcbk-service-tax-admin.php:273
+#: includes/class.yith-wcbk-service-tax-admin.php:391
+msgid "Choose the minimum quantity for this service."
+msgstr "Chọn số lượng tối thiểu cho dịch vụ này."
+
+#: includes/class.yith-wcbk-service-tax-admin.php:282
+#: includes/class.yith-wcbk-service-tax-admin.php:400
+msgid "Max quantity"
+msgstr "Số lượng tối đa"
+
+#: includes/class.yith-wcbk-service-tax-admin.php:285
+#: includes/class.yith-wcbk-service-tax-admin.php:403
+msgid "Choose the maximum quantity for this service. Leave empty for unlimited"
+msgstr "Chọn số lượng tối đa cho dịch vụ này. Để trống không giới hạn"
+
+#: includes/class.yith-wcbk-theme.php:55
+msgid "Update to version %s"
+msgstr "Cập nhật lên phiên bản %s"
+
+#: includes/class.yith-wcbk-theme.php:57
+msgid "A new version of <strong>YITH Booking</strong> theme is now available."
+msgstr "Phiên bản mới của chủ đề <strong> Đặt phòng YITH </ strong> hiện có sẵn."
+
+#: includes/class.yith-wcbk-theme.php:91
+#: includes/utils/class.yith-wcbk-exporter.php:60
+msgid "Something went wrong."
+msgstr "Đã xảy ra lỗi."
+
+#: includes/class.yith-wcbk-theme.php:167
+msgid "Sorry, you are not allowed to switch themes for this site."
+msgstr "Xin lỗi, bạn không được phép chuyển chủ đề cho trang web này."
+
+#: includes/class.yith-wcbk-theme.php:171
+msgid "The requested theme does not exist."
+msgstr "Các chủ đề được yêu cầu không tồn tại."
+
+#: includes/class.yith-wcbk-theme.php:183
+#: includes/class.yith-wcbk-theme.php:210
+msgid "Theme package not found in <code>%s</code>."
+msgstr "Không tìm thấy gói chủ đề trong <code> %s </ code>."
+
+#: includes/class.yith-wcbk-theme.php:213
+msgid "Sorry, you are not allowed to update themes for this site."
+msgstr "Xin lỗi, bạn không được phép cập nhật chủ đề cho trang web này."
+
+#: includes/class.yith-wcbk-theme.php:233
+msgid "Unable to connect to the filesystem. Please confirm your credentials."
+msgstr "Không thể kết nối với hệ thống tập tin. Vui lòng xác nhận thông tin của bạn."
+
+#: includes/class.yith-wcbk-tools.php:93
+msgid "Booking product prices synchronized correctly!"
+msgstr "Đặt giá sản phẩm đồng bộ chính xác!"
+
+#: includes/class.yith-wcbk-tools.php:97
+msgid "You don't have any booking product in your store."
+msgstr "Bạn không có bất kỳ sản phẩm đặt phòng trong cửa hàng của bạn."
+
+#: includes/emails/class.yith-wcbk-email-admin-new-booking.php:20
+msgid "New Booking (Admin)"
+msgstr "Đặt phòng mới (Quản trị viên)"
+
+#: includes/emails/class.yith-wcbk-email-admin-new-booking.php:21
+msgid "This email is sent to the admin when a booking is created."
+msgstr "Email này được gửi đến quản trị viên khi đặt phòng được tạo."
+
+#: includes/emails/class.yith-wcbk-email-admin-new-booking.php:23
+#: includes/emails/class.yith-wcbk-email-customer-new-booking.php:23
+#: includes/emails/class.yith-wcbk-email-vendor-new-booking.php:24
+msgid "Booking #{booking_id} created"
+msgstr "Đặt phòng # {booking_id} đã được tạo"
+
+#: includes/emails/class.yith-wcbk-email-admin-new-booking.php:65
+#: includes/emails/class.yith-wcbk-email-booking-status.php:74
+msgid "Recipient(s)"
+msgstr "Người nhận)"
+
+#: includes/emails/class.yith-wcbk-email-admin-new-booking.php:67
+#: includes/emails/class.yith-wcbk-email-booking-status.php:76
+msgid "Enter recipients (comma separated) for this email. Defaults to <code>%s</code>."
+msgstr "Nhập người nhận (được phân tách bằng dấu phẩy) cho email này. Mặc định cho <code> %s </ code>."
+
+#: includes/emails/class.yith-wcbk-email-booking-status-vendor.php:20
+msgid "Booking status (Vendor)"
+msgstr "Tình trạng đặt phòng (Nhà cung cấp)"
+
+#: includes/emails/class.yith-wcbk-email-booking-status-vendor.php:21
+msgid "This email is sent to the vendor when a booking's status changes."
+msgstr "Email này được gửi đến nhà cung cấp khi trạng thái của đặt phòng thay đổi."
+
+#: includes/emails/class.yith-wcbk-email-booking-status-vendor.php:23
+#: includes/emails/class.yith-wcbk-email-booking-status.php:23
+msgid "Booking status changed"
+msgstr "Tình trạng đặt phòng đã thay đổi"
+
+#: includes/emails/class.yith-wcbk-email-booking-status-vendor.php:24
+#: includes/emails/class.yith-wcbk-email-booking-status.php:24
+msgid "Booking #{booking_id} is now {status}"
+msgstr "Đặt phòng # {booking_id} hiện {trạng thái}"
+
+#: includes/emails/class.yith-wcbk-email-booking-status-vendor.php:87
+#: includes/emails/class.yith-wcbk-email-booking-status.php:83
+msgid "Send email for these statuses"
+msgstr "Gửi email cho những trạng thái này"
+
+#: includes/emails/class.yith-wcbk-email-booking-status-vendor.php:89
+#: includes/emails/class.yith-wcbk-email-booking-status.php:85
+msgid "Choose on which status(es) this email notification should be sent."
+msgstr "Chọn trạng thái mà thông báo email này sẽ được gửi."
+
+#: includes/emails/class.yith-wcbk-email-booking-status.php:20
+msgid "Booking status"
+msgstr "Tình trạng đặt phòng"
+
+#: includes/emails/class.yith-wcbk-email-booking-status.php:21
+msgid "This email is sent to the administrator when a booking's status changes."
+msgstr "Email này được gửi đến quản trị viên khi trạng thái của đặt phòng thay đổi."
+
+#: includes/emails/class.yith-wcbk-email-customer-booking-note.php:21
+msgid "Customer Booking Note"
+msgstr "Lưu ý khách hàng"
+
+#: includes/emails/class.yith-wcbk-email-customer-booking-note.php:22
+msgid "Customer Booking Note emails are sent when you add a note to a booking."
+msgstr "Đặt phòng khách hàng Lưu ý email được gửi khi bạn thêm một ghi chú để đặt phòng."
+
+#: includes/emails/class.yith-wcbk-email-customer-booking-note.php:23
+msgid "A note has been added to your Booking #{booking_id}"
+msgstr "Một ghi chú đã được thêm vào Đặt phòng của bạn # {booking_id}"
+
+#: includes/emails/class.yith-wcbk-email-customer-booking-note.php:24
+msgid "Note added to your Booking #{booking_id}"
+msgstr "Lưu ý được thêm vào Đặt phòng của bạn # {booking_id}"
+
+#: includes/emails/class.yith-wcbk-email-customer-cancelled-booking.php:20
+msgid "Cancelled booking"
+msgstr "Hủy đặt phòng"
+
+#: includes/emails/class.yith-wcbk-email-customer-cancelled-booking.php:21
+msgid "This email is sent to customers when a booking is cancelled."
+msgstr "Email này được gửi cho khách hàng khi hủy đặt phòng."
+
+#: includes/emails/class.yith-wcbk-email-customer-cancelled-booking.php:22
+msgid "Cancelled Booking"
+msgstr "Hủy đặt phòng"
+
+#: includes/emails/class.yith-wcbk-email-customer-cancelled-booking.php:23
+msgid "Booking #{booking_id} was cancelled"
+msgstr "Đặt phòng # {booking_id} đã bị hủy"
+
+#: includes/emails/class.yith-wcbk-email-customer-completed-booking.php:24
+msgid "Completed Booking"
+msgstr "Hoàn thành đặt phòng"
+
+#: includes/emails/class.yith-wcbk-email-customer-completed-booking.php:25
+msgid "This email is sent to customers when a booking is completed."
+msgstr "Email này được gửi cho khách hàng khi đặt phòng hoàn tất."
+
+#: includes/emails/class.yith-wcbk-email-customer-completed-booking.php:26
+msgid "Thanks for your Booking"
+msgstr "Cảm ơn bạn đã đặt phòng"
+
+#: includes/emails/class.yith-wcbk-email-customer-completed-booking.php:27
+#: includes/emails/class.yith-wcbk-email-customer-completed-booking.php:28
+#: includes/emails/class.yith-wcbk-email-customer-completed-booking.php:85
+msgid "Booking #{booking_id} was completed"
+msgstr "Đặt phòng # {booking_id} đã hoàn tất"
+
+#: includes/emails/class.yith-wcbk-email-customer-completed-booking.php:83
+msgid "Custom Message"
+msgstr "Thông báo tùy chỉnh"
+
+#: includes/emails/class.yith-wcbk-email-customer-completed-booking.php:87
+msgid "Available placeholders: %s"
+msgstr "Giữ chỗ có sẵn: %s"
+
+#: includes/emails/class.yith-wcbk-email-customer-confirmed-booking.php:20
+#: includes/emails/class.yith-wcbk-email-customer-confirmed-booking.php:22
+msgid "Confirmed Booking"
+msgstr "Xác nhận đặt phòng"
+
+#: includes/emails/class.yith-wcbk-email-customer-confirmed-booking.php:21
+msgid "This email is sent to customers when a booking is confirmed."
+msgstr "Email này được gửi cho khách hàng khi đặt phòng được xác nhận."
+
+#: includes/emails/class.yith-wcbk-email-customer-confirmed-booking.php:23
+msgid "Booking #{booking_id} is now confirmed"
+msgstr "Đặt phòng # {booking_id} hiện đã được xác nhận"
+
+#: includes/emails/class.yith-wcbk-email-customer-new-booking.php:21
+msgid "This email is sent to the customer when a booking is created."
+msgstr "Email này được gửi cho khách hàng khi đặt phòng được tạo."
+
+#: includes/emails/class.yith-wcbk-email-customer-paid-booking.php:20
+#: includes/emails/class.yith-wcbk-email-customer-paid-booking.php:22
+msgid "Paid Booking"
+msgstr "Đặt phòng trả phí"
+
+#: includes/emails/class.yith-wcbk-email-customer-paid-booking.php:21
+msgid "This email is sent to customers when a booking is paid."
+msgstr "Email này được gửi cho khách hàng khi đặt phòng được thanh toán."
+
+#: includes/emails/class.yith-wcbk-email-customer-paid-booking.php:23
+msgid "Booking #{booking_id} is now paid"
+msgstr "Đặt phòng # {booking_id} hiện đã được thanh toán"
+
+#: includes/emails/class.yith-wcbk-email-customer-unconfirmed-booking.php:20
+msgid "Rejected Booking"
+msgstr "Từ chối đặt phòng"
+
+#: includes/emails/class.yith-wcbk-email-customer-unconfirmed-booking.php:21
+msgid "This email is sent to the customer when a booking is not confirmed."
+msgstr "Email này được gửi cho khách hàng khi đặt phòng không được xác nhận."
+
+#: includes/emails/class.yith-wcbk-email-customer-unconfirmed-booking.php:22
+msgid "Booking could not be confirmed"
+msgstr "Đặt phòng không thể được xác nhận"
+
+#: includes/emails/class.yith-wcbk-email-customer-unconfirmed-booking.php:23
+msgid "Booking #{booking_id} could not be confirmed"
+msgstr "Đặt phòng # {booking_id} không thể được xác nhận"
+
+#: includes/emails/class.yith-wcbk-email-vendor-new-booking.php:21
+msgid "New Booking (Vendor)"
+msgstr "Đặt phòng mới (Nhà cung cấp)"
+
+#: includes/emails/class.yith-wcbk-email-vendor-new-booking.php:22
+msgid "This email is sent to the vendor when a booking is created."
+msgstr "Email này được gửi đến nhà cung cấp khi đặt phòng được tạo."
+
+#: includes/emails/class.yith-wcbk-email.php:108
+msgid "Enable/Disable"
+msgstr "Cho phép vô hiệu hóa"
+
+#: includes/emails/class.yith-wcbk-email.php:110
+msgid "Enable this email notification"
+msgstr "Kích hoạt thông báo email này"
+
+#: includes/emails/class.yith-wcbk-email.php:114
+msgid "Subject"
+msgstr "Môn học"
+
+#: includes/emails/class.yith-wcbk-email.php:116
+msgid "This controls the email subject line. Leave blank to use the default subject: <code>%s</code>."
+msgstr "Điều này kiểm soát dòng chủ đề email. Để trống để sử dụng chủ đề mặc định: <code> %s </ code>."
+
+#: includes/emails/class.yith-wcbk-email.php:122
+msgid "Email Heading"
+msgstr "Tiêu đề email"
+
+#: includes/emails/class.yith-wcbk-email.php:124
+msgid "This controls the main heading in the email notification. Leave blank to use the default heading: <code>%s</code>."
+msgstr "Điều này kiểm soát tiêu đề chính trong thông báo email. Để trống để sử dụng tiêu đề mặc định: <code> %s </ code>."
+
+#: includes/emails/class.yith-wcbk-email.php:130
+msgid "Email type"
+msgstr "Loại email"
+
+#: includes/emails/class.yith-wcbk-email.php:132
+msgid "Choose which email format to send."
+msgstr "Chọn định dạng email để gửi."
+
+#: includes/functions.yith-wcbk-core.php:8
+msgid "month"
+msgid_plural "months"
+msgstr[0] "tháng"
+
+#: includes/functions.yith-wcbk-core.php:9
+msgid "day"
+msgid_plural "days"
+msgstr[0] "ngày"
+
+#: includes/functions.yith-wcbk-core.php:10
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "giờ"
+
+#: includes/functions.yith-wcbk-core.php:11
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "phút"
+
+#: includes/functions.yith-wcbk-dates.php:9
+msgid "Week %d"
+msgstr "Tuần %d"
+
+#: includes/functions.yith-wcbk-dates.php:20
+msgid "January"
+msgstr "tháng Giêng"
+
+#: includes/functions.yith-wcbk-dates.php:21
+msgid "February"
+msgstr "Tháng hai"
+
+#: includes/functions.yith-wcbk-dates.php:22
+msgid "March"
+msgstr "tháng Ba"
+
+#: includes/functions.yith-wcbk-dates.php:23
+msgid "April"
+msgstr "Tháng tư"
+
+#: includes/functions.yith-wcbk-dates.php:24
+msgid "May"
+msgstr "có thể"
+
+#: includes/functions.yith-wcbk-dates.php:25
+msgid "June"
+msgstr "Tháng 6"
+
+#: includes/functions.yith-wcbk-dates.php:26
+msgid "July"
+msgstr "Tháng 7"
+
+#: includes/functions.yith-wcbk-dates.php:27
+msgid "August"
+msgstr "tháng Tám"
+
+#: includes/functions.yith-wcbk-dates.php:28
+msgid "September"
+msgstr "Tháng Chín"
+
+#: includes/functions.yith-wcbk-dates.php:29
+msgid "October"
+msgstr "Tháng Mười"
+
+#: includes/functions.yith-wcbk-dates.php:30
+msgid "November"
+msgstr "Tháng 11"
+
+#: includes/functions.yith-wcbk-dates.php:31
+msgid "December"
+msgstr "Tháng 12"
+
+#: includes/functions.yith-wcbk-dates.php:69
+msgid "Monday"
+msgstr "Thứ hai"
+
+#: includes/functions.yith-wcbk-dates.php:70
+msgid "Tuesday"
+msgstr "Thứ ba"
+
+#: includes/functions.yith-wcbk-dates.php:71
+msgid "Wednesday"
+msgstr "Thứ tư"
+
+#: includes/functions.yith-wcbk-dates.php:72
+msgid "Thursday"
+msgstr "Thứ năm"
+
+#: includes/functions.yith-wcbk-dates.php:73
+msgid "Friday"
+msgstr "Thứ sáu"
+
+#: includes/functions.yith-wcbk-dates.php:74
+msgid "Saturday"
+msgstr "ngày thứ bảy"
+
+#: includes/functions.yith-wcbk-dates.php:75
+msgid "Sunday"
+msgstr "chủ nhật"
+
+#: includes/functions.yith-wcbk-labels.php:86
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] "%s tháng"
+
+#: includes/functions.yith-wcbk-labels.php:87
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] "%s ngày"
+
+#: includes/functions.yith-wcbk-labels.php:88
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] "%s giờ"
+
+#: includes/functions.yith-wcbk-labels.php:89
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s phút"
+
+#: includes/functions.yith-wcbk-labels.php:94
+msgid "month(s)"
+msgid_plural "&times; %s months"
+msgstr[0] "tháng)"
+
+#: includes/functions.yith-wcbk-labels.php:95
+msgid "day(s)"
+msgid_plural "&times; %s days"
+msgstr[0] "ngày"
+
+#: includes/functions.yith-wcbk-labels.php:96
+msgid "hour(s)"
+msgid_plural "&times; %s hours"
+msgstr[0] "giờ"
+
+#: includes/functions.yith-wcbk-labels.php:97
+msgid "minute(s)"
+msgid_plural "&times; %s minutes"
+msgstr[0] "phút"
+
+#: includes/functions.yith-wcbk-product.php:64
+msgid "Booked"
+msgstr "Đã đặt"
+
+#: includes/functions.yith-wcbk-product.php:65
+#: views/product-tabs/html-availability-tab.php:21
+msgid "Max bookings per unit"
+msgstr "Đặt phòng tối đa trên mỗi đơn vị"
+
+#: includes/functions.yith-wcbk-product.php:67
+msgid "Non Bookable"
+msgstr "Không thể đặt trước"
+
+#: includes/functions.yith-wcbk-template.php:290
+msgid "Pay booking"
+msgstr "Trả tiền đặt phòng"
+
+#: includes/functions.yith-wcbk-template.php:298
+#: templates/booking/booking-actions.php:30
+msgid "Cancel"
+msgstr "Hủy bỏ"
+
+#: includes/functions.yith-wcbk-template.php:302
+msgid "Confirm booking"
+msgstr "Xác nhận đặt phòng"
+
+#: includes/functions.yith-wcbk-template.php:306
+msgid "Reject booking"
+msgstr "Từ chối đặt phòng"
+
+#: includes/integrations/class.yith-wcbk-multi-vendor-integration.php:407
+#: plugin-options/settings-options.php:126
+#: views/product-tabs/html-settings-tab.php:88
+#: views/product-tabs/html-settings-tab.php:121
+msgid "None"
+msgstr "không ai"
+
+#: includes/integrations/class.yith-wcbk-multi-vendor-integration.php:411
+#: includes/integrations/class.yith-wcbk-multi-vendor-integration.php:475
+msgid "Vendor"
+msgstr "Nhà cung cấp"
+
+#: includes/integrations/class.yith-wcbk-multi-vendor-integration.php:432
+msgid "All"
+msgstr "Tất cả các"
+
+#: includes/integrations/class.yith-wcbk-multi-vendor-integration.php:433
+msgid "Mine"
+msgstr "Của tôi"
+
+#: includes/integrations/class.yith-wcbk-multi-vendor-integration.php:456
+msgid "Filter by Vendor"
+msgstr "Lọc theo nhà cung cấp"
+
+#: includes/integrations/plugins-list.php:7
+msgid "Show badges also on bookable products. Show them on product page, shop page and in the booking search popup"
+msgstr "Hiển thị phù hiệu cũng trên các sản phẩm có thể đặt. Hiển thị chúng trên trang sản phẩm, trang cửa hàng và trong cửa sổ bật lên tìm kiếm đặt phòng"
+
+#: includes/integrations/plugins-list.php:18
+msgid "Enable Catalog Mode on bookable products"
+msgstr "Bật Chế độ danh mục trên các sản phẩm có thể đặt"
+
+#: includes/integrations/plugins-list.php:29
+msgid "You can allow bookings with deposit/advance payment"
+msgstr "Bạn có thể cho phép đặt phòng với tiền đặt cọc / thanh toán tạm ứng"
+
+#: includes/integrations/plugins-list.php:40
+msgid "You can stylize the Booking email templates"
+msgstr "Bạn có thể cách điệu các mẫu email Đặt phòng"
+
+#: includes/integrations/plugins-list.php:51
+msgid "You can allow Vendor to manage their bookings"
+msgstr "Bạn có thể cho phép Nhà cung cấp quản lý các đặt phòng của họ"
+
+#: includes/integrations/plugins-list.php:62
+msgid "You can enable quick view on your bookable products"
+msgstr "Bạn có thể kích hoạt chế độ xem nhanh trên các sản phẩm có thể đặt trước của mình"
+
+#: includes/integrations/plugins-list.php:73
+msgid "You can allow quote requests on your bookable products"
+msgstr "Bạn có thể cho phép yêu cầu báo giá trên các sản phẩm có thể đặt của bạn"
+
+#: includes/integrations/plugins-list.php:84
+msgid "You can create sandbox environments and online test environments"
+msgstr "Bạn có thể tạo môi trường hộp cát và môi trường thử nghiệm trực tuyến"
+
+#: includes/integrations/wpml/class.yith-wcbk-wpml-services.php:79
+msgid "WPML Languages"
+msgstr "Ngôn ngữ WPML"
+
+#: includes/objects/class.wc-product-booking.php:1567
+msgid "The selected start date has already passed"
+msgstr "Ngày bắt đầu được chọn đã trôi qua"
+
+#: includes/objects/class.wc-product-booking.php:1577
+msgid "The selected start date is not allowed; you cannot book it before %s"
+msgstr "Ngày bắt đầu được chọn không được phép; bạn không thể đặt trước %s"
+
+#: includes/objects/class.wc-product-booking.php:1584
+msgid "The selected start day is not allowed"
+msgstr "Ngày bắt đầu được chọn không được phép"
+
+#: includes/objects/class.wc-product-booking.php:1606
+msgid "Min duration: %s"
+msgstr "Thời lượng tối thiểu: %s"
+
+#: includes/objects/class.wc-product-booking.php:1619
+msgid "Max duration: %s"
+msgstr "Thời lượng tối đa: %s"
+
+#: includes/objects/class.wc-product-booking.php:1627
+msgid "The selected duration is not allowed"
+msgstr "Thời lượng đã chọn không được phép"
+
+#: includes/objects/class.wc-product-booking.php:1651
+msgid "The end date is beyond available ones"
+msgstr "Ngày kết thúc vượt quá khả dụng"
+
+#: includes/objects/class.wc-product-booking.php:2169
+#: views/product-tabs/html-costs-tab.php:160
+#: views/product-tabs/utility/html-price-rule.php:148
+msgid "Fixed base fee"
+msgstr "Phí cơ sở cố định"
+
+#: includes/objects/class.wc-product-booking.php:2171
+#: views/product-tabs/utility/html-people-type.php:76
+msgid "Base Price"
+msgstr "Giá cơ sở"
+
+#: includes/objects/class.wc-product-booking.php:2172
+msgid "Extra price for additional people"
+msgstr "Giá thêm cho người khác"
+
+#: includes/objects/class.wc-product-booking.php:2173
+#: views/product-tabs/html-costs-tab.php:92
+msgid "Weekly discount"
+msgstr "Giảm giá hàng tuần"
+
+#: includes/objects/class.wc-product-booking.php:2174
+#: views/product-tabs/html-costs-tab.php:107
+msgid "Monthly discount"
+msgstr "Giảm giá hàng tháng"
+
+#: includes/objects/class.wc-product-booking.php:2175
+#: views/product-tabs/html-costs-tab.php:120
+msgid "Last minute discount"
+msgstr "Giảm giá phút cuối"
+
+#: includes/objects/class.wc-product-booking.php:2265
+msgid "%s%% weekly discount"
+msgstr "%s %% giảm giá hàng tuần"
+
+#: includes/objects/class.wc-product-booking.php:2269
+msgid "%s%% monthly discount"
+msgstr "%s %% chiết khấu hàng tháng"
+
+#: includes/objects/class.wc-product-booking.php:2736
+msgid "Free!"
+msgstr "Miễn phí!"
+
+#: includes/objects/class.yith-wcbk-service.php:327
+#: includes/objects/class.yith-wcbk-service.php:340
+msgid "Free"
+msgstr "Miễn phí"
+
+#: includes/utils/class.yith-wcbk-ics-parser.php:76
+msgid "Generic Error"
+msgstr "Lỗi chung"
+
+#: includes/utils/class.yith-wcbk-ics-parser.php:77
+msgid "ICS file seems to be empty"
+msgstr "Tệp ICS dường như trống"
+
+#: includes/utils/class.yith-wcbk-ics-parser.php:78
+msgid "Malformed ICS"
+msgstr "ICS không đúng định dạng"
+
+#: includes/utils/class.yith-wcbk-ics-parser.php:82
+msgid "Error %1$s: %2$s"
+msgstr "Lỗi %1$s : %2$s"
+
+#: includes/widgets/class.yith-wcbk-product-form-widget.php:25
+msgid "Display booking form"
+msgstr "Hiển thị mẫu đặt phòng"
+
+#: includes/widgets/class.yith-wcbk-product-form-widget.php:74
+msgid "The booking product form"
+msgstr "Mẫu sản phẩm đặt phòng"
+
+#: includes/widgets/class.yith-wcbk-search-form-widget.php:28
+msgid "Display booking search form"
+msgstr "Hiển thị mẫu tìm kiếm đặt phòng"
+
+#: includes/widgets/class.yith-wcbk-search-form-widget.php:38
+msgid "Title"
+msgstr "Chức vụ"
+
+#: includes/widgets/class.yith-wcbk-search-form-widget.php:43
+msgid "Search Form"
+msgstr "Form tìm kiếm"
+
+#: includes/widgets/class.yith-wcbk-search-form-widget.php:50
+msgid "Hide in single product"
+msgstr "Ẩn trong một sản phẩm"
+
+#: includes/widgets/class.yith-wcbk-search-form-widget.php:114
+msgid "Create search booking form"
+msgstr "Tạo mẫu đặt phòng tìm kiếm"
+
+#: init.php:47
+msgid "%s is enabled but not effective. It requires WooCommerce in order to work."
+msgstr "%s được bật nhưng không hiệu quả. Nó đòi hỏi WooC Commerce để hoạt động."
+
+#: plugin-options/labels-options.php:8
+msgid "Labels"
+msgstr "Nhãn"
+
+#: plugin-options/labels-options.php:20
+msgid "Choose the text of \"%s\" label for booking products. Leave empty to get the default label."
+msgstr "Chọn văn bản của nhãn \\ \" %s \" để đặt sản phẩm. Để trống để có được nhãn mặc định."
+
+#: plugin-options/settings-options.php:17
+msgid "General Options"
+msgstr "Tùy chọn chung"
+
+#: plugin-options/settings-options.php:23
+msgid "YITH Booking Theme"
+msgstr "Chủ đề đặt phòng của YITH"
+
+#: plugin-options/settings-options.php:32
+msgid "Google Maps API Key"
+msgstr "Khóa API của Google Maps"
+
+#: plugin-options/settings-options.php:34
+msgid "Insert the Google Maps API Key. If you have an API KEY for Google Maps, you can add it here. Don’t know what an API KEY is or how to use it? For further information, please %1$sclick here%2$s"
+msgstr "Chèn khóa API Google Maps. Nếu bạn có API API cho Google Maps, bạn có thể thêm nó vào đây. Bạn không biết API KEY là gì hoặc sử dụng nó như thế nào? Để biết thêm thông tin, vui lòng %1$s bấm vào đây %2$s"
+
+#: plugin-options/settings-options.php:42
+msgid "Google Maps Geocode API Key"
+msgstr "Khóa API mã địa lý của Google Maps"
+
+#: plugin-options/settings-options.php:44
+msgid "Insert the Google Maps API Key for Geocode."
+msgstr "Chèn Khóa API Google Maps cho mã địa lý."
+
+#: plugin-options/settings-options.php:50
+msgid "Booking Categories"
+msgstr "Danh mục đặt phòng"
+
+#: plugin-options/settings-options.php:54
+msgid "Choose the categories of the booking products that will be visible in the Search Form. Leave empty to select all categories."
+msgstr "Chọn danh mục của các sản phẩm đặt phòng sẽ hiển thị trong Biểu mẫu tìm kiếm. Để trống để chọn tất cả các loại."
+
+#: plugin-options/settings-options.php:60
+msgid "Reject bookings (days)"
+msgstr "Từ chối đặt chỗ (ngày)"
+
+#: plugin-options/settings-options.php:62
+msgid "When this limit is reached, the pending confirmation bookings will be automatically rejected. Leave blank to disable."
+msgstr "Khi đạt đến giới hạn này, các đặt phòng xác nhận đang chờ xử lý sẽ tự động bị từ chối. Để trống để vô hiệu hóa."
+
+#: plugin-options/settings-options.php:71
+msgid "Complete paid bookings (days)"
+msgstr "Hoàn thành đặt phòng trả tiền (ngày)"
+
+#: plugin-options/settings-options.php:73
+msgid "When this limit is reached, paid Bookings will be set to Completed automatically when the End Date exceeds the specified number of days. Leave blank to disable. Please note: it doesn't take into account hours/minutes since the check is executed daily."
+msgstr "Khi đạt đến giới hạn này, Đặt phòng đã thanh toán sẽ được đặt thành Hoàn thành tự động khi Ngày kết thúc vượt quá số ngày được chỉ định. Để trống để vô hiệu hóa. Xin lưu ý: không tính đến giờ / phút kể từ khi kiểm tra được thực hiện hàng ngày."
+
+#: plugin-options/settings-options.php:85
+msgid "Choose style for Booking Forms, Search Forms, Fields and so on"
+msgstr "Chọn kiểu cho Biểu mẫu đặt phòng, Biểu mẫu tìm kiếm, Trường, v.v."
+
+#: plugin-options/settings-options.php:88
+msgid "Classic"
+msgstr "Cổ điển"
+
+#: plugin-options/settings-options.php:89
+msgid "Simple"
+msgstr "Đơn giản"
+
+#: plugin-options/settings-options.php:95
+#: views/settings-tabs/html-google-calendar.php:27
+msgid "Debug"
+msgstr "Gỡ lỗi"
+
+#: plugin-options/settings-options.php:108
+msgid "Booking Form"
+msgstr "Mẫu đặt phòng"
+
+#: plugin-options/settings-options.php:115
+msgid "Booking Form Position"
+msgstr "Vị trí đặt mẫu"
+
+#: plugin-options/settings-options.php:117
+msgid "Choose the position of the booking form in Single Product Page"
+msgstr "Chọn vị trí của mẫu đặt phòng trong Trang sản phẩm duy nhất"
+
+#: plugin-options/settings-options.php:120
+msgid "Before summary"
+msgstr "Trước khi tóm tắt"
+
+#: plugin-options/settings-options.php:121
+msgid "After title"
+msgstr "Sau tiêu đề"
+
+#: plugin-options/settings-options.php:122
+msgid "Before description"
+msgstr "Trước khi mô tả"
+
+#: plugin-options/settings-options.php:123
+msgid "After description"
+msgstr "Sau khi mô tả"
+
+#: plugin-options/settings-options.php:124
+msgid "After summary"
+msgstr "Sau khi tóm tắt"
+
+#: plugin-options/settings-options.php:125
+msgid "Use Widget"
+msgstr "Sử dụng widget"
+
+#: plugin-options/settings-options.php:133
+msgid "Months loaded in calendar"
+msgstr "Tháng được tải trong lịch"
+
+#: plugin-options/settings-options.php:139
+msgid "Choose the number of months loaded in calendar. Other ones will be loaded in AJAX to improve performance (Suggested: 3)"
+msgstr "Chọn số tháng được tải trong lịch. Những cái khác sẽ được tải trong AJAX để cải thiện hiệu suất (Được đề xuất: 3)"
+
+#: plugin-options/settings-options.php:145
+msgid "Enable People Selector"
+msgstr "Cho phép chọn người"
+
+#: plugin-options/settings-options.php:149
+msgid "If enabled, people will be shown in a unique field (suggested)."
+msgstr "Nếu được bật, mọi người sẽ được hiển thị trong một trường duy nhất (được đề xuất)."
+
+#: plugin-options/settings-options.php:155
+msgid "Columns for people"
+msgstr "Cột cho người"
+
+#: plugin-options/settings-options.php:158
+msgid "Choose the number of columns for people fields shown in the Booking form"
+msgstr "Chọn số lượng cột cho các trường người được hiển thị trong biểu mẫu Đặt phòng"
+
+#: plugin-options/settings-options.php:169
+msgid "Enable Unique Calendar Picker"
+msgstr "Bật Trình chọn lịch duy nhất"
+
+#: plugin-options/settings-options.php:173
+msgid "If enabled, dates will be shown in a unique field (suggested)."
+msgstr "Nếu được bật, ngày sẽ được hiển thị trong một trường duy nhất (được đề xuất)."
+
+#: plugin-options/settings-options.php:178
+msgid "Columns for calendar range picker"
+msgstr "Cột cho bộ chọn phạm vi lịch"
+
+#: plugin-options/settings-options.php:181
+msgid "Choose the number of columns for calendar range picker fields shown in the Booking form"
+msgstr "Chọn số lượng cột cho các trường chọn phạm vi lịch được hiển thị trong biểu mẫu Đặt phòng"
+
+#: plugin-options/settings-options.php:184
+msgid "One column"
+msgstr "Một cột"
+
+#: plugin-options/settings-options.php:185
+msgid "Two columns"
+msgstr "Hai cột"
+
+#: plugin-options/settings-options.php:195
+msgid "Show prices for services"
+msgstr "Hiển thị giá dịch vụ"
+
+#: plugin-options/settings-options.php:198
+msgid "If enabled, show the prices for services in the Booking form"
+msgstr "Nếu được bật, hãy hiển thị giá cho các dịch vụ trong biểu mẫu Đặt phòng"
+
+#: plugin-options/settings-options.php:204
+msgid "Show descriptions for services"
+msgstr "Hiển thị mô tả cho các dịch vụ"
+
+#: plugin-options/settings-options.php:207
+msgid "If enabled, show the descriptions for services in the Booking form"
+msgstr "Nếu được bật, hãy hiển thị các mô tả cho các dịch vụ trong biểu mẫu Đặt phòng"
+
+#: plugin-options/settings-options.php:213
+msgid "Show included services"
+msgstr "Hiển thị các dịch vụ bao gồm"
+
+#: plugin-options/settings-options.php:216
+msgid "If enabled, show the included services in the Booking form"
+msgstr "Nếu được bật, hãy hiển thị các dịch vụ đi kèm trong biểu mẫu Đặt phòng"
+
+#: plugin-options/settings-options.php:222
+msgid "Show totals"
+msgstr "Hiển thị tổng số"
+
+#: plugin-options/settings-options.php:225
+msgid "If enabled, show totals in the Booking form"
+msgstr "Nếu được bật, hiển thị tổng số trong biểu mẫu Đặt phòng"
+
+#: plugin-options/settings-options.php:231
+msgid "Show to logged users only"
+msgstr "Chỉ hiển thị cho người dùng đã đăng nhập"
+
+#: plugin-options/settings-options.php:234
+msgid "If enabled, show the booking form to logged users only"
+msgstr "Nếu được bật, chỉ hiển thị mẫu đặt phòng cho người dùng đã đăng nhập"
+
+#: plugin-options/settings-options.php:240
+msgid "Check min/max duration"
+msgstr "Kiểm tra thời lượng tối thiểu / tối đa"
+
+#: plugin-options/settings-options.php:243
+msgid "If enabled, the plugin considers the minimum and maximum duration to show available dates in the calendar"
+msgstr "Nếu được bật, plugin sẽ xem xét thời lượng tối thiểu và tối đa để hiển thị các ngày khả dụng trong lịch"
+
+#: plugin-options/settings-options.php:249
+msgid " Update non-available dates on loading (AJAX)"
+msgstr " Cập nhật ngày không có sẵn khi tải (AJAX)"
+
+#: plugin-options/settings-options.php:252
+msgid "If enabled, the plugin will update non-available dates in the calendar on page loading. You should activate it only if you use plugins to cache product pages"
+msgstr "Nếu được bật, plugin sẽ cập nhật ngày không có sẵn trong lịch khi tải trang. Bạn chỉ nên kích hoạt nó nếu bạn sử dụng plugin để lưu trữ các trang sản phẩm"
+
+#: plugin-options/settings-options.php:258
+msgid "Disable day if no time is available"
+msgstr "Vô hiệu hóa ngày nếu không có thời gian"
+
+#: plugin-options/settings-options.php:261
+msgid "If enabled, hide days in calendar if no time is available. Please note: enabling this option the calendar will show up to 3 months for hourly bookings and up to 1 month for per-minute bookings"
+msgstr "Nếu được bật, ẩn ngày trong lịch nếu không có thời gian. Xin lưu ý: cho phép tùy chọn này, lịch sẽ hiển thị tối đa 3 tháng cho các đặt phòng hàng giờ và tối đa 1 tháng cho các đặt phòng mỗi phút"
+
+#: plugin-options/settings-options.php:270
+msgid "Orders"
+msgstr "Đơn đặt hàng"
+
+#: plugin-options/settings-options.php:277
+msgid "Show details in order items"
+msgstr "Hiển thị chi tiết trong các mục theo thứ tự"
+
+#: plugin-options/settings-options.php:280
+msgid "If enabled, show booking details in order items"
+msgstr "Nếu được bật, hiển thị chi tiết đặt phòng trong các mục theo thứ tự"
+
+#: plugin-options/settings-options.php:296
+msgid "Default Time Step"
+msgstr "Bước thời gian mặc định"
+
+#: plugin-options/settings-options.php:298
+msgid "Choose the default time step in Daily Calendar"
+msgstr "Chọn bước thời gian mặc định trong Lịch hàng ngày"
+
+#: plugin-options/settings-options.php:305
+msgid "Default Start Time"
+msgstr "Thời gian bắt đầu mặc định"
+
+#: plugin-options/settings-options.php:307
+msgid "Choose the default start time in Daily Calendar (format: hh:mm)"
+msgstr "Chọn thời gian bắt đầu mặc định trong Lịch hàng ngày (định dạng: hh: mm)"
+
+#: plugin-options/settings-options.php:316
+msgid "External Calendars"
+msgstr "Lịch bên ngoài"
+
+#: plugin-options/settings-options.php:323
+msgid "Sync Expiration"
+msgstr "Hết hạn đồng bộ hóa"
+
+#: plugin-options/settings-options.php:325
+msgid "Choose the sync expiration for external calendars"
+msgstr "Chọn hết hạn đồng bộ hóa cho lịch bên ngoài"
+
+#: plugin-options/settings-options.php:332
+msgid "Show externals in calendar"
+msgstr "Hiển thị bên ngoài trong lịch"
+
+#: plugin-options/settings-options.php:354
+msgid "Install"
+msgstr "cài đặt, dựng lên"
+
+#: plugin-options/settings-options.php:360
+msgid "<strong>YITH Booking</strong> theme installed, but you cannot activate it. If you are running a Multi Site installation, please enable it in <em>Network Admin -> Themes</em>."
+msgstr "Đã cài đặt chủ đề <strong> YITH </ strong> nhưng bạn không thể kích hoạt chủ đề đó. Nếu bạn đang chạy cài đặt Nhiều trang, vui lòng bật nó trong <em> Quản trị mạng -> Chủ đề </ em>."
+
+#: plugin-options/settings-options.php:363
+#: views/settings-tabs/html-single-integration.php:60
+msgid "Activate"
+msgstr "Kích hoạt"
+
+#: plugin-options/settings-options.php:373
+msgid "Update (%s)"
+msgstr "Cập nhật ( %s )"
+
+#: plugin-options/settings-options.php:373
+msgid "Update"
+msgstr "Cập nhật"
+
+#: plugin-options/settings-options.php:380
+#: views/settings-tabs/html-single-integration.php:50
+msgid "Active"
+msgstr "Hoạt động"
+
+#: plugin-options/tools-options.php:13
+msgid "Tools"
+msgstr "Công cụ"
+
+#: plugin-options/tools-options.php:19
+msgid "Sync Booking Prices"
+msgstr "Đồng bộ hóa giá đặt phòng"
+
+#: plugin-options/tools-options.php:23
+msgid "Sync Booking Product Prices"
+msgstr "Đồng bộ hóa Đặt giá sản phẩm"
+
+#: plugin-options/tools-options.php:27
+msgid "Booking Cache"
+msgstr "Đặt Cache"
+
+#: plugin-options/tools-options.php:39
+msgid "If enabled, booking data are stored in cache to speed up the site."
+msgstr "Nếu được bật, dữ liệu đặt phòng được lưu trữ trong bộ nhớ cache để tăng tốc trang web."
+
+#: plugin-options/tools-options.php:40
+msgid "Important: we suggest to <strong>keep it enabled</strong>; disable it only for testing purpose."
+msgstr "Quan trọng: chúng tôi khuyên bạn nên <strong> giữ cho nó được bật </ strong>; vô hiệu hóa nó chỉ cho mục đích thử nghiệm."
+
+#: plugin-options/tools-options.php:41
+msgid "Please note: you can disable this option only for 24 hours; so it will be automatically activated 24 hours after disabling it."
+msgstr "Xin lưu ý: bạn chỉ có thể tắt tùy chọn này trong 24 giờ; do đó, nó sẽ được tự động kích hoạt 24 giờ sau khi vô hiệu hóa nó."
+
+#: templates/booking/booking-actions.php:22
+msgid "Pay"
+msgstr "Trả"
+
+#: templates/booking/booking-details.php:16
+msgid "Booking Details"
+msgstr "Chi tiết đặt phòng"
+
+#: templates/booking/booking-details.php:27
+#: templates/booking/pdf/booking-details.php:17
+#: templates/emails/email-booking-details.php:36
+#: templates/emails/plain/email-booking-details.php:14
+#: views/calendar/html-booking-calendar-single-booking-data.php:44
+#: views/html-booking-create.php:42
+msgid "Product"
+msgstr "Sản phẩm"
+
+#: templates/booking/pdf/user-info.php:19
+msgid "User info"
+msgstr "Thông tin người dùng"
+
+#: templates/booking/pdf/user-info.php:26
+msgid "First Name"
+msgstr "Tên đầu tiên"
+
+#: templates/booking/pdf/user-info.php:30
+msgid "Last Name"
+msgstr "Họ"
+
+#: templates/booking/pdf/user-info.php:34
+msgid "Email"
+msgstr "E-mail"
+
+#: templates/booking/search-form/booking-search-form.php:52
+#: templates/booking/search-form/fields/search.php:13
+#: views/metaboxes/html-search-form-metabox.php:16
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#: templates/booking/search-form/fields/categories.php:31
+#: views/metaboxes/html-search-form-metabox.php:18
+msgid "Categories"
+msgstr "Thể loại"
+
+#: templates/booking/search-form/fields/location.php:18
+#: views/calendar/html-booking-calendar-single-booking-data.php:158
+#: views/metaboxes/html-search-form-metabox.php:17
+#: views/product-tabs/html-settings-tab.php:141
+msgid "Location"
+msgstr "Vị trí"
+
+#: templates/booking/search-form/fields/location.php:26
+msgid "Distance (Km)"
+msgstr "Khoảng cách (Km)"
+
+#: templates/booking/search-form/fields/tags.php:25
+#: views/metaboxes/html-search-form-metabox.php:19
+msgid "Tags"
+msgstr "Thẻ"
+
+#: templates/booking/search-form/results/results.php:39
+msgid "Show more results..."
+msgstr "Hiển thị nhiều kết quả hơn ..."
+
+#: templates/emails/admin-booking-status-vendor.php:12
+#: templates/emails/admin-booking-status.php:12
+#: templates/emails/plain/admin-booking-status-vendor.php:6
+#: templates/emails/plain/admin-booking-status.php:6
+msgid "%s status changed to %s"
+msgstr "Trạng thái %s đã thay đổi thành %s"
+
+#: templates/emails/admin-new-booking.php:16
+#: templates/emails/customer-new-booking.php:12
+#: templates/emails/vendor-new-booking.php:14
+msgid "%s has been created. It is now <strong>%s<strong>"
+msgstr "%s đã được tạo. Bây giờ là <strong> %s <strong>"
+
+#: templates/emails/customer-booking-note.php:12
+#: templates/emails/plain/customer-booking-note.php:10
+msgid "Hello, a note has just been added to your %s:"
+msgstr "Xin chào, một ghi chú vừa được thêm vào %s :"
+
+#: templates/emails/customer-booking-note.php:16
+#: templates/emails/plain/customer-booking-note.php:18
+msgid "For your reference, your booking details are shown below."
+msgstr "Để tham khảo, chi tiết đặt phòng của bạn được hiển thị dưới đây."
+
+#: templates/emails/customer-cancelled-booking.php:12
+#: templates/emails/plain/customer-cancelled-booking.php:6
+msgid "%s was cancelled!"
+msgstr "%s đã bị hủy!"
+
+#: templates/emails/customer-confirmed-booking.php:14
+#: templates/emails/plain/customer-confirmed-booking.php:6
+msgid "%s has been confirmed!"
+msgstr "%s đã được xác nhận!"
+
+#: templates/emails/customer-paid-booking.php:12
+#: templates/emails/plain/customer-paid-booking.php:6
+msgid "%s is now paid!"
+msgstr "%s hiện đã được thanh toán!"
+
+#: templates/emails/customer-unconfirmed-booking.php:12
+#: templates/emails/plain/customer-unconfirmed-booking.php:6
+msgid "%s has not been confirmed!"
+msgstr "%s chưa được xác nhận!"
+
+#: templates/emails/plain/admin-new-booking.php:6
+#: templates/emails/plain/customer-new-booking.php:6
+#: templates/emails/plain/vendor-new-booking.php:6
+msgid "%s has been created. It is now %s"
+msgstr "%s đã được tạo. Bây giờ là %s"
+
+#: templates/myaccount/bookings.php:39
+msgid "Go to the Shop"
+msgstr "Đi đến cửa hàng"
+
+#: templates/myaccount/bookings.php:41
+msgid "No booking has been made yet."
+msgstr "Không có đặt phòng đã được thực hiện chưa."
+
+#: templates/myaccount/view-booking.php:20
+msgid "%1$s was placed on %2$s and is currently %3$s."
+msgstr "%1$s đã được đặt trên %2$s và hiện tại là %3$s ."
+
+#: templates/single-product/add-to-cart/bookable.php:23
+msgid "<strong>%s</strong>: on %s"
+msgstr "<strong> %s </ strong>: trên %s"
+
+#: templates/single-product/add-to-cart/bookable.php:25
+msgid "<strong>%s</strong>: from %s to %s"
+msgstr "<strong> %s </ strong>: từ %s đến %s"
+
+#: templates/single-product/add-to-cart/booking-form/dates/month.php:33
+msgid "Start month"
+msgstr "Tháng bắt đầu"
+
+#: templates/single-product/add-to-cart/booking-form/meta.php:21
+#: templates/single-product/add-to-cart/booking-form/meta.php:25
+msgid "%s: %s"
+msgstr "%s : %s"
+
+#: templates/single-product/add-to-cart/booking-form/persons/people-selector.php:67
+msgid "Close"
+msgstr "Gần"
+
+#: templates/single-product/add-to-cart/booking-form/totals-list.php:28
+msgid "Total"
+msgstr "Toàn bộ"
+
+#: templates/single-product/add-to-cart/booking.php:21
+msgid "You must be logged in to book this product!"
+msgstr "Bạn phải đăng nhập để đặt sản phẩm này!"
+
+#: views/calendar/html-booking-calendar-action-bar.php:36
+#: views/html-booking-create.php:50
+msgid "Select a booking product..."
+msgstr "Chọn một sản phẩm đặt phòng ..."
+
+#: views/calendar/html-booking-calendar-action-bar.php:43
+#: views/calendar/html-booking-calendar-single-booking-data.php:52
+msgid "Deleted Product #%s"
+msgstr "Đã xóa sản phẩm # %s"
+
+#: views/calendar/html-booking-calendar-action-bar.php:90
+msgid "Month"
+msgstr "tháng"
+
+#: views/calendar/html-booking-calendar-action-bar.php:94
+msgid "Day"
+msgstr "ngày"
+
+#: views/calendar/html-booking-calendar-action-bar.php:112
+msgid "Quick search..."
+msgstr "Tìm kiếm nhanh..."
+
+#: views/calendar/html-booking-calendar-day.php:54
+#: views/metaboxes/html-booking-meta-data.php:197
+msgid "All Day"
+msgstr "Cả ngày"
+
+#: views/calendar/html-booking-calendar-single-booking-data.php:156
+msgid "Summary"
+msgstr "Tóm lược"
+
+#: views/calendar/html-booking-calendar-single-booking-data.php:157
+#: views/product-tabs/utility/html-add-service.php:25
+#: views/settings-tabs/html-logs.php:165
+msgid "Description"
+msgstr "Sự miêu tả"
+
+#: views/calendar/html-booking-calendar-single-booking-data.php:159
+msgid "UID"
+msgstr "UID"
+
+#: views/calendar/html-booking-calendar-single-booking-data.php:160
+msgid "Calendar Name"
+msgstr "Tên lịch"
+
+#: views/calendar/html-booking-calendar-single-booking-data.php:161
+msgid "Source"
+msgstr "Nguồn"
+
+#: views/html-booking-create.php:66
+msgid "Don't assign this booking to any order."
+msgstr "Đừng chỉ định đặt chỗ này cho bất kỳ đơn đặt hàng."
+
+#: views/html-booking-create.php:73
+msgid "Assign this booking to an order:"
+msgstr "Chỉ định đặt chỗ này cho một đơn đặt hàng:"
+
+#: views/html-booking-create.php:82
+msgid "Create new order"
+msgstr "Tạo đơn hàng mới"
+
+#: views/html-booking-create.php:93
+msgid "Details"
+msgstr "Chi tiết"
+
+#: views/html-booking-create.php:97
+msgid "Select a booking product to see details"
+msgstr "Chọn một sản phẩm đặt phòng để xem chi tiết"
+
+#: views/metaboxes/html-booking-meta-actions.php:60
+msgid "force sync"
+msgstr "đồng bộ hóa lực lượng"
+
+#: views/metaboxes/html-booking-meta-actions.php:69
+msgid "Save %s"
+msgstr "Tiết kiệm %s"
+
+#: views/metaboxes/html-booking-meta-actions.php:70
+msgid "Save/update the %s"
+msgstr "Lưu / cập nhật %s"
+
+#: views/metaboxes/html-booking-meta-data.php:27
+msgid "General Details"
+msgstr "Chi tiết chung"
+
+#: views/metaboxes/html-booking-meta-data.php:30
+msgid "Booking creation date:"
+msgstr "Ngày đặt phòng:"
+
+#: views/metaboxes/html-booking-meta-data.php:32
+msgid "h"
+msgstr "h"
+
+#: views/metaboxes/html-booking-meta-data.php:35
+msgid "m"
+msgstr "m"
+
+#: views/metaboxes/html-booking-meta-data.php:40
+msgid "Booking status:"
+msgstr "Tình trạng đặt phòng:"
+
+#: views/metaboxes/html-booking-meta-data.php:52
+msgid "Booking Product:"
+msgstr "Phòng khách sạn"
+
+#: views/metaboxes/html-booking-meta-data.php:56
+msgid "View product"
+msgstr "Xem sản phẩm"
+
+#: views/metaboxes/html-booking-meta-data.php:75
+msgid "Order:"
+msgstr "Gọi món:"
+
+#: views/metaboxes/html-booking-meta-data.php:80
+msgid "View order"
+msgstr "Xem thứ tự"
+
+#: views/metaboxes/html-booking-meta-data.php:100
+#: views/metaboxes/html-booking-meta-data.php:144
+msgid "N.D."
+msgstr "ND"
+
+#: views/metaboxes/html-booking-meta-data.php:114
+msgid "User:"
+msgstr "Người sử dụng:"
+
+#: views/metaboxes/html-booking-meta-data.php:120
+msgid "View user"
+msgstr "Xem người dùng"
+
+#: views/metaboxes/html-booking-meta-data.php:160
+msgid "Booking Date"
+msgstr "Ngày đặt phòng"
+
+#: views/metaboxes/html-booking-meta-notes.php:27
+msgid "added on %1$s at %2$s"
+msgstr "đã thêm vào %1$s ở %2$s"
+
+#: views/metaboxes/html-booking-meta-notes.php:33
+msgid "There are no notes."
+msgstr "Không có ghi chú."
+
+#: views/metaboxes/html-booking-meta-notes.php:38
+msgid "Add note"
+msgstr "Thêm ghi chú"
+
+#: views/metaboxes/html-booking-meta-notes.php:38
+msgid "Add a note for your reference, or add a customer note (the user will be notified)."
+msgstr "Thêm ghi chú để bạn tham khảo hoặc thêm ghi chú của khách hàng (người dùng sẽ được thông báo)."
+
+#: views/metaboxes/html-booking-meta-notes.php:42
+msgid "Note type"
+msgstr "Ghi chú loại"
+
+#: views/metaboxes/html-booking-meta-notes.php:44
+msgid "Private note"
+msgstr "Ghi chú riêng"
+
+#: views/metaboxes/html-booking-meta-notes.php:45
+msgid "Note to customer"
+msgstr "Lưu ý cho khách hàng"
+
+#: views/metaboxes/html-booking-meta-notes.php:47
+msgid "Add"
+msgstr "Thêm vào"
+
+#: views/metaboxes/html-search-form-metabox.php:54
+msgid "People field"
+msgstr "Lĩnh vực nhân dân"
+
+#: views/metaboxes/html-search-form-metabox.php:59
+msgid "People type field"
+msgstr "Trường loại người"
+
+#: views/metaboxes/html-search-form-metabox.php:63
+msgid "Label"
+msgstr "Nhãn"
+
+#: views/product-tabs/html-availability-tab.php:15
+msgid "Booking terms"
+msgstr "Điều khoản đặt phòng"
+
+#: views/product-tabs/html-availability-tab.php:22
+msgid "Select the maximum number of bookings allowed for each unit. Set 0 (zero) for unlimited."
+msgstr "Chọn số lượng đặt phòng tối đa được phép cho mỗi đơn vị. Đặt 0 (không) cho không giới hạn."
+
+#: views/product-tabs/html-availability-tab.php:35
+msgid "Minimum booking duration"
+msgstr "Thời gian đặt phòng tối thiểu"
+
+#: views/product-tabs/html-availability-tab.php:36
+msgid "Set the minimum booking duration that customers can select."
+msgstr "Đặt thời lượng đặt phòng tối thiểu mà khách hàng có thể chọn."
+
+#: views/product-tabs/html-availability-tab.php:55
+msgid "Maximum booking duration"
+msgstr "Thời gian đặt phòng tối đa"
+
+#: views/product-tabs/html-availability-tab.php:56
+msgid "Set the maximum booking duration that customers can select."
+msgstr "Đặt thời lượng đặt phòng tối đa mà khách hàng có thể chọn."
+
+#: views/product-tabs/html-availability-tab.php:76
+msgid "Confirmation required"
+msgstr "Yêu cầu xác nhận"
+
+#: views/product-tabs/html-availability-tab.php:77
+msgid "Select if the admin has to confirm a booking before accepting it."
+msgstr "Chọn nếu quản trị viên phải xác nhận đặt phòng trước khi chấp nhận."
+
+#: views/product-tabs/html-availability-tab.php:88
+msgid "Cancellation available"
+msgstr "Hủy có sẵn"
+
+#: views/product-tabs/html-availability-tab.php:89
+msgid "Select if the customer can cancel the booking."
+msgstr "Chọn nếu khách hàng có thể hủy đặt phòng."
+
+#: views/product-tabs/html-availability-tab.php:100
+msgid "The booking can be cancelled up to"
+msgstr "Việc đặt phòng có thể bị hủy tối đa"
+
+#: views/product-tabs/html-availability-tab.php:116
+#: views/product-tabs/html-availability-tab.php:257
+#: views/product-tabs/html-availability-tab.php:282
+#: views/product-tabs/html-settings-tab.php:58
+msgid "Day(s)"
+msgstr "Ngày"
+
+#: views/product-tabs/html-availability-tab.php:117
+#: views/product-tabs/html-availability-tab.php:256
+#: views/product-tabs/html-availability-tab.php:281
+#: views/product-tabs/html-settings-tab.php:57
+msgid "Month(s)"
+msgstr "Tháng)"
+
+#: views/product-tabs/html-availability-tab.php:122
+msgid "before the booking start date"
+msgstr "trước ngày bắt đầu đặt phòng"
+
+#: views/product-tabs/html-availability-tab.php:134
+msgid "Booking preferences"
+msgstr "Tùy chọn đặt phòng"
+
+#: views/product-tabs/html-availability-tab.php:141
+msgid "Check-in time"
+msgstr "Thời gian nhận phòng"
+
+#: views/product-tabs/html-availability-tab.php:142
+msgid "Insert check-in time for your customers"
+msgstr "Chèn thời gian nhận phòng cho khách hàng của bạn"
+
+#: views/product-tabs/html-availability-tab.php:153
+msgid "Check-out time"
+msgstr "Kiểm tra giờ giấc"
+
+#: views/product-tabs/html-availability-tab.php:154
+msgid "Insert check-out time for your customers"
+msgstr "Chèn thời gian trả phòng cho khách hàng của bạn"
+
+#: views/product-tabs/html-availability-tab.php:165
+msgid "Allowed Start Days"
+msgstr "Ngày bắt đầu được phép"
+
+#: views/product-tabs/html-availability-tab.php:166
+msgid "Select on which days the booking can start. Leave empty if it can start without any limit on any day of the week."
+msgstr "Chọn ngày mà việc đặt phòng có thể bắt đầu. Để trống nếu nó có thể bắt đầu mà không có bất kỳ giới hạn vào bất kỳ ngày nào trong tuần."
+
+#: views/product-tabs/html-availability-tab.php:180
+msgid "Daily Start Time"
+msgstr "Thời gian bắt đầu hàng ngày"
+
+#: views/product-tabs/html-availability-tab.php:181
+msgid "Insert the start time for every day of the week."
+msgstr "Chèn thời gian bắt đầu cho mỗi ngày trong tuần."
+
+#: views/product-tabs/html-availability-tab.php:192
+msgid "Buffer time"
+msgstr "Thời gian đệm"
+
+#: views/product-tabs/html-availability-tab.php:193
+msgid "Time for preparation or cleanup between two bookings."
+msgstr "Thời gian chuẩn bị hoặc dọn dẹp giữa hai đặt phòng."
+
+#: views/product-tabs/html-availability-tab.php:211
+msgid "Time increment based on duration"
+msgstr "Tăng thời gian dựa trên thời lượng"
+
+#: views/product-tabs/html-availability-tab.php:212
+msgid "Select if the time increment of your booking is based on booking duration. By default the time increment is 1 hour for hourly bookings and 15 minutes for per-minute bookings. Example: if enabled and your booking duration is 3 hours, the time increment will be 3 hours, so you'll see the following time slots: 8:00 - 11:00 - 14:00 - 17:00"
+msgstr "Chọn nếu thời gian đặt phòng của bạn dựa trên thời gian đặt phòng. Theo mặc định, thời gian tăng là 1 giờ cho đặt phòng hàng giờ và 15 phút cho đặt phòng mỗi phút. Ví dụ: nếu được bật và thời lượng đặt phòng của bạn là 3 giờ, thời gian tăng sẽ là 3 giờ, vì vậy bạn sẽ thấy các khoảng thời gian sau: 8:00 - 11:00 - 14:00 - 17:00"
+
+#: views/product-tabs/html-availability-tab.php:221
+msgid "Time increment including buffer"
+msgstr "Tăng thời gian bao gồm cả bộ đệm"
+
+#: views/product-tabs/html-availability-tab.php:222
+msgid "Select if you want to include buffer time to the time increment. Example: if enabled and the booking duration is 1 hour and you set a buffer of 1 hour, the time increment will be 1 hour + 1 hour, so you'll see the following time slots: 8:00 - 10:00 - 12:00 - 14:00"
+msgstr "Chọn nếu bạn muốn bao gồm thời gian bộ đệm để tăng thời gian. Ví dụ: nếu được bật và thời lượng đặt phòng là 1 giờ và bạn đặt bộ đệm là 1 giờ, thời gian tăng sẽ là 1 giờ + 1 giờ, vì vậy bạn sẽ thấy các khe thời gian sau: 8:00 - 10:00 - 12 : 00 - 14:00"
+
+#: views/product-tabs/html-availability-tab.php:234
+msgid "Booking window"
+msgstr "Cửa sổ đặt phòng"
+
+#: views/product-tabs/html-availability-tab.php:240
+msgid "Minimum advance reservation"
+msgstr "Đặt trước tối thiểu"
+
+#: views/product-tabs/html-availability-tab.php:241
+msgid "Insert the minimum advance reservation for the booking. For example: if you set it to 10 days, customers can book now a booking that will start in 10 days"
+msgstr "Chèn đặt trước tối thiểu cho các đặt phòng. Ví dụ: nếu bạn đặt thành 10 ngày, khách hàng có thể đặt ngay một đặt phòng sẽ bắt đầu sau 10 ngày"
+
+#: views/product-tabs/html-availability-tab.php:264
+msgid "Maximum advance reservation"
+msgstr "Đặt trước tối đa"
+
+#: views/product-tabs/html-availability-tab.php:265
+msgid "Insert the maximum advance reservation for the booking. For example: if you set it to 6 months, customers can only book within 6 months."
+msgstr "Chèn đặt trước tối đa cho đặt phòng. Ví dụ: nếu bạn đặt thành 6 tháng, khách hàng chỉ có thể đặt trong vòng 6 tháng."
+
+#: views/product-tabs/html-availability-tab.php:280
+msgid "Year(s)"
+msgstr "Năm"
+
+#: views/product-tabs/html-availability-tab.php:294
+msgid "Additional availability rules"
+msgstr "Quy tắc sẵn có bổ sung"
+
+#: views/product-tabs/html-availability-tab.php:296
+#: views/product-tabs/html-costs-tab.php:200
+#: views/settings-tabs/html-global-availability-rules.php:12
+#: views/settings-tabs/html-global-price-rules.php:13
+msgid "Expand all"
+msgstr "Mở rộng tất cả"
+
+#: views/product-tabs/html-availability-tab.php:297
+#: views/product-tabs/html-costs-tab.php:201
+#: views/settings-tabs/html-global-availability-rules.php:13
+#: views/settings-tabs/html-global-price-rules.php:14
+msgid "Collapse all"
+msgstr "Thu gọn tất cả"
+
+#: views/product-tabs/html-availability-tab.php:301
+#: views/settings-tabs/html-global-availability-rules.php:17
+msgid "You can create advanced rules to enable/disable booking availability for specific dates or months"
+msgstr "Bạn có thể tạo các quy tắc nâng cao để bật / tắt tính khả dụng của đặt phòng cho các ngày hoặc tháng cụ thể"
+
+#: views/product-tabs/html-costs-tab.php:14
+msgid "Standard Prices"
+msgstr "Giá tiêu chuẩn"
+
+#: views/product-tabs/html-costs-tab.php:20
+#: views/product-tabs/utility/html-price-rule.php:129
+msgid "Base price for %s"
+msgstr "Giá cơ bản cho %s"
+
+#: views/product-tabs/html-costs-tab.php:21
+msgid "Set your booking price here."
+msgstr "Đặt giá đặt phòng của bạn ở đây."
+
+#: views/product-tabs/html-costs-tab.php:40
+#: views/product-tabs/html-costs-tab.php:179
+#: views/product-tabs/utility/html-extra-cost.php:42
+msgid "Multiply by the number of people"
+msgstr "Nhân với số lượng phòng"
+
+#: views/product-tabs/html-costs-tab.php:55
+msgid "Extra price of"
+msgstr "Giá thêm của"
+
+#: views/product-tabs/html-costs-tab.php:56
+msgid "Here you can set an extra cost for each person added to the specified number."
+msgstr "Tại đây bạn có thể đặt thêm chi phí cho mỗi người được thêm vào số được chỉ định."
+
+#: views/product-tabs/html-costs-tab.php:69
+msgid "for every person added to"
+msgstr "Cho mỗi "
+
+#: views/product-tabs/html-costs-tab.php:85
+msgid "Discounts"
+msgstr "Giảm giá"
+
+#: views/product-tabs/html-costs-tab.php:93
+msgid "Encourage users to book longer stays by offering weekly and monthly discounts."
+msgstr "Khuyến khích người dùng đặt thời gian lưu trú dài hơn bằng cách giảm giá hàng tuần và hàng tháng."
+
+#: views/product-tabs/html-costs-tab.php:121
+msgid "Encourage users to book by offering last minute discounts."
+msgstr "Khuyến khích người dùng đặt phòng bằng cách giảm giá vào phút cuối."
+
+#: views/product-tabs/html-costs-tab.php:135
+msgid "Days before arrival"
+msgstr "Ngày trước khi đến"
+
+#: views/product-tabs/html-costs-tab.php:156
+msgid "Leave empty if you don't need to charge extra costs"
+msgstr "Để trống nếu bạn không cần phải trả thêm chi phí"
+
+#: views/product-tabs/html-costs-tab.php:198
+msgid "Advanced Price Rules"
+msgstr "Quy tắc giá nâng cao"
+
+#: views/product-tabs/html-people-tab.php:16
+msgid "People settings"
+msgstr "Cài đặt người"
+
+#: views/product-tabs/html-people-tab.php:22
+msgid "Enable people option"
+msgstr "Cho phép đặt số lượng nhiều hơn 1 phòng"
+
+#: views/product-tabs/html-people-tab.php:23
+msgid "Check this box if the booking can be made only by a specific number of people."
+msgstr "Chọn hộp này nếu việc đặt phòng chỉ có thể được thực hiện bởi một số người cụ thể."
+
+#: views/product-tabs/html-people-tab.php:33
+msgid "Minimum number of people"
+msgstr "Số lượng phòng tối thiểu"
+
+#: views/product-tabs/html-people-tab.php:34
+msgid "Select the minimum number of people per booking."
+msgstr "Chọn số lượng người tối thiểu cho mỗi đặt phòng."
+
+#: views/product-tabs/html-people-tab.php:45
+msgid "Maximum number of people"
+msgstr "Số lượng phòng tối đa"
+
+#: views/product-tabs/html-people-tab.php:46
+msgid "Select the maximum number of people per booking."
+msgstr "Chọn số lượng người tối đa cho mỗi đặt phòng."
+
+#: views/product-tabs/html-people-tab.php:57
+msgid "Count people as separated bookings"
+msgstr "Đếm người như đặt phòng riêng"
+
+#: views/product-tabs/html-people-tab.php:58
+msgid "If you need to book only for a fixed number of people and you set the number in \"Max bookings per unit\" option, check this option to count each person as a separate booking."
+msgstr "Nếu bạn chỉ cần đặt cho một số người cố định và bạn đặt số trong tùy chọn \\ \"Tối đa cho mỗi đơn vị \", hãy chọn tùy chọn này để tính mỗi người là một đặt phòng riêng."
+
+#: views/product-tabs/html-people-tab.php:60
+msgid "Example: you set 10 people for a Yoga class and you set 10 in \"Max bookings per unit\" option; every person will be a separate booking until number 10 is reached."
+msgstr "Ví dụ: bạn đặt 10 người cho một lớp Yoga và bạn đặt 10 trong tùy chọn \\ \"Tối đa cho mỗi đơn vị \"; mỗi người sẽ là một đặt phòng riêng cho đến khi đạt được số 10."
+
+#: views/product-tabs/html-people-tab.php:70
+msgid "Enable people types"
+msgstr "Cho phép mọi người"
+
+#: views/product-tabs/html-people-tab.php:71
+msgid "You can use types, for example, to set different prices for different people. Example: Adult 30 $, Child 10 $."
+msgstr "Bạn có thể sử dụng các loại, ví dụ, để đặt giá khác nhau cho những người khác nhau. Ví dụ: Người lớn 30 $, Trẻ em 10 $."
+
+#: views/product-tabs/html-services-tab.php:24
+msgid "select one or more services..."
+msgstr "chọn một hoặc nhiều dịch vụ ..."
+
+#: views/product-tabs/html-services-tab.php:31
+msgid "Select all"
+msgstr "Chọn tất cả"
+
+#: views/product-tabs/html-services-tab.php:32
+msgid "Deselect all"
+msgstr "Bỏ chọn tất cả"
+
+#: views/product-tabs/html-services-tab.php:37
+msgid "Insert services available for this product"
+msgstr "Chèn dịch vụ có sẵn cho sản phẩm này"
+
+#: views/product-tabs/html-services-tab.php:38
+msgid "Click on the field to add a service available for this product or click on 'Select all' to add all services"
+msgstr "Nhấp vào trường để thêm dịch vụ có sẵn cho sản phẩm này hoặc nhấp vào 'Chọn tất cả' để thêm tất cả dịch vụ"
+
+#: views/product-tabs/html-services-tab.php:47
+#: views/product-tabs/html-services-tab.php:52
+msgid "Create new service"
+msgstr "Tạo dịch vụ mới"
+
+#: views/product-tabs/html-services-tab.php:61
+#: views/product-tabs/utility/html-extra-costs.php:59
+#: views/product-tabs/utility/html-people-types.php:63
+msgid "Create"
+msgstr "Tạo nên"
+
+#: views/product-tabs/html-settings-tab.php:22
+msgid "Booking Duration"
+msgstr "Thời hạn đặt phòng"
+
+#: views/product-tabs/html-settings-tab.php:24
+msgid "Set if your customers can book for minutes, hours, days or months"
+msgstr "Đặt nếu khách hàng của bạn có thể đặt trong vài phút, giờ, ngày hoặc tháng"
+
+#: views/product-tabs/html-settings-tab.php:32
+msgid "Customer can book units of"
+msgstr "Khách hàng có thể đặt đơn vị"
+
+#: views/product-tabs/html-settings-tab.php:33
+msgid "Fixed units of"
+msgstr "Đơn vị cố định của"
+
+#: views/product-tabs/html-settings-tab.php:59
+msgid "Hour(s)"
+msgstr "Giờ"
+
+#: views/product-tabs/html-settings-tab.php:60
+msgid "Minute(s)"
+msgstr "Phút"
+
+#: views/product-tabs/html-settings-tab.php:69
+msgid "Enable calendar range picker"
+msgstr "Cho phép chọn phạm vi lịch"
+
+#: views/product-tabs/html-settings-tab.php:70
+msgid "Enable or disable the calendar range picker in product page."
+msgstr "Bật hoặc tắt bộ chọn phạm vi lịch trong trang sản phẩm."
+
+#: views/product-tabs/html-settings-tab.php:80
+msgid "Default start date in booking form"
+msgstr "Ngày bắt đầu mặc định trong mẫu đặt phòng"
+
+#: views/product-tabs/html-settings-tab.php:81
+msgid "Insert the day to show as default in Start Date field of booking form."
+msgstr "Chèn ngày để hiển thị như mặc định trong trường Ngày bắt đầu của mẫu đặt phòng."
+
+#: views/product-tabs/html-settings-tab.php:89
+msgid "Today"
+msgstr "Hôm nay"
+
+#: views/product-tabs/html-settings-tab.php:90
+msgid "Tomorrow"
+msgstr "Ngày mai"
+
+#: views/product-tabs/html-settings-tab.php:91
+#: views/product-tabs/html-settings-tab.php:122
+msgid "First available"
+msgstr "Đầu tiên có sẵn"
+
+#: views/product-tabs/html-settings-tab.php:92
+msgid "Custom Date"
+msgstr "Ngày tùy chỉnh"
+
+#: views/product-tabs/html-settings-tab.php:102
+msgid "Custom default start date"
+msgstr "Ngày bắt đầu mặc định tùy chỉnh"
+
+#: views/product-tabs/html-settings-tab.php:103
+msgid "Insert the custom date to show as default in Start Date field of booking form."
+msgstr "Chèn ngày tùy chỉnh để hiển thị như mặc định trong trường Ngày bắt đầu của mẫu đặt phòng."
+
+#: views/product-tabs/html-settings-tab.php:113
+msgid "Default start time in booking form"
+msgstr "Thời gian bắt đầu mặc định trong mẫu đặt phòng"
+
+#: views/product-tabs/html-settings-tab.php:114
+msgid "Insert the time to show as default in Time field of booking form."
+msgstr "Chèn thời gian để hiển thị như mặc định trong trường Thời gian của mẫu đặt phòng."
+
+#: views/product-tabs/html-settings-tab.php:128
+msgid "Full day booking"
+msgstr "Đặt phòng cả ngày"
+
+#: views/product-tabs/html-settings-tab.php:129
+msgid "Choose whether the booking will be active or not for the full day (Example: for a booking from day 1 to day 2, day 2 will be fully booked only if this option is active)"
+msgstr "Chọn xem đặt phòng có hoạt động hay không trong cả ngày (Ví dụ: đối với đặt phòng từ ngày 1 đến ngày 2, ngày 2 sẽ chỉ được đặt đầy đủ nếu tùy chọn này được kích hoạt)"
+
+#: views/product-tabs/html-settings-tab.php:138
+#: views/settings-tabs/html-google-calendar.php:20
+msgid "Settings"
+msgstr "Cài đặt"
+
+#: views/product-tabs/html-settings-tab.php:142
+msgid "Set your Google Maps API Keys in %s and then enter your address in this field."
+msgstr "Đặt Khóa API Google Maps của bạn theo %s rồi nhập địa chỉ của bạn vào trường này."
+
+#: views/product-tabs/html-settings-tab.php:144
+msgid "You can put a map in product page by using the %s shortcode."
+msgstr "Bạn có thể đặt bản đồ vào trang sản phẩm bằng cách sử dụng mã ngắn %s ."
+
+#: views/product-tabs/html-sync-tab.php:23
+msgid "Copy"
+msgstr "Sao chép"
+
+#: views/product-tabs/html-sync-tab.php:24
+msgid "Download"
+msgstr "Tải về"
+
+#: views/product-tabs/html-sync-tab.php:32
+msgid "Export Future ICS URL"
+msgstr "Xuất URL ICS trong tương lai"
+
+#: views/product-tabs/html-sync-tab.php:44
+msgid "Import ICS Calendars"
+msgstr "Lịch nhập khẩu ICS"
+
+#: views/product-tabs/html-sync-tab.php:52
+msgid "Last Sync"
+msgstr "Đồng bộ hóa lần cuối"
+
+#: views/product-tabs/utility/html-add-service.php:10
+msgid "Service name"
+msgstr "Tên dịch vụ"
+
+#: views/product-tabs/utility/html-availability-rule.php:41
+#: views/product-tabs/utility/html-price-rule.php:66
+msgid "Rule name"
+msgstr "Tên quy tắc"
+
+#: views/product-tabs/utility/html-availability-rule.php:54
+msgid "Rule type"
+msgstr "Loại quy tắc"
+
+#: views/product-tabs/utility/html-availability-rule.php:56
+msgid "Rules assigned with a <strong>specific date</strong> are valid only for the year selected. Example: you want to disable bookings from 1st August to 15th August of the current year."
+msgstr "Các quy tắc được chỉ định với <strong> ngày cụ thể </ strong> chỉ có hiệu lực cho năm được chọn. Ví dụ: bạn muốn tắt đặt chỗ từ ngày 1 tháng 8 đến ngày 15 tháng 8 của năm hiện tại."
+
+#: views/product-tabs/utility/html-availability-rule.php:58
+msgid "Rules assigned with <strong>generic dates</strong>  are valid without any time limit, until you disable them. Example: you want to disable bookings for August each year, or all Sunday days of the year."
+msgstr "Các quy tắc được gán với <strong> ngày chung </ strong> là hợp lệ mà không bị giới hạn thời gian, cho đến khi bạn tắt chúng. Ví dụ: bạn muốn tắt đặt chỗ cho tháng 8 hàng năm hoặc tất cả các ngày chủ nhật trong năm."
+
+#: views/product-tabs/utility/html-availability-rule.php:67
+msgid "Specific date"
+msgstr "Ngày cụ thể"
+
+#: views/product-tabs/utility/html-availability-rule.php:68
+msgid "Generic dates"
+msgstr "Ngày chung"
+
+#: views/product-tabs/utility/html-availability-rule.php:118
+#: views/product-tabs/utility/html-availability-rule.php:181
+msgid "Non-bookable"
+msgstr "Không thể đặt trước"
+
+#: views/product-tabs/utility/html-availability-rule.php:136
+msgid "Add extra rules for specific days of the week"
+msgstr "Thêm quy tắc bổ sung cho các ngày cụ thể trong tuần"
+
+#: views/product-tabs/utility/html-availability-rule.php:153
+msgid "Add extra rules for specific time ranges of the days"
+msgstr "Thêm quy tắc bổ sung cho các khoảng thời gian cụ thể trong ngày"
+
+#: views/product-tabs/utility/html-availability-rule.php:185
+msgid "No change"
+msgstr "Không thay đổi"
+
+#: views/product-tabs/utility/html-availability-rule.php:215
+#: views/product-tabs/utility/html-price-rule.php:167
+msgid "Delete rule"
+msgstr "Xóa quy tắc"
+
+#: views/product-tabs/utility/html-availability-rules.php:26
+#: views/product-tabs/utility/html-price-rules.php:27
+msgid "Add new rule"
+msgstr "Thêm quy tắc mới"
+
+#: views/product-tabs/utility/html-extra-cost.php:59
+msgid "Multiply by duration"
+msgstr "Nhân với thời lượng"
+
+#: views/product-tabs/utility/html-extra-costs.php:28
+#: views/product-tabs/utility/html-extra-costs.php:33
+msgid "Add a new cost"
+msgstr "Thêm một chi phí mới"
+
+#: views/product-tabs/utility/html-extra-costs.php:39
+msgid "Extra cost name"
+msgstr "Tên chi phí phụ"
+
+#: views/product-tabs/utility/html-imported-calendars.php:10
+msgid "Name"
+msgstr "Tên"
+
+#: views/product-tabs/utility/html-imported-calendars.php:11
+msgid "URL"
+msgstr "URL"
+
+#: views/product-tabs/utility/html-imported-calendars.php:36
+msgid "Add ICS calendar"
+msgstr "Thêm lịch ICS"
+
+#: views/product-tabs/utility/html-people-type.php:51
+msgid "Minimum"
+msgstr "Tối thiểu"
+
+#: views/product-tabs/utility/html-people-type.php:61
+msgid "Maximum"
+msgstr "Tối đa"
+
+#: views/product-tabs/utility/html-people-type.php:72
+msgid "Enter a minimum number required and a maximum number available of this type. Example: you can set min 1 adult or leave it empty."
+msgstr "Nhập số lượng tối thiểu cần thiết và số lượng tối đa có sẵn của loại này. Ví dụ: bạn có thể đặt tối thiểu 1 người lớn hoặc để trống."
+
+#: views/product-tabs/utility/html-people-type.php:85
+msgid "Base Fee"
+msgstr "Phí cơ sở"
+
+#: views/product-tabs/utility/html-people-type.php:95
+msgid "Enter a customized base price and fixed base fee for this type. These prices will override prices set in Booking Prices."
+msgstr "Nhập giá cơ sở tùy chỉnh và phí cơ sở cố định cho loại này. Giá này sẽ ghi đè giá được đặt trong Giá đặt phòng."
+
+#: views/product-tabs/utility/html-people-types.php:16
+msgid "People types"
+msgstr "Kiểu người"
+
+#: views/product-tabs/utility/html-people-types.php:32
+#: views/product-tabs/utility/html-people-types.php:37
+msgid "Create new type"
+msgstr "Tạo kiểu mới"
+
+#: views/product-tabs/utility/html-people-types.php:43
+msgid "People type"
+msgstr "Kiểu người"
+
+#: views/product-tabs/utility/html-price-rule-condition.php:23
+#: views/product-tabs/utility/html-price-rule.php:35
+msgid "Custom date range"
+msgstr "Phạm vi ngày tùy chỉnh"
+
+#: views/product-tabs/utility/html-price-rule-condition.php:24
+#: views/product-tabs/utility/html-price-rule.php:36
+msgid "Range of months"
+msgstr "Phạm vi tháng"
+
+#: views/product-tabs/utility/html-price-rule-condition.php:25
+#: views/product-tabs/utility/html-price-rule.php:37
+msgid "Range of weeks"
+msgstr "Phạm vi tuần"
+
+#: views/product-tabs/utility/html-price-rule-condition.php:26
+#: views/product-tabs/utility/html-price-rule.php:38
+msgid "Range of days"
+msgstr "Phạm vi ngày"
+
+#: views/product-tabs/utility/html-price-rule-condition.php:27
+#: views/product-tabs/utility/html-price-rule.php:39
+msgid "People count"
+msgstr "Người đếm"
+
+#: views/product-tabs/utility/html-price-rule-condition.php:28
+#: views/product-tabs/utility/html-price-rule.php:40
+msgid "Unit count"
+msgstr "Số đơn vị"
+
+#: views/product-tabs/utility/html-price-rule-condition.php:29
+#: views/product-tabs/utility/html-price-rule.php:41
+msgid "Time range"
+msgstr "Phạm vi thời gian"
+
+#: views/product-tabs/utility/html-price-rule-condition.php:52
+#: views/settings-tabs/html-logs.php:18 views/settings-tabs/html-logs.php:163
+msgid "Type"
+msgstr "Kiểu"
+
+#: views/product-tabs/utility/html-price-rule-condition.php:183
+msgid "Delete condition"
+msgstr "Xóa điều kiện"
+
+#: views/product-tabs/utility/html-price-rule.php:101
+msgid "Add new condition"
+msgstr "Thêm điều kiện mới"
+
+#: views/product-tabs/utility/html-price-rule.php:106
+msgid "Conditions"
+msgstr "Điều kiện"
+
+#: views/settings-tabs/google-calendar-views/html-access-form.php:8
+msgid "Access"
+msgstr "Truy cập"
+
+#: views/settings-tabs/google-calendar-views/html-access-form.php:10
+msgid "Click here to access"
+msgstr "Nhấn vào đây để truy cập"
+
+#: views/settings-tabs/google-calendar-views/html-access-form.php:13
+msgid "Please note: you should add the following URI to the <strong>Allowed Redirect URI</strong> in your ID client OAuth 2.0"
+msgstr "Xin lưu ý: bạn nên thêm URI sau vào <strong> URI chuyển hướng được phép </ strong> trong ứng dụng khách ID OAuth 2.0 của bạn"
+
+#: views/settings-tabs/google-calendar-views/html-client-secret-form.php:11
+msgid "Set Client ID and Client Secret"
+msgstr "Đặt ID khách hàng và Bí mật khách hàng"
+
+#: views/settings-tabs/google-calendar-views/html-client-secret-form.php:13
+msgid "Client ID"
+msgstr "ID khách hàng"
+
+#: views/settings-tabs/google-calendar-views/html-client-secret-form.php:14
+msgid "Client Secret"
+msgstr "Bí mật khách hàng"
+
+#: views/settings-tabs/google-calendar-views/html-client-secret-form.php:19
+msgid "To use this integration you should:"
+msgstr "Để sử dụng tích hợp này, bạn nên:"
+
+#: views/settings-tabs/google-calendar-views/html-client-secret-form.php:21
+msgid "create a project in %s<strong>Google Developers Console</strong>%s"
+msgstr "tạo dự án trong %s <strong> Bảng điều khiển dành cho nhà phát triển của Google </ strong> %s"
+
+#: views/settings-tabs/google-calendar-views/html-client-secret-form.php:22
+msgid "enable the <strong>Google Calendar API</strong> in <strong>Your Project > Library</strong>"
+msgstr "bật <strong> API lịch Google </ strong> trong <strong> Dự án của bạn> Thư viện </ strong>"
+
+#: views/settings-tabs/google-calendar-views/html-client-secret-form.php:23
+msgid "create an <strong>OAuth Client ID</strong> for a <strong>Web application</strong> in <strong>Your Project > Credentials > Create Credentials</strong>"
+msgstr "tạo <strong> ID khách hàng OAuth </ strong> cho <strong> ứng dụng web </ strong> trong <strong> Dự án của bạn> Thông tin xác thực> Tạo thông tin xác thực </ strong>"
+
+#: views/settings-tabs/google-calendar-views/html-client-secret-form.php:24
+msgid "add the following URI to the <strong>Allowed Redirect URI</strong> in your ID client OAuth 2.0"
+msgstr "thêm URI sau vào <strong> URI chuyển hướng được phép </ strong> trong ứng dụng khách ID OAuth 2.0 của bạn"
+
+#: views/settings-tabs/google-calendar-views/html-client-secret-form.php:34
+msgid "Save"
+msgstr "Tiết kiệm"
+
+#: views/settings-tabs/google-calendar-views/html-delete-secret-form.php:9
+msgid "Delete Client Secret"
+msgstr "Xóa bí mật khách hàng"
+
+#: views/settings-tabs/google-calendar-views/html-logout-form.php:9
+msgid "Logout"
+msgstr "Đăng xuất"
+
+#: views/settings-tabs/google-calendar-views/html-options-form.php:12
+msgid "Select a calendar"
+msgstr "Chọn lịch"
+
+#: views/settings-tabs/google-calendar-views/html-options-form.php:14
+msgid "- Disabled -"
+msgstr "- Tàn tật -"
+
+#: views/settings-tabs/google-calendar-views/html-options-form.php:25
+msgid "Save Options"
+msgstr "Lưu tùy chọn"
+
+#: views/settings-tabs/google-calendar-views/html-timezone-info.php:14
+msgid "Please note: your WordPress Timezone <code>%1$s</code> is different by your Google Calendar Timezone <code>%2$s</code>"
+msgstr "Xin lưu ý: Múi giờ WordPress <code> %1$s </ code> của bạn khác với múi giờ lịch Google của bạn <code> %2$s </ code>"
+
+#: views/settings-tabs/google-calendar-views/html-timezone-info.php:16
+msgid "Timezone <code>%s</code>"
+msgstr "Múi giờ <code> %s </ code>"
+
+#: views/settings-tabs/html-global-availability-rules.php:10
+msgid "Global availability rules"
+msgstr "Quy tắc sẵn có toàn cầu"
+
+#: views/settings-tabs/html-global-availability-rules.php:27
+#: views/settings-tabs/html-global-price-rules.php:27
+msgid "Save rules"
+msgstr "Lưu quy tắc"
+
+#: views/settings-tabs/html-global-price-rules.php:11
+msgid "Global price rules"
+msgstr "Quy tắc giá toàn cầu"
+
+#: views/settings-tabs/html-google-calendar.php:6
+msgid "Google Calendar: %s bookings updated!"
+msgstr "Lịch Google: %s đặt phòng được cập nhật!"
+
+#: views/settings-tabs/html-google-calendar.php:6
+msgid "Google Calendar: no booking to update!"
+msgstr "Lịch Google: không đặt trước để cập nhật!"
+
+#: views/settings-tabs/html-google-calendar.php:28
+msgid "select to enable debug"
+msgstr "chọn để bật gỡ lỗi"
+
+#: views/settings-tabs/html-google-calendar.php:41
+msgid "Synchronize"
+msgstr "Đồng bộ hóa"
+
+#: views/settings-tabs/html-google-calendar.php:46
+msgid "on booking creation"
+msgstr "về việc tạo ra đặt phòng"
+
+#: views/settings-tabs/html-google-calendar.php:47
+msgid "on booking update"
+msgstr "cập nhật đặt phòng"
+
+#: views/settings-tabs/html-google-calendar.php:48
+msgid "on booking status update"
+msgstr "cập nhật trạng thái đặt phòng"
+
+#: views/settings-tabs/html-google-calendar.php:70
+msgid "Add note on sync"
+msgstr "Thêm ghi chú khi đồng bộ hóa"
+
+#: views/settings-tabs/html-google-calendar.php:71
+msgid "select to enable adding note to bookings on Google Calendar sync"
+msgstr "chọn để bật thêm ghi chú vào đặt chỗ trên đồng bộ hóa Lịch Google"
+
+#: views/settings-tabs/html-google-calendar.php:85
+msgid "Save Settings"
+msgstr "Lưu các thiết lập"
+
+#: views/settings-tabs/html-google-calendar.php:94
+msgid "Syncronize not syncronized bookings"
+msgstr "Đồng bộ hóa đặt phòng không được đồng bộ hóa"
+
+#: views/settings-tabs/html-google-calendar.php:95
+msgid "Sync bookings"
+msgstr "Đồng bộ hóa đặt phòng"
+
+#: views/settings-tabs/html-google-calendar.php:99
+msgid "Syncronize all bookings (Force)"
+msgstr "Đồng bộ hóa tất cả các đặt phòng (Lực lượng)"
+
+#: views/settings-tabs/html-google-calendar.php:100
+msgid "Force sync bookings"
+msgstr "Buộc đặt trước đồng bộ hóa"
+
+#: views/settings-tabs/html-logs.php:19 views/settings-tabs/html-logs.php:164
+msgid "Group"
+msgstr "Nhóm"
+
+#: views/settings-tabs/html-logs.php:20 views/settings-tabs/html-logs.php:166
+msgid "Date"
+msgstr "Ngày"
+
+#: views/settings-tabs/html-logs.php:24
+msgid "Asc"
+msgstr "Thăng thiên"
+
+#: views/settings-tabs/html-logs.php:25
+msgid "Desc"
+msgstr "Desc"
+
+#: views/settings-tabs/html-logs.php:54
+msgid "Warning: Booking Logger is not enabled"
+msgstr "Cảnh báo: Logger đặt phòng không được kích hoạt"
+
+#: views/settings-tabs/html-logs.php:59
+msgid "Delete Logs"
+msgstr "Xóa nhật ký"
+
+#: views/settings-tabs/html-logs.php:71 views/settings-tabs/html-logs.php:82
+msgid "Any"
+msgstr "Bất kì"
+
+#: views/settings-tabs/html-logs.php:111
+msgid "Filter"
+msgstr "Bộ lọc"
+
+#: views/settings-tabs/html-logs.php:118
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "%s mục"
+
+#: views/settings-tabs/html-logs.php:194
+msgid "No result"
+msgstr "Không kết quả"
+
+#: views/settings-tabs/html-single-integration.php:37
+msgid "(needs %1$s plugin – version %2$s or greater)"
+msgstr "(cần plugin %1$s - phiên bản %2$s trở lên)"
+
+#: views/settings-tabs/html-single-integration.php:44
+msgid "Get Plugin"
+msgstr "Nhận Plugin"
+
+#: views/settings-tabs/html-single-integration.php:53
+msgid "Deactivate"
+msgstr "Vô hiệu hóa"
+
+#: views/settings-tabs/html-single-integration.php:59
+msgid "Not Active"
+msgstr "Không hoạt động"
+
+#: views/taxonomies/service/wpml/html-add-service.php:17
+#: views/taxonomies/service/wpml/html-edit-service.php:25
+msgid "Name (%s)"
+msgstr "Tên ( %s )"
+
+#: views/taxonomies/service/wpml/html-add-service.php:26
+#: views/taxonomies/service/wpml/html-edit-service.php:10
+msgid "WPML translations"
+msgstr "Bản dịch WPML"
+
+#. Description of the plugin/theme
+msgid "<code><strong>YITH Booking and Appointment for WooCommerce</strong></code> allows you to create and manage Booking Products. You can create monthly/daily/hourly/per-minute booking products with Services and People by setting costs and availability. You can also synchronize your booking products with external services such as Booking.com or Airbnb. Moreover, it includes Google Calendar integration, Google Maps, Search Forms, YITH Booking theme, and many other features! <a href=\"https://yithemes.com/\" target=\"_blank\">Get more plugins for your e-commerce shop on <strong>YITH</strong></a>"
+msgstr "<code> <strong> Đặt phòng và bổ nhiệm YITH cho WooC Commerce </ strong> </ code> cho phép bạn tạo và quản lý Đặt mua sản phẩm. Bạn có thể tạo các sản phẩm đặt phòng hàng tháng / hàng ngày / hàng giờ / mỗi phút với Dịch vụ và Con người bằng cách đặt chi phí và tính sẵn có. Bạn cũng có thể đồng bộ hóa các sản phẩm đặt phòng của mình với các dịch vụ bên ngoài như Booking.com hoặc Airbnb. Hơn nữa, nó bao gồm tích hợp Lịch Google, Google Maps, Biểu mẫu tìm kiếm, chủ đề Đặt phòng YITH và nhiều tính năng khác! <a href=\"https://yitheme.com/\" target=\"etric\"> Nhận thêm plugin cho cửa hàng thương mại điện tử của bạn trên <strong> YITH </ strong> </a>"
+
+#: includes/booking/abstract.yith-wcbk-booking.php:49
+msgctxt "Booking name"
+msgid "Booking #%s"
+msgstr "Đặt phòng # %s"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:287
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:295
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:319
+#: views/calendar/html-booking-calendar-single-booking-data.php:86
+#: views/calendar/html-booking-calendar-single-booking-data.php:95
+#: views/calendar/html-booking-calendar-single-booking-data.php:120
+msgctxt "full name"
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:301
+msgctxt "Order number by X"
+msgid "%s by %s"
+msgstr "%s theo %s"
+
+#: includes/booking/admin/class.yith-wcbk-booking-post-type-admin.php:307
+msgctxt "Deleted Order:#123 (deleted)"
+msgid "#%s (deleted)"
+msgstr "# %s (đã xóa)"
+
+#: includes/class.yith-wcbk-admin.php:160
+msgctxt "Settings tab name"
+msgid "Settings"
+msgstr "Cài đặt"
+
+#: includes/class.yith-wcbk-admin.php:161
+msgctxt "Settings tab name"
+msgid "Availability rules"
+msgstr "Quy tắc sẵn có"
+
+#: includes/class.yith-wcbk-admin.php:162
+msgctxt "Settings tab name"
+msgid "Price rules"
+msgstr "Quy tắc giá"
+
+#: includes/class.yith-wcbk-admin.php:163
+msgctxt "Settings tab name"
+msgid "Labels"
+msgstr "Nhãn"
+
+#: includes/class.yith-wcbk-admin.php:164
+msgctxt "Settings tab name"
+msgid "Integrations"
+msgstr "Tích hợp"
+
+#: includes/class.yith-wcbk-admin.php:165
+msgctxt "Settings tab name"
+msgid "Google Calendar"
+msgstr "lịch Google"
+
+#: includes/class.yith-wcbk-admin.php:166
+msgctxt "Settings tab name"
+msgid "Tools"
+msgstr "Công cụ"
+
+#: includes/class.yith-wcbk-admin.php:167
+msgctxt "Settings tab name"
+msgid "Logs"
+msgstr "Nhật ký"
+
+#: includes/class.yith-wcbk-ajax.php:468 includes/class.yith-wcbk-ajax.php:567
+#: includes/class.yith-wcbk-ajax.php:616
+msgctxt "Error"
+msgid "Required POST variable not set"
+msgstr "Biến POST bắt buộc không được đặt"
+
+#: includes/class.yith-wcbk-ajax.php:546 includes/class.yith-wcbk-ajax.php:603
+#: includes/class.yith-wcbk-ajax.php:644
+msgctxt "Error"
+msgid "Product not found"
+msgstr "Sản phẩm không có"
+
+#: includes/class.yith-wcbk-language.php:37
+msgctxt "Text of add-to-cart-button for booking products"
+msgid "Add to cart"
+msgstr "ĐẶT PHÒNG NGAY"
+
+#: includes/class.yith-wcbk-language.php:50
+msgctxt "Add-to-cart button text for booking products"
+msgid "Read more"
+msgstr "Đọc thêm"
+
+#: includes/class.yith-wcbk-language.php:51
+msgctxt "Add-to-cart button text for booking products"
+msgid "Request Confirmation"
+msgstr "Yêu cầu xác nhận"
+
+#: includes/class.yith-wcbk-post-types.php:90
+msgctxt "Admin menu name"
+msgid "Bookings"
+msgstr "Đặt phòng"
+
+#: includes/class.yith-wcbk-post-types.php:121
+msgctxt "Admin menu name"
+msgid "People"
+msgstr "Những người"
+
+#: includes/class.yith-wcbk-post-types.php:155
+msgctxt "Admin menu name"
+msgid "Search Forms"
+msgstr "Biểu mẫu tìm kiếm"
+
+#: includes/class.yith-wcbk-post-types.php:189
+msgctxt "Admin menu name"
+msgid "Extra Costs"
+msgstr "Chi phí phụ trội"
+
+#: includes/class.yith-wcbk-post-types.php:255
+msgctxt "Admin menu name"
+msgid "Booking Services"
+msgstr "Dịch vụ đặt phòng"
+
+#: includes/class.yith-wcbk-product-post-type-admin.php:190
+msgctxt "Admin: type of product"
+msgid "Booking Product"
+msgstr "Đặt sản phẩm"
+
+#: includes/class.yith-wcbk-service-tax-admin.php:155
+msgctxt "Edit action for services"
+msgid "Edit"
+msgstr "Chỉnh sửa"
+
+#: includes/class.yith-wcbk-service-tax-admin.php:300
+#: includes/class.yith-wcbk-service-tax-admin.php:418
+msgctxt "Price for person type: ex. Price for Children"
+msgid "Price for %s"
+msgstr "Giá cho %s"
+
+#: includes/class.yith-wcbk-service-tax-admin.php:304
+#: includes/class.yith-wcbk-service-tax-admin.php:422
+msgctxt "e.g. Select this service price for Children/Adults"
+msgid "Select this service price for %s. Leave empty to use default price"
+msgstr "Chọn giá dịch vụ này cho %s . Để trống để sử dụng giá mặc định"
+
+#: includes/functions.yith-wcbk-booking.php:15
+msgctxt "Booking Status"
+msgid "Unpaid"
+msgstr "Chưa thanh toán"
+
+#: includes/functions.yith-wcbk-booking.php:16
+msgctxt "Booking Status"
+msgid "Paid"
+msgstr "Đã thanh toán"
+
+#: includes/functions.yith-wcbk-booking.php:17
+msgctxt "Booking Status"
+msgid "Completed"
+msgstr "Đã hoàn thành"
+
+#: includes/functions.yith-wcbk-booking.php:18
+msgctxt "Booking Status"
+msgid "Cancelled"
+msgstr "Đã hủy"
+
+#: includes/functions.yith-wcbk-booking.php:19
+msgctxt "Booking Status"
+msgid "Pending Confirmation"
+msgstr "Chờ xác nhận"
+
+#: includes/functions.yith-wcbk-booking.php:20
+msgctxt "Booking Status"
+msgid "Confirmed"
+msgstr "Khẳng định"
+
+#: includes/functions.yith-wcbk-booking.php:21
+msgctxt "Booking Status"
+msgid "Rejected"
+msgstr "Từ chối"
+
+#: includes/functions.yith-wcbk-booking.php:26
+msgctxt "Booking Status"
+msgid "Cancelled by customer"
+msgstr "Hủy bởi khách hàng"
+
+#: includes/functions.yith-wcbk-dates.php:59
+msgctxt "Short day name"
+msgid "Mon"
+msgstr "Môn"
+
+#: includes/functions.yith-wcbk-dates.php:60
+msgctxt "Short day name"
+msgid "Tue"
+msgstr "Thứ ba"
+
+#: includes/functions.yith-wcbk-dates.php:61
+msgctxt "Short day name"
+msgid "Wed"
+msgstr "Thứ Tư"
+
+#: includes/functions.yith-wcbk-dates.php:62
+msgctxt "Short day name"
+msgid "Thu"
+msgstr "Thu"
+
+#: includes/functions.yith-wcbk-dates.php:63
+msgctxt "Short day name"
+msgid "Fri"
+msgstr "Thứ sáu"
+
+#: includes/functions.yith-wcbk-dates.php:64
+msgctxt "Short day name"
+msgid "Sat"
+msgstr "Ngồi"
+
+#: includes/functions.yith-wcbk-dates.php:65
+msgctxt "Short day name"
+msgid "Sun"
+msgstr "mặt trời"
+
+#: includes/integrations/class.yith-wcbk-multi-vendor-integration.php:503
+msgctxt "Filter by Vendor name"
+msgid "Filter by %s"
+msgstr "Lọc theo %s"
+
+#: includes/widgets/class.yith-wcbk-product-form-widget.php:27
+msgctxt "Widget Name"
+msgid "Booking Product Form"
+msgstr "Đặt mẫu sản phẩm"
+
+#: includes/widgets/class.yith-wcbk-search-form-widget.php:30
+msgctxt "Widget Name"
+msgid "Booking Search Form"
+msgstr "Đặt mẫu tìm kiếm"
+
+#: includes/widgets/class.yith-wcbk-search-form-widget.php:37
+msgctxt "Default title for booking search form widget"
+msgid "Booking Search Form"
+msgstr "Đặt mẫu tìm kiếm"
+
+#: templates/booking/booking-details.php:40
+#: templates/booking/pdf/booking-details.php:30
+#: templates/emails/email-booking-details.php:53
+#: templates/emails/plain/email-booking-details.php:19
+#: templates/myaccount/bookings-table.php:59
+msgctxt "hash before order number"
+msgid "#"
+msgstr "#"
+
+#: views/calendar/html-booking-calendar-single-booking-data.php:101
+msgctxt "Order number by Username"
+msgid "%s by %s"
+msgstr "%s đặt bởi %s"
+
+#: views/calendar/html-booking-calendar-single-booking-data.php:107
+msgctxt "#123 (deleted)"
+msgid "#%s (deleted)"
+msgstr "# %s (đã xóa)"
+
+#: views/metaboxes/html-booking-meta-data.php:21
+msgctxt "Booking #123 details"
+msgid "%s details"
+msgstr "%s chi tiết"
+
+#: views/privacy/html-policy-content-collect_and_store.php:1
+msgctxt "Privacy Policy Content"
+msgid "While you visit our site, we’ll track information concerning users’ bookings: date, number of people, services added and all other information about the booking."
+msgstr "Khi bạn truy cập trang web của chúng tôi, chúng tôi sẽ theo dõi thông tin liên quan đến đặt phòng của người dùng: ngày, số người, dịch vụ được thêm và tất cả thông tin khác về đặt phòng."
+
+#: views/privacy/html-policy-content-has_access.php:1
+msgctxt "Privacy Policy Content"
+msgid "Members of our team have access to the information you provide us. For example, both Administrators and Shop Managers can access to information about customer bookings."
+msgstr "Thành viên của nhóm chúng tôi có quyền truy cập vào thông tin bạn cung cấp cho chúng tôi. Ví dụ: cả Quản trị viên và Quản lý cửa hàng đều có thể truy cập thông tin về đặt chỗ của khách hàng."
+
+#: views/privacy/html-policy-content-share.php:2
+msgctxt "Privacy Policy Content"
+msgid "If you sync the whole calendar with a shared or public calendar on Google"
+msgstr "Nếu bạn đồng bộ hóa toàn bộ lịch với lịch được chia sẻ hoặc công khai trên Google"
+
+#: views/privacy/html-policy-content-share.php:4
+msgctxt "Privacy Policy Content"
+msgid "We share the calendar with booking information through Google Calendar"
+msgstr "Chúng tôi chia sẻ lịch với thông tin đặt phòng qua Lịch Google"
+
+#: views/privacy/html-policy-content-share.php:7
+msgctxt "Privacy Policy Content"
+msgid "If you sync the availability calendar of some of your booking products with external services like booking.com or Airbnb"
+msgstr "Nếu bạn đồng bộ hóa lịch khả dụng của một số sản phẩm đặt phòng của bạn với các dịch vụ bên ngoài như booking.com hoặc Airbnb"
+
+#: views/privacy/html-policy-content-share.php:10
+msgctxt "Privacy Policy Content"
+msgid "We share the availability calendars with external services, such as booking.com or Airbnb, as we sell our bookable products through these portals, to sync the availability information and prevent overbooking."
+msgstr "Chúng tôi chia sẻ lịch khả dụng với các dịch vụ bên ngoài, chẳng hạn như booking.com hoặc Airbnb, khi chúng tôi bán các sản phẩm có thể đặt trước thông qua các cổng này, để đồng bộ hóa thông tin về tính khả dụng và ngăn chặn đặt trước."
+
+#: views/settings-tabs/html-google-calendar.php:12
+msgctxt "Settings tab title"
+msgid "Google Calendar"
+msgstr "lịch Google"
+
+#: views/settings-tabs/html-integrations.php:6
+msgctxt "Settings tab title"
+msgid "Integrations"
+msgstr "Tích hợp"
+
+#: views/settings-tabs/html-logs.php:58
+msgctxt "Settings tab title"
+msgid "Logs"
+msgstr "Nhật ký"
+
+#: views/settings-tabs/html-single-integration.php:20
+msgctxt "text of integration badge"
+msgid "New"
+msgstr "Mới"

@@ -1,0 +1,346 @@
+/**
+ * Admin Fields
+ *
+ * @author Leanza Francesco
+ * @version 1.0.0
+ *
+ */
+
+/** Copy to clipboard **/
+.yith-wcbk-copy-to-clipboard {
+    cursor     : pointer !important;
+    transition : all 0.6s ease;
+}
+
+.yith-wcbk-copy-to-clipboard:active {
+    transition-duration : 0s;
+    color               : #009ad2;
+    transform           : scale(1.5);
+}
+
+/** Google Maps places autocomplete **/
+.yith-wcbk-google-maps-places-autocomplete {
+    background : #fff !important;
+}
+
+/** Move **/
+.yith-wcbk-move {
+    display : none;
+}
+
+/** Show conditional **/
+.yith-wcbk-show-conditional {
+    display : none;
+}
+
+/** Save button **/
+.yith-wcbk-admin-button {
+    display               : inline-block;
+    padding               : 11px 22px;
+    background            : #0077a8;
+    border-radius         : 4px;
+    border                : none;
+    text-transform        : uppercase;
+    font-size             : 12px;
+    cursor                : pointer;
+    font-weight           : 600;
+    text-decoration       : none;
+    color                 : #fff !important;
+    margin                : 0 15px 0 0;
+    box-shadow            : none;
+    line-height           : 100%;
+    white-space           : nowrap;
+    -webkit-touch-callout : none;
+    -webkit-user-select   : none;
+    -khtml-user-select    : none;
+    -moz-user-select      : none;
+    -ms-user-select       : none;
+    user-select           : none;
+    transition            : all .2s ease-in-out;
+}
+
+.yith-wcbk-admin-button:hover, .yith-wcbk-admin-button:active, .yith-wcbk-admin-button:focus {
+    background : #41add4;
+    outline    : none;
+    box-shadow : none;
+}
+
+.yith-wcbk-admin-button.yith-wcbk-copy-to-clipboard:active {
+    box-shadow : 0 0 0 0.2rem rgba(221, 225, 228, .5);
+    transform  : scale(1.1);
+}
+
+.yith-wcbk-admin-button.yith-wcbk-admin-button--small {
+    padding : 8px 14px;
+}
+
+.yith-wcbk-admin-button.yith-wcbk-admin-button--secondary {
+    background : #fff;
+    color      : #353a40 !important;
+    box-shadow : 0 0 0 1px rgba(0, 0, 0, .13) inset;
+}
+
+.yith-wcbk-admin-button.yith-wcbk-admin-button--secondary:hover {
+    color      : #983b87 !important;
+    box-shadow : 0 0 0 1px rgba(0, 0, 0, .13) inset, 0 7px 7px -7px rgba(0, 0, 0, 0.2);
+}
+
+.yith-wcbk-admin-button.yith-wcbk-admin-button--plus {
+    position     : relative;
+    padding-left : 33px;
+}
+
+.yith-wcbk-admin-button.yith-wcbk-admin-button--plus::before {
+    content     : "\f132";
+    font-family : Dashicons;
+    font-size   : 14px;
+    width       : 14px;
+    height      : 14px;
+    position    : absolute;
+    top         : 50%;
+    left        : 11px;
+    transform   : translateY(-50%);
+    line-height : 18px;
+}
+
+.yith-wcbk-right .yith-wcbk-admin-button {
+    margin : 0 0 0 15px;
+}
+
+/** Outline button **/
+.yith-wcbk-admin-outline-button,
+.yith-wcbk-admin-outline-button:active {
+    display               : inline-block;
+    text-decoration       : none;
+    font-size             : 13px;
+    line-height           : 26px;
+    margin                : 0 15px 0 0;
+    padding               : 3px 15px;
+    cursor                : pointer;
+    border                : 1px solid #343a40;
+    color                 : #343a40;
+    text-transform        : uppercase;
+    font-weight           : 600;
+    -webkit-appearance    : none;
+    white-space           : nowrap;
+    box-sizing            : border-box;
+    transition            : color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    transform             : none;
+    -webkit-touch-callout : none;
+    -webkit-user-select   : none;
+    -khtml-user-select    : none;
+    -moz-user-select      : none;
+    -ms-user-select       : none;
+    user-select           : none;
+}
+
+.yith-wcbk-admin-outline-button:focus {
+    box-shadow   : none;
+    outline      : none;
+    border-color : #343a40;
+    color        : #343a40;
+}
+
+.yith-wcbk-admin-outline-button:hover,
+.yith-wcbk-admin-outline-button:active {
+    background : #333;
+    color      : #fff;
+}
+
+.yith-wcbk-admin-outline-button.yith-wcbk-copy-to-clipboard:active {
+    box-shadow : 0 0 0 0.2rem rgba(52, 58, 64, .5);
+}
+
+.yith-wcbk-admin-outline-button.yith-wcbk-admin-outline-button--plus {
+    position     : relative;
+    padding-left : 27px;
+}
+
+.yith-wcbk-admin-outline-button.yith-wcbk-admin-outline-button--plus::before {
+    content     : "\f132";
+    font-family : Dashicons;
+    font-size   : 14px;
+    width       : 14px;
+    height      : 14px;
+    position    : absolute;
+    top         : 50%;
+    left        : 7px;
+    transform   : translateY(-50%);
+    line-height : 18px;
+}
+
+.yith-wcbk-right .yith-wcbk-admin-outline-button {
+    margin : 0 0 0 15px;
+}
+
+/** Onoff Advanced **/
+.yith-wcbk-on-off-advanced {
+    display             : inline-block;
+    border-radius       : 50px;
+    min-width           : 85px;
+    background          : #f1f1f1;
+    color               : #6f6f6f;
+    padding             : 2px 17px;
+    cursor              : pointer;
+    font-weight         : 600;
+    text-align          : center;
+    user-select         : none;
+    -moz-user-select    : none;
+    -khtml-user-select  : none;
+    -webkit-user-select : none;
+    -o-user-select      : none;
+    box-sizing          : content-box;
+}
+
+/* ----- Select inline ----- */
+.yith-wcbk-printer-field__select-inline {
+    display               : inline-block;
+    border-radius         : 50px;
+    overflow              : hidden;
+    -webkit-touch-callout : none;
+    -webkit-user-select   : none;
+    -khtml-user-select    : none;
+    -moz-user-select      : none;
+    -ms-user-select       : none;
+    user-select           : none;
+}
+
+.yith-wcbk-printer-field__select-inline:after {
+    content : "";
+    display : table;
+    clear   : both;
+}
+
+.yith-wcbk-printer-field__select-inline select {
+    display : none !important;
+}
+
+.yith-wcbk-printer-field__select-inline__option {
+    float        : left;
+    color        : #6f6f6f;
+    padding      : 2px 17px;
+    cursor       : pointer;
+    font-weight  : 600;
+    background   : #f1f1f1;
+    border-right : 1px solid #ddd;
+}
+
+.yith-wcbk-printer-field__select-inline__option:last-child {
+    border : none;
+}
+
+.yith-wcbk-printer-field__select-inline__option--selected {
+    background : #a36597;
+    color      : #fff;
+    border     : none;
+}
+
+/** Onoff **/
+.yith-wcbk-printer-field__on-off {
+    display             : inline-block;
+    cursor              : pointer;
+    text-indent         : -9999px;
+    width               : 29px;
+    height              : 16px;
+    background          : #a4a4a4;
+    border-radius       : 24px;
+    position            : relative;
+    transition          : all 0.3s;
+    -moz-user-select    : none;
+    -khtml-user-select  : none;
+    -webkit-user-select : none;
+    -o-user-select      : none;
+}
+
+.yith-wcbk-printer-field__on-off:before {
+    content       : '';
+    background    : #fff;
+    width         : 17px;
+    height        : 17px;
+    border-radius : 50%;
+    position      : absolute;
+    top           : 50%;
+    left          : 0;
+    transition    : all 0.3s;
+    transform     : translateY(-50%);
+    box-shadow    : 0px 1px 1px 0px rgba(0, 0, 0, 0.3), 0px 0px 5px 0px rgba(0, 0, 0, 0.15);
+    box-sizing    : border-box;
+}
+
+.yith-wcbk-printer-field__on-off--enabled {
+    background : #a36597;
+}
+
+.yith-wcbk-printer-field__on-off--enabled:before {
+    left      : calc(100%);
+    transform : translateY(-50%) translateX(-100%);
+}
+
+/* ----- Desc-box ----- */
+.yith-wcbk-printer-field__desc-box {
+    display     : block;
+    padding     : 0;
+    font-size   : 12px;
+    font-style  : italic;
+    clear       : both;
+    line-height : 1.4em;
+    margin-top  : 5px;
+}
+
+/* ----- Percentage ----- */
+.yith-wcbk-printer-percentage__container {
+    position : relative;
+    display  : inline-block;
+}
+
+.yith-wcbk-printer-percentage__icon {
+    top          : 0;
+    left         : 0;
+    position     : absolute;
+    color        : #999;
+    padding      : 0 10px;
+    height       : 100%;
+    display      : block;
+    border-right : 1px solid #ddd;
+}
+
+.yith-wcbk-printer-percentage__container input {
+    padding-left : 38px;
+    text-align   : left;
+}
+
+/* ----- Admin date picker ----- */
+.yith-wcbk-printer-field__admin-datepicker {
+    display  : inline-block;
+    border   : 1px solid #ddd;
+    position : relative;
+}
+
+.yith-wcbk-printer-field__admin-datepicker input {
+    background-color : #fff;
+    border           : none;
+    padding-right    : 30px;
+    width            : 150px !important;
+    margin           : 0 !important;
+}
+
+.yith-wcbk-printer-field__admin-datepicker__icon {
+    position       : absolute;
+    top            : 0;
+    right          : 0;
+    background     : #fff;
+    color          : #555;
+    border-left    : 1px solid #ddd;
+    height         : 100%;
+    padding        : 0 7px;
+    pointer-events : none;
+}
+
+.yith-wcbk-printer-field__admin-datepicker__icon span {
+    position  : relative;
+    font-size : 17px;
+    width     : 17px;
+    height    : 17px;
+    top       : 50%;
+    transform : translateY(-50%);
+}

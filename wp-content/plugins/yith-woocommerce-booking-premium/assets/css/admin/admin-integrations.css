@@ -1,0 +1,255 @@
+/**
+ * Admin Integrations style
+ *
+ * @author Leanza Francesco
+ * @version 1.0.1
+ */
+
+.wrap h2 + h2 {
+    font-weight : 400;
+    font-size   : 20px;
+}
+
+#yith-wcbk-integrations-tab-wrapper * {
+    box-sizing : border-box;
+}
+
+#yith-wcbk-integrations-tab-wrapper {
+    display               : grid;
+    grid-template-columns : 1fr;
+    justify-content       : space-between;
+}
+
+.yith-wcbk-integration {
+    position   : relative;
+    background : #fff;
+    box-shadow : 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+    min-height : 250px;
+    margin     : 0 20px 20px 0;
+}
+
+.yith-wcbk-integration h5 {
+    margin      : 0;
+    padding     : 16px;
+    background  : rgba(0, 0, 0, 0.03);
+    font-size   : 1.1em;
+    line-height : normal;
+    font-weight : 600;
+    text-align  : center;
+}
+
+.yith-wcbk-integration-content {
+    padding : 10px 15px;
+}
+
+.yith-wcbk-integration-description {
+    text-align : justify;
+}
+
+.yith-wcbk-integration-needs-plugin {
+    font-style : italic;
+    color      : #7d7d7d;
+    margin-top : 10px;
+    font-size  : 11px;
+}
+
+.yith-wcbk-integration-get-plugin, .yith-wcbk-integration-get-plugin:focus {
+    position        : absolute;
+    bottom          : 0;
+    left            : 0;
+    text-align      : center;
+    font-size       : 15px;
+    width           : 100%;
+    height          : 44px;
+    color           : #fff;
+    text-transform  : uppercase;
+    background      : #0073aa;
+    text-decoration : none;
+    font-weight     : 600;
+    line-height     : 44px;
+    cursor          : pointer;
+    box-shadow      : none;
+}
+
+.yith-wcbk-integration-get-plugin:hover, .yith-wcbk-integration-get-plugin:active {
+    color      : #fff;
+    background : #039de8;
+    box-shadow : none;
+}
+
+.yith-wcbk-integration-status {
+    position        : absolute;
+    bottom          : 0;
+    left            : 0;
+    text-align      : center;
+    font-size       : 15px;
+    width           : 100%;
+    height          : 44px;
+    color           : #fff;
+    background      : #4a4a4a;
+    text-transform  : uppercase;
+    text-decoration : none;
+    font-weight     : 600;
+    line-height     : 44px;
+}
+
+.yith-wcbk-integration-status.active {
+    background : #00aa0e;
+}
+
+.yith-wcbk-integration-status.not-active {
+    background : #4a4a4a;
+}
+
+a.yith-wcbk-integration-action, a.yith-wcbk-integration-action:hover {
+    display         : none;
+    position        : absolute;
+    top             : 0;
+    right           : 0;
+    padding         : 0 10px;
+    width           : 100%;
+    cursor          : pointer;
+    color           : #fff;
+    text-decoration : none;
+    overflow        : hidden;
+}
+
+a.yith-wcbk-integration-action.activate {
+    background : #00aa0e;
+}
+
+a.yith-wcbk-integration-action.deactivate {
+    background : #4a4a4a;
+}
+
+.yith-wcbk-integration-status:hover .yith-wcbk-integration-action, .yith-wcbk-integration-action:focus, .yith-wcbk-integration-action:active {
+    box-shadow : none;
+    display    : inline-block;
+}
+
+.yith-wcbk-integration-action:focus:before, .yith-wcbk-integration-action:active:before {
+    font-family            : Dashicons;
+    text-indent            : 0;
+    position               : absolute;
+    speak                  : none;
+    font-variant           : normal;
+    text-transform         : none;
+    -webkit-font-smoothing : antialiased;
+    top                    : -70px;
+    left                   : -73px;
+    margin                 : 0;
+    font-weight            : 800;
+    font-size              : 120px;
+    width                  : 120px;
+    height                 : 120px;
+    line-height            : 120px;
+    content                : "\f111";
+    color                  : rgba(255, 255, 255, 0.4);
+    text-align             : center;
+    -webkit-animation      : yith-wcbk-spin 3.5s linear infinite;
+    -moz-animation         : yith-wcbk-spin 3.5s linear infinite;
+    animation              : yith-wcbk-spin 3.5s linear infinite;
+}
+
+@-moz-keyframes yith-wcbk-spin {
+    100% {
+        -moz-transform : rotate(360deg);
+    }
+}
+
+@-webkit-keyframes yith-wcbk-spin {
+    100% {
+        -webkit-transform : rotate(360deg);
+    }
+}
+
+@keyframes yith-wcbk-spin {
+    100% {
+        -webkit-transform : rotate(360deg);
+        transform         : rotate(360deg);
+    }
+}
+
+.yith-wcbk-integration-badge {
+    display        : block;
+    padding        : 7px 13px;
+    background     : #676f76;
+    color          : #fff;
+    font-size      : 11px;
+    text-transform : uppercase;
+    border-radius  : 3px;
+    position       : absolute;
+    top            : -10px;
+    right          : 10px;
+}
+
+.yith-wcbk-integration-badge.new {
+    color            : #fff;
+    font-family      : "Open Sans", sans-serif;
+    box-sizing       : border-box;
+    position         : absolute;
+    background-color : transparent;
+    width            : 65px;
+    height           : 65px;
+    overflow         : hidden;
+    top              : 0;
+    right            : 0;
+}
+
+.yith-wcbk-integration-badge.new .yith-wcbk-integration-badge-text {
+    background        : #ff7a00;
+    font-size         : 11px;
+    font-weight       : bold;
+    line-height       : 23px;
+    position          : absolute;
+    text-align        : center;
+    z-index           : 100;
+    -webkit-transform : rotate(45deg);
+    -ms-transform     : rotate(45deg);
+    transform         : rotate(45deg);
+    top               : 11px;
+    left              : -7px;
+    width             : 100px;
+}
+
+@media only screen and (min-width : 580px) {
+    #yith-wcbk-integrations-tab-wrapper {
+        grid-template-columns : repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width : 850px) {
+    #yith-wcbk-integrations-tab-wrapper {
+        grid-template-columns : repeat(3, 1fr);
+    }
+}
+
+@media only screen and (min-width : 1400px) {
+    #yith-wcbk-integrations-tab-wrapper {
+        grid-template-columns : repeat(4, 1fr);
+    }
+}
+
+@media only screen and (min-width : 1700px) {
+    #yith-wcbk-integrations-tab-wrapper {
+        grid-template-columns : repeat(5, 1fr);
+    }
+}
+
+@media only screen and (min-width : 2000px) {
+    #yith-wcbk-integrations-tab-wrapper {
+        grid-template-columns : repeat(6, 1fr);
+    }
+}
+
+@media only screen and (min-width : 2300px) {
+    #yith-wcbk-integrations-tab-wrapper {
+        grid-template-columns : repeat(7, 1fr);
+    }
+}
+
+@media only screen and (min-width : 2600px) {
+    #yith-wcbk-integrations-tab-wrapper {
+        grid-template-columns : repeat(8, 1fr);
+    }
+}

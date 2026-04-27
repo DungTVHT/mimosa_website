@@ -1,0 +1,556 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 04:19:23
+* VERSION: 3.8.2
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PHP:		7.4.33 | SAPI: litespeed
+PHP MEMORY:	4294967296 | SUHOSIN: disabled
+SERVER:		LiteSpeed
+DOC ROOT:	/home/maugiaod/public_html/dulich17.maugiaodien.com
+DOC ROOT 755:	true
+LOG FILE 644:	true
+REQUEST URL:	http://dulich17.maugiaodien.com/dup-installer/main.installer.php
+SAFE MODE :	0
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME:	20200707_trangwebmoigiaodienwebsite_aeead2389e1b90421432_20200707090331_archive.zip
+SIZE:	89.5MB
+
+>>> Starting ZipArchive Chunking Unzip
+archive offset 0
+Archive just got done processing last file in list of 12350
+Expected total archive extract time: 1.1136042745461
+Total extraction elapsed time until now: 1.1136042745461
+Resetting permissions
+
+WEB SERVER CONFIGURATION FILE STATUS:
+- .htaccess was reset and a backup made to .htaccess-230228161923.orig.
+- .user.ini file was not reset or backed up.
+- web.config was reset and a backup made to web.config-230228161923.orig.
+
+STEP-1 COMPLETE @ 04:19:25 - RUNTIME: 2.5946 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR PRO INSTALL-LOG
+* STEP-2 START @ 04:19:53
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.5.18 -- Build Server: 10.0.32
+FILE SIZE:	dup-database__aeead23-07090331.sql (2.28MB) - installer-data.sql (0B)
+TIMEOUT:	5000
+MAXPACK:	67108864
+SQLMODE-GLOBAL:	NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+NEW SQL FILE:	[/home/maugiaod/public_html/dulich17.maugiaodien.com/dup-installer/dup-installer-data__aeead23-07090331.sql]
+COLLATE FB:	Off
+DB CHUNKING:	disabled
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+*** PHP Warning Message: count(): Parameter must be an array or an object that implements Countable (Code: 2, line 711 in /home/maugiaod/public_html/dulich17.maugiaodien.com/dup-installer/ctrls/ctrl.s2.dbinstall.php)
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+Starting Cleanup Routine...
+Cleanup Routine Complete
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	75
+
+wp_cf7_vdata: (2)
+wp_cf7_vdata_entry: (6)
+wp_commentmeta: (8)
+wp_comments: (12)
+wp_duplicator_pro_entities: (5)
+wp_duplicator_pro_packages: (0)
+wp_links: (0)
+wp_mclean_refs: (511)
+wp_mclean_scan: (1)
+wp_options: (450)
+wp_postmeta: (2269)
+wp_posts: (470)
+wp_social_users: (0)
+wp_term_relationships: (207)
+wp_term_taxonomy: (73)
+wp_termmeta: (25)
+wp_terms: (73)
+wp_usermeta: (82)
+wp_users: (1)
+wp_wc_download_log: (0)
+wp_wc_product_meta_lookup: (29)
+wp_wc_tax_rate_classes: (2)
+wp_wc_webhooks: (0)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (0)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (77)
+wp_woocommerce_order_items: (5)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (1)
+wp_woocommerce_shipping_zone_locations: (0)
+wp_woocommerce_shipping_zone_methods: (0)
+wp_woocommerce_shipping_zones: (0)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+wp_woof_query_cache: (0)
+wp_yith_wcbk_booking_notes: (5)
+wp_yith_wcbk_external_bookings: (0)
+wp_yith_wcbk_logs: (113)
+wp_yoast_seo_links: (79)
+wp_yoast_seo_meta: (271)
+Removed '80' cache/transient rows
+
+INSERT DATA RUNTIME: 0.5682 sec.
+STEP-2 COMPLETE @ 04:19:53 - RUNTIME: 0.5813 sec.
+
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 04:19:58
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	latin1
+CHARSET CLIENT:	utf8
+
+********************************************************************************
+OPTIONS:
+postguid:	0
+fullsearch:	0
+replace_mode:	legacy
+ssl_admin:	
+auth_keys_and_salts:	
+cache_wp:	
+cache_path:	
+empty_schedule_storage:	1
+replace_mode:	legacy
+remove_redundant:	0
+wp_debug:	0
+wp_debug_log:	0
+exe_safe_mode:	0
+cross_search:	
+replace_mail:	
+********************************************************************************
+
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+SUBSITE ID :"-1"
+MU MODE :"0"
+ACTION MU MODE :"-1"
+REPLACE MODE :"legacy"
+Search  1:"/home/dulich6.giaodienwebmau.com/public_html/" ===> "/home/maugiaod/public_html/dulich17.maugiaodien.com/"
+Search  2:"\/home\/dulich6.giaodienwebmau.com\/public_html\/" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com\/"
+Search  3:"%2Fhome%2Fdulich6.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com%2F"
+Search  4:"\home\dulich6.giaodienwebmau.com\public_html" ====> "/home/maugiaod/public_html/dulich17.maugiaodien.com"
+Search  5:"\\home\\dulich6.giaodienwebmau.com\\public_html" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com"
+Search  6:"%5Chome%5Cdulich6.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com"
+Search  7:"//dulich6.giaodienwebmau.com" ====================> "//dulich17.maugiaodien.com"
+Search  8:"\/\/dulich6.giaodienwebmau.com" ==================> "\/\/dulich17.maugiaodien.com"
+Search  9:"%2F%2Fdulich6.giaodienwebmau.com" ================> "%2F%2Fdulich17.maugiaodien.com"
+Search 10:"https://dulich17.maugiaodien.com" ================> "http://dulich17.maugiaodien.com"
+Search 11:"https:\/\/dulich17.maugiaodien.com" ==============> "http:\/\/dulich17.maugiaodien.com"
+Search 12:"https%3A%2F%2Fdulich17.maugiaodien.com" ==========> "http%3A%2F%2Fdulich17.maugiaodien.com"
+-----------------
+wp_cf7_vdata~ (2)
+Search  1:"/home/dulich6.giaodienwebmau.com/public_html/" ===> "/home/maugiaod/public_html/dulich17.maugiaodien.com/"
+Search  2:"\/home\/dulich6.giaodienwebmau.com\/public_html\/" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com\/"
+Search  3:"%2Fhome%2Fdulich6.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com%2F"
+Search  4:"\home\dulich6.giaodienwebmau.com\public_html" ====> "/home/maugiaod/public_html/dulich17.maugiaodien.com"
+Search  5:"\\home\\dulich6.giaodienwebmau.com\\public_html" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com"
+Search  6:"%5Chome%5Cdulich6.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com"
+Search  7:"//dulich6.giaodienwebmau.com" ====================> "//dulich17.maugiaodien.com"
+Search  8:"\/\/dulich6.giaodienwebmau.com" ==================> "\/\/dulich17.maugiaodien.com"
+Search  9:"%2F%2Fdulich6.giaodienwebmau.com" ================> "%2F%2Fdulich17.maugiaodien.com"
+Search 10:"https://dulich17.maugiaodien.com" ================> "http://dulich17.maugiaodien.com"
+Search 11:"https:\/\/dulich17.maugiaodien.com" ==============> "http:\/\/dulich17.maugiaodien.com"
+Search 12:"https%3A%2F%2Fdulich17.maugiaodien.com" ==========> "http%3A%2F%2Fdulich17.maugiaodien.com"
+-----------------
+wp_cf7_vdata_entry~ (6)
+Search  1:"/home/dulich6.giaodienwebmau.com/public_html/" ===> "/home/maugiaod/public_html/dulich17.maugiaodien.com/"
+Search  2:"\/home\/dulich6.giaodienwebmau.com\/public_html\/" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com\/"
+Search  3:"%2Fhome%2Fdulich6.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com%2F"
+Search  4:"\home\dulich6.giaodienwebmau.com\public_html" ====> "/home/maugiaod/public_html/dulich17.maugiaodien.com"
+Search  5:"\\home\\dulich6.giaodienwebmau.com\\public_html" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com"
+Search  6:"%5Chome%5Cdulich6.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com"
+Search  7:"//dulich6.giaodienwebmau.com" ====================> "//dulich17.maugiaodien.com"
+Search  8:"\/\/dulich6.giaodienwebmau.com" ==================> "\/\/dulich17.maugiaodien.com"
+Search  9:"%2F%2Fdulich6.giaodienwebmau.com" ================> "%2F%2Fdulich17.maugiaodien.com"
+Search 10:"https://dulich17.maugiaodien.com" ================> "http://dulich17.maugiaodien.com"
+Search 11:"https:\/\/dulich17.maugiaodien.com" ==============> "http:\/\/dulich17.maugiaodien.com"
+Search 12:"https%3A%2F%2Fdulich17.maugiaodien.com" ==========> "http%3A%2F%2Fdulich17.maugiaodien.com"
+-----------------
+wp_commentmeta~ (8)
+Search  1:"/home/dulich6.giaodienwebmau.com/public_html/" ===> "/home/maugiaod/public_html/dulich17.maugiaodien.com/"
+Search  2:"\/home\/dulich6.giaodienwebmau.com\/public_html\/" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com\/"
+Search  3:"%2Fhome%2Fdulich6.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com%2F"
+Search  4:"\home\dulich6.giaodienwebmau.com\public_html" ====> "/home/maugiaod/public_html/dulich17.maugiaodien.com"
+Search  5:"\\home\\dulich6.giaodienwebmau.com\\public_html" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com"
+Search  6:"%5Chome%5Cdulich6.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com"
+Search  7:"//dulich6.giaodienwebmau.com" ====================> "//dulich17.maugiaodien.com"
+Search  8:"\/\/dulich6.giaodienwebmau.com" ==================> "\/\/dulich17.maugiaodien.com"
+Search  9:"%2F%2Fdulich6.giaodienwebmau.com" ================> "%2F%2Fdulich17.maugiaodien.com"
+Search 10:"https://dulich17.maugiaodien.com" ================> "http://dulich17.maugiaodien.com"
+Search 11:"https:\/\/dulich17.maugiaodien.com" ==============> "http:\/\/dulich17.maugiaodien.com"
+Search 12:"https%3A%2F%2Fdulich17.maugiaodien.com" ==========> "http%3A%2F%2Fdulich17.maugiaodien.com"
+-----------------
+wp_comments~ (12)
+Search  1:"/home/dulich6.giaodienwebmau.com/public_html/" ===> "/home/maugiaod/public_html/dulich17.maugiaodien.com/"
+Search  2:"\/home\/dulich6.giaodienwebmau.com\/public_html\/" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com\/"
+Search  3:"%2Fhome%2Fdulich6.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com%2F"
+Search  4:"\home\dulich6.giaodienwebmau.com\public_html" ====> "/home/maugiaod/public_html/dulich17.maugiaodien.com"
+Search  5:"\\home\\dulich6.giaodienwebmau.com\\public_html" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com"
+Search  6:"%5Chome%5Cdulich6.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com"
+Search  7:"//dulich6.giaodienwebmau.com" ====================> "//dulich17.maugiaodien.com"
+Search  8:"\/\/dulich6.giaodienwebmau.com" ==================> "\/\/dulich17.maugiaodien.com"
+Search  9:"%2F%2Fdulich6.giaodienwebmau.com" ================> "%2F%2Fdulich17.maugiaodien.com"
+Search 10:"https://dulich17.maugiaodien.com" ================> "http://dulich17.maugiaodien.com"
+Search 11:"https:\/\/dulich17.maugiaodien.com" ==============> "http:\/\/dulich17.maugiaodien.com"
+Search 12:"https%3A%2F%2Fdulich17.maugiaodien.com" ==========> "http%3A%2F%2Fdulich17.maugiaodien.com"
+-----------------
+wp_duplicator_pro_entities~ (5)
+wp_duplicator_pro_packages^ (0)
+wp_links^ (0)
+Search  1:"/home/dulich6.giaodienwebmau.com/public_html/" ===> "/home/maugiaod/public_html/dulich17.maugiaodien.com/"
+Search  2:"\/home\/dulich6.giaodienwebmau.com\/public_html\/" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com\/"
+Search  3:"%2Fhome%2Fdulich6.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com%2F"
+Search  4:"\home\dulich6.giaodienwebmau.com\public_html" ====> "/home/maugiaod/public_html/dulich17.maugiaodien.com"
+Search  5:"\\home\\dulich6.giaodienwebmau.com\\public_html" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com"
+Search  6:"%5Chome%5Cdulich6.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com"
+Search  7:"//dulich6.giaodienwebmau.com" ====================> "//dulich17.maugiaodien.com"
+Search  8:"\/\/dulich6.giaodienwebmau.com" ==================> "\/\/dulich17.maugiaodien.com"
+Search  9:"%2F%2Fdulich6.giaodienwebmau.com" ================> "%2F%2Fdulich17.maugiaodien.com"
+Search 10:"https://dulich17.maugiaodien.com" ================> "http://dulich17.maugiaodien.com"
+Search 11:"https:\/\/dulich17.maugiaodien.com" ==============> "http:\/\/dulich17.maugiaodien.com"
+Search 12:"https%3A%2F%2Fdulich17.maugiaodien.com" ==========> "http%3A%2F%2Fdulich17.maugiaodien.com"
+-----------------
+wp_mclean_refs~ (511)
+Search  1:"/home/dulich6.giaodienwebmau.com/public_html/" ===> "/home/maugiaod/public_html/dulich17.maugiaodien.com/"
+Search  2:"\/home\/dulich6.giaodienwebmau.com\/public_html\/" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com\/"
+Search  3:"%2Fhome%2Fdulich6.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com%2F"
+Search  4:"\home\dulich6.giaodienwebmau.com\public_html" ====> "/home/maugiaod/public_html/dulich17.maugiaodien.com"
+Search  5:"\\home\\dulich6.giaodienwebmau.com\\public_html" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com"
+Search  6:"%5Chome%5Cdulich6.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com"
+Search  7:"//dulich6.giaodienwebmau.com" ====================> "//dulich17.maugiaodien.com"
+Search  8:"\/\/dulich6.giaodienwebmau.com" ==================> "\/\/dulich17.maugiaodien.com"
+Search  9:"%2F%2Fdulich6.giaodienwebmau.com" ================> "%2F%2Fdulich17.maugiaodien.com"
+Search 10:"https://dulich17.maugiaodien.com" ================> "http://dulich17.maugiaodien.com"
+Search 11:"https:\/\/dulich17.maugiaodien.com" ==============> "http:\/\/dulich17.maugiaodien.com"
+Search 12:"https%3A%2F%2Fdulich17.maugiaodien.com" ==========> "http%3A%2F%2Fdulich17.maugiaodien.com"
+-----------------
+wp_mclean_scan~ (1)
+Search  1:"/home/dulich6.giaodienwebmau.com/public_html/" ===> "/home/maugiaod/public_html/dulich17.maugiaodien.com/"
+Search  2:"\/home\/dulich6.giaodienwebmau.com\/public_html\/" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com\/"
+Search  3:"%2Fhome%2Fdulich6.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com%2F"
+Search  4:"\home\dulich6.giaodienwebmau.com\public_html" ====> "/home/maugiaod/public_html/dulich17.maugiaodien.com"
+Search  5:"\\home\\dulich6.giaodienwebmau.com\\public_html" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com"
+Search  6:"%5Chome%5Cdulich6.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com"
+Search  7:"//dulich6.giaodienwebmau.com" ====================> "//dulich17.maugiaodien.com"
+Search  8:"\/\/dulich6.giaodienwebmau.com" ==================> "\/\/dulich17.maugiaodien.com"
+Search  9:"%2F%2Fdulich6.giaodienwebmau.com" ================> "%2F%2Fdulich17.maugiaodien.com"
+Search 10:"https://dulich17.maugiaodien.com" ================> "http://dulich17.maugiaodien.com"
+Search 11:"https:\/\/dulich17.maugiaodien.com" ==============> "http:\/\/dulich17.maugiaodien.com"
+Search 12:"https%3A%2F%2Fdulich17.maugiaodien.com" ==========> "http%3A%2F%2Fdulich17.maugiaodien.com"
+-----------------
+wp_options~ (450)
+Search  1:"/home/dulich6.giaodienwebmau.com/public_html/" ===> "/home/maugiaod/public_html/dulich17.maugiaodien.com/"
+Search  2:"\/home\/dulich6.giaodienwebmau.com\/public_html\/" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com\/"
+Search  3:"%2Fhome%2Fdulich6.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com%2F"
+Search  4:"\home\dulich6.giaodienwebmau.com\public_html" ====> "/home/maugiaod/public_html/dulich17.maugiaodien.com"
+Search  5:"\\home\\dulich6.giaodienwebmau.com\\public_html" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com"
+Search  6:"%5Chome%5Cdulich6.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com"
+Search  7:"//dulich6.giaodienwebmau.com" ====================> "//dulich17.maugiaodien.com"
+Search  8:"\/\/dulich6.giaodienwebmau.com" ==================> "\/\/dulich17.maugiaodien.com"
+Search  9:"%2F%2Fdulich6.giaodienwebmau.com" ================> "%2F%2Fdulich17.maugiaodien.com"
+Search 10:"https://dulich17.maugiaodien.com" ================> "http://dulich17.maugiaodien.com"
+Search 11:"https:\/\/dulich17.maugiaodien.com" ==============> "http:\/\/dulich17.maugiaodien.com"
+Search 12:"https%3A%2F%2Fdulich17.maugiaodien.com" ==========> "http%3A%2F%2Fdulich17.maugiaodien.com"
+-----------------
+wp_postmeta~ (2269)
+Search  1:"/home/dulich6.giaodienwebmau.com/public_html/" ===> "/home/maugiaod/public_html/dulich17.maugiaodien.com/"
+Search  2:"\/home\/dulich6.giaodienwebmau.com\/public_html\/" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com\/"
+Search  3:"%2Fhome%2Fdulich6.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com%2F"
+Search  4:"\home\dulich6.giaodienwebmau.com\public_html" ====> "/home/maugiaod/public_html/dulich17.maugiaodien.com"
+Search  5:"\\home\\dulich6.giaodienwebmau.com\\public_html" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com"
+Search  6:"%5Chome%5Cdulich6.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com"
+Search  7:"//dulich6.giaodienwebmau.com" ====================> "//dulich17.maugiaodien.com"
+Search  8:"\/\/dulich6.giaodienwebmau.com" ==================> "\/\/dulich17.maugiaodien.com"
+Search  9:"%2F%2Fdulich6.giaodienwebmau.com" ================> "%2F%2Fdulich17.maugiaodien.com"
+Search 10:"https://dulich17.maugiaodien.com" ================> "http://dulich17.maugiaodien.com"
+Search 11:"https:\/\/dulich17.maugiaodien.com" ==============> "http:\/\/dulich17.maugiaodien.com"
+Search 12:"https%3A%2F%2Fdulich17.maugiaodien.com" ==========> "http%3A%2F%2Fdulich17.maugiaodien.com"
+-----------------
+wp_posts~ (470)
+wp_social_users^ (0)
+Search  1:"/home/dulich6.giaodienwebmau.com/public_html/" ===> "/home/maugiaod/public_html/dulich17.maugiaodien.com/"
+Search  2:"\/home\/dulich6.giaodienwebmau.com\/public_html\/" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com\/"
+Search  3:"%2Fhome%2Fdulich6.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com%2F"
+Search  4:"\home\dulich6.giaodienwebmau.com\public_html" ====> "/home/maugiaod/public_html/dulich17.maugiaodien.com"
+Search  5:"\\home\\dulich6.giaodienwebmau.com\\public_html" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com"
+Search  6:"%5Chome%5Cdulich6.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com"
+Search  7:"//dulich6.giaodienwebmau.com" ====================> "//dulich17.maugiaodien.com"
+Search  8:"\/\/dulich6.giaodienwebmau.com" ==================> "\/\/dulich17.maugiaodien.com"
+Search  9:"%2F%2Fdulich6.giaodienwebmau.com" ================> "%2F%2Fdulich17.maugiaodien.com"
+Search 10:"https://dulich17.maugiaodien.com" ================> "http://dulich17.maugiaodien.com"
+Search 11:"https:\/\/dulich17.maugiaodien.com" ==============> "http:\/\/dulich17.maugiaodien.com"
+Search 12:"https%3A%2F%2Fdulich17.maugiaodien.com" ==========> "http%3A%2F%2Fdulich17.maugiaodien.com"
+-----------------
+wp_term_relationships~ (207)
+Search  1:"/home/dulich6.giaodienwebmau.com/public_html/" ===> "/home/maugiaod/public_html/dulich17.maugiaodien.com/"
+Search  2:"\/home\/dulich6.giaodienwebmau.com\/public_html\/" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com\/"
+Search  3:"%2Fhome%2Fdulich6.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com%2F"
+Search  4:"\home\dulich6.giaodienwebmau.com\public_html" ====> "/home/maugiaod/public_html/dulich17.maugiaodien.com"
+Search  5:"\\home\\dulich6.giaodienwebmau.com\\public_html" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com"
+Search  6:"%5Chome%5Cdulich6.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com"
+Search  7:"//dulich6.giaodienwebmau.com" ====================> "//dulich17.maugiaodien.com"
+Search  8:"\/\/dulich6.giaodienwebmau.com" ==================> "\/\/dulich17.maugiaodien.com"
+Search  9:"%2F%2Fdulich6.giaodienwebmau.com" ================> "%2F%2Fdulich17.maugiaodien.com"
+Search 10:"https://dulich17.maugiaodien.com" ================> "http://dulich17.maugiaodien.com"
+Search 11:"https:\/\/dulich17.maugiaodien.com" ==============> "http:\/\/dulich17.maugiaodien.com"
+Search 12:"https%3A%2F%2Fdulich17.maugiaodien.com" ==========> "http%3A%2F%2Fdulich17.maugiaodien.com"
+-----------------
+wp_term_taxonomy~ (73)
+Search  1:"/home/dulich6.giaodienwebmau.com/public_html/" ===> "/home/maugiaod/public_html/dulich17.maugiaodien.com/"
+Search  2:"\/home\/dulich6.giaodienwebmau.com\/public_html\/" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com\/"
+Search  3:"%2Fhome%2Fdulich6.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com%2F"
+Search  4:"\home\dulich6.giaodienwebmau.com\public_html" ====> "/home/maugiaod/public_html/dulich17.maugiaodien.com"
+Search  5:"\\home\\dulich6.giaodienwebmau.com\\public_html" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com"
+Search  6:"%5Chome%5Cdulich6.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com"
+Search  7:"//dulich6.giaodienwebmau.com" ====================> "//dulich17.maugiaodien.com"
+Search  8:"\/\/dulich6.giaodienwebmau.com" ==================> "\/\/dulich17.maugiaodien.com"
+Search  9:"%2F%2Fdulich6.giaodienwebmau.com" ================> "%2F%2Fdulich17.maugiaodien.com"
+Search 10:"https://dulich17.maugiaodien.com" ================> "http://dulich17.maugiaodien.com"
+Search 11:"https:\/\/dulich17.maugiaodien.com" ==============> "http:\/\/dulich17.maugiaodien.com"
+Search 12:"https%3A%2F%2Fdulich17.maugiaodien.com" ==========> "http%3A%2F%2Fdulich17.maugiaodien.com"
+-----------------
+wp_termmeta~ (25)
+Search  1:"/home/dulich6.giaodienwebmau.com/public_html/" ===> "/home/maugiaod/public_html/dulich17.maugiaodien.com/"
+Search  2:"\/home\/dulich6.giaodienwebmau.com\/public_html\/" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com\/"
+Search  3:"%2Fhome%2Fdulich6.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com%2F"
+Search  4:"\home\dulich6.giaodienwebmau.com\public_html" ====> "/home/maugiaod/public_html/dulich17.maugiaodien.com"
+Search  5:"\\home\\dulich6.giaodienwebmau.com\\public_html" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com"
+Search  6:"%5Chome%5Cdulich6.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com"
+Search  7:"//dulich6.giaodienwebmau.com" ====================> "//dulich17.maugiaodien.com"
+Search  8:"\/\/dulich6.giaodienwebmau.com" ==================> "\/\/dulich17.maugiaodien.com"
+Search  9:"%2F%2Fdulich6.giaodienwebmau.com" ================> "%2F%2Fdulich17.maugiaodien.com"
+Search 10:"https://dulich17.maugiaodien.com" ================> "http://dulich17.maugiaodien.com"
+Search 11:"https:\/\/dulich17.maugiaodien.com" ==============> "http:\/\/dulich17.maugiaodien.com"
+Search 12:"https%3A%2F%2Fdulich17.maugiaodien.com" ==========> "http%3A%2F%2Fdulich17.maugiaodien.com"
+-----------------
+wp_terms~ (73)
+Search  1:"/home/dulich6.giaodienwebmau.com/public_html/" ===> "/home/maugiaod/public_html/dulich17.maugiaodien.com/"
+Search  2:"\/home\/dulich6.giaodienwebmau.com\/public_html\/" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com\/"
+Search  3:"%2Fhome%2Fdulich6.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com%2F"
+Search  4:"\home\dulich6.giaodienwebmau.com\public_html" ====> "/home/maugiaod/public_html/dulich17.maugiaodien.com"
+Search  5:"\\home\\dulich6.giaodienwebmau.com\\public_html" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com"
+Search  6:"%5Chome%5Cdulich6.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com"
+Search  7:"//dulich6.giaodienwebmau.com" ====================> "//dulich17.maugiaodien.com"
+Search  8:"\/\/dulich6.giaodienwebmau.com" ==================> "\/\/dulich17.maugiaodien.com"
+Search  9:"%2F%2Fdulich6.giaodienwebmau.com" ================> "%2F%2Fdulich17.maugiaodien.com"
+Search 10:"https://dulich17.maugiaodien.com" ================> "http://dulich17.maugiaodien.com"
+Search 11:"https:\/\/dulich17.maugiaodien.com" ==============> "http:\/\/dulich17.maugiaodien.com"
+Search 12:"https%3A%2F%2Fdulich17.maugiaodien.com" ==========> "http%3A%2F%2Fdulich17.maugiaodien.com"
+-----------------
+wp_usermeta~ (82)
+Search  1:"/home/dulich6.giaodienwebmau.com/public_html/" ===> "/home/maugiaod/public_html/dulich17.maugiaodien.com/"
+Search  2:"\/home\/dulich6.giaodienwebmau.com\/public_html\/" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com\/"
+Search  3:"%2Fhome%2Fdulich6.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com%2F"
+Search  4:"\home\dulich6.giaodienwebmau.com\public_html" ====> "/home/maugiaod/public_html/dulich17.maugiaodien.com"
+Search  5:"\\home\\dulich6.giaodienwebmau.com\\public_html" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com"
+Search  6:"%5Chome%5Cdulich6.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com"
+Search  7:"//dulich6.giaodienwebmau.com" ====================> "//dulich17.maugiaodien.com"
+Search  8:"\/\/dulich6.giaodienwebmau.com" ==================> "\/\/dulich17.maugiaodien.com"
+Search  9:"%2F%2Fdulich6.giaodienwebmau.com" ================> "%2F%2Fdulich17.maugiaodien.com"
+Search 10:"https://dulich17.maugiaodien.com" ================> "http://dulich17.maugiaodien.com"
+Search 11:"https:\/\/dulich17.maugiaodien.com" ==============> "http:\/\/dulich17.maugiaodien.com"
+Search 12:"https%3A%2F%2Fdulich17.maugiaodien.com" ==========> "http%3A%2F%2Fdulich17.maugiaodien.com"
+-----------------
+wp_users~ (1)
+wp_wc_download_log^ (0)
+Search  1:"/home/dulich6.giaodienwebmau.com/public_html/" ===> "/home/maugiaod/public_html/dulich17.maugiaodien.com/"
+Search  2:"\/home\/dulich6.giaodienwebmau.com\/public_html\/" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com\/"
+Search  3:"%2Fhome%2Fdulich6.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com%2F"
+Search  4:"\home\dulich6.giaodienwebmau.com\public_html" ====> "/home/maugiaod/public_html/dulich17.maugiaodien.com"
+Search  5:"\\home\\dulich6.giaodienwebmau.com\\public_html" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com"
+Search  6:"%5Chome%5Cdulich6.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com"
+Search  7:"//dulich6.giaodienwebmau.com" ====================> "//dulich17.maugiaodien.com"
+Search  8:"\/\/dulich6.giaodienwebmau.com" ==================> "\/\/dulich17.maugiaodien.com"
+Search  9:"%2F%2Fdulich6.giaodienwebmau.com" ================> "%2F%2Fdulich17.maugiaodien.com"
+Search 10:"https://dulich17.maugiaodien.com" ================> "http://dulich17.maugiaodien.com"
+Search 11:"https:\/\/dulich17.maugiaodien.com" ==============> "http:\/\/dulich17.maugiaodien.com"
+Search 12:"https%3A%2F%2Fdulich17.maugiaodien.com" ==========> "http%3A%2F%2Fdulich17.maugiaodien.com"
+-----------------
+wp_wc_product_meta_lookup~ (29)
+Search  1:"/home/dulich6.giaodienwebmau.com/public_html/" ===> "/home/maugiaod/public_html/dulich17.maugiaodien.com/"
+Search  2:"\/home\/dulich6.giaodienwebmau.com\/public_html\/" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com\/"
+Search  3:"%2Fhome%2Fdulich6.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com%2F"
+Search  4:"\home\dulich6.giaodienwebmau.com\public_html" ====> "/home/maugiaod/public_html/dulich17.maugiaodien.com"
+Search  5:"\\home\\dulich6.giaodienwebmau.com\\public_html" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com"
+Search  6:"%5Chome%5Cdulich6.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com"
+Search  7:"//dulich6.giaodienwebmau.com" ====================> "//dulich17.maugiaodien.com"
+Search  8:"\/\/dulich6.giaodienwebmau.com" ==================> "\/\/dulich17.maugiaodien.com"
+Search  9:"%2F%2Fdulich6.giaodienwebmau.com" ================> "%2F%2Fdulich17.maugiaodien.com"
+Search 10:"https://dulich17.maugiaodien.com" ================> "http://dulich17.maugiaodien.com"
+Search 11:"https:\/\/dulich17.maugiaodien.com" ==============> "http:\/\/dulich17.maugiaodien.com"
+Search 12:"https%3A%2F%2Fdulich17.maugiaodien.com" ==========> "http%3A%2F%2Fdulich17.maugiaodien.com"
+-----------------
+wp_wc_tax_rate_classes~ (2)
+wp_wc_webhooks^ (0)
+wp_woocommerce_api_keys^ (0)
+wp_woocommerce_attribute_taxonomies^ (0)
+wp_woocommerce_downloadable_product_permissions^ (0)
+wp_woocommerce_log^ (0)
+Search  1:"/home/dulich6.giaodienwebmau.com/public_html/" ===> "/home/maugiaod/public_html/dulich17.maugiaodien.com/"
+Search  2:"\/home\/dulich6.giaodienwebmau.com\/public_html\/" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com\/"
+Search  3:"%2Fhome%2Fdulich6.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com%2F"
+Search  4:"\home\dulich6.giaodienwebmau.com\public_html" ====> "/home/maugiaod/public_html/dulich17.maugiaodien.com"
+Search  5:"\\home\\dulich6.giaodienwebmau.com\\public_html" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com"
+Search  6:"%5Chome%5Cdulich6.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com"
+Search  7:"//dulich6.giaodienwebmau.com" ====================> "//dulich17.maugiaodien.com"
+Search  8:"\/\/dulich6.giaodienwebmau.com" ==================> "\/\/dulich17.maugiaodien.com"
+Search  9:"%2F%2Fdulich6.giaodienwebmau.com" ================> "%2F%2Fdulich17.maugiaodien.com"
+Search 10:"https://dulich17.maugiaodien.com" ================> "http://dulich17.maugiaodien.com"
+Search 11:"https:\/\/dulich17.maugiaodien.com" ==============> "http:\/\/dulich17.maugiaodien.com"
+Search 12:"https%3A%2F%2Fdulich17.maugiaodien.com" ==========> "http%3A%2F%2Fdulich17.maugiaodien.com"
+-----------------
+wp_woocommerce_order_itemmeta~ (77)
+Search  1:"/home/dulich6.giaodienwebmau.com/public_html/" ===> "/home/maugiaod/public_html/dulich17.maugiaodien.com/"
+Search  2:"\/home\/dulich6.giaodienwebmau.com\/public_html\/" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com\/"
+Search  3:"%2Fhome%2Fdulich6.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com%2F"
+Search  4:"\home\dulich6.giaodienwebmau.com\public_html" ====> "/home/maugiaod/public_html/dulich17.maugiaodien.com"
+Search  5:"\\home\\dulich6.giaodienwebmau.com\\public_html" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com"
+Search  6:"%5Chome%5Cdulich6.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com"
+Search  7:"//dulich6.giaodienwebmau.com" ====================> "//dulich17.maugiaodien.com"
+Search  8:"\/\/dulich6.giaodienwebmau.com" ==================> "\/\/dulich17.maugiaodien.com"
+Search  9:"%2F%2Fdulich6.giaodienwebmau.com" ================> "%2F%2Fdulich17.maugiaodien.com"
+Search 10:"https://dulich17.maugiaodien.com" ================> "http://dulich17.maugiaodien.com"
+Search 11:"https:\/\/dulich17.maugiaodien.com" ==============> "http:\/\/dulich17.maugiaodien.com"
+Search 12:"https%3A%2F%2Fdulich17.maugiaodien.com" ==========> "http%3A%2F%2Fdulich17.maugiaodien.com"
+-----------------
+wp_woocommerce_order_items~ (5)
+wp_woocommerce_payment_tokenmeta^ (0)
+wp_woocommerce_payment_tokens^ (0)
+Search  1:"/home/dulich6.giaodienwebmau.com/public_html/" ===> "/home/maugiaod/public_html/dulich17.maugiaodien.com/"
+Search  2:"\/home\/dulich6.giaodienwebmau.com\/public_html\/" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com\/"
+Search  3:"%2Fhome%2Fdulich6.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com%2F"
+Search  4:"\home\dulich6.giaodienwebmau.com\public_html" ====> "/home/maugiaod/public_html/dulich17.maugiaodien.com"
+Search  5:"\\home\\dulich6.giaodienwebmau.com\\public_html" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com"
+Search  6:"%5Chome%5Cdulich6.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com"
+Search  7:"//dulich6.giaodienwebmau.com" ====================> "//dulich17.maugiaodien.com"
+Search  8:"\/\/dulich6.giaodienwebmau.com" ==================> "\/\/dulich17.maugiaodien.com"
+Search  9:"%2F%2Fdulich6.giaodienwebmau.com" ================> "%2F%2Fdulich17.maugiaodien.com"
+Search 10:"https://dulich17.maugiaodien.com" ================> "http://dulich17.maugiaodien.com"
+Search 11:"https:\/\/dulich17.maugiaodien.com" ==============> "http:\/\/dulich17.maugiaodien.com"
+Search 12:"https%3A%2F%2Fdulich17.maugiaodien.com" ==========> "http%3A%2F%2Fdulich17.maugiaodien.com"
+-----------------
+wp_woocommerce_sessions~ (1)
+wp_woocommerce_shipping_zone_locations^ (0)
+wp_woocommerce_shipping_zone_methods^ (0)
+wp_woocommerce_shipping_zones^ (0)
+wp_woocommerce_tax_rate_locations^ (0)
+wp_woocommerce_tax_rates^ (0)
+wp_woof_query_cache^ (0)
+Search  1:"/home/dulich6.giaodienwebmau.com/public_html/" ===> "/home/maugiaod/public_html/dulich17.maugiaodien.com/"
+Search  2:"\/home\/dulich6.giaodienwebmau.com\/public_html\/" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com\/"
+Search  3:"%2Fhome%2Fdulich6.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com%2F"
+Search  4:"\home\dulich6.giaodienwebmau.com\public_html" ====> "/home/maugiaod/public_html/dulich17.maugiaodien.com"
+Search  5:"\\home\\dulich6.giaodienwebmau.com\\public_html" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com"
+Search  6:"%5Chome%5Cdulich6.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com"
+Search  7:"//dulich6.giaodienwebmau.com" ====================> "//dulich17.maugiaodien.com"
+Search  8:"\/\/dulich6.giaodienwebmau.com" ==================> "\/\/dulich17.maugiaodien.com"
+Search  9:"%2F%2Fdulich6.giaodienwebmau.com" ================> "%2F%2Fdulich17.maugiaodien.com"
+Search 10:"https://dulich17.maugiaodien.com" ================> "http://dulich17.maugiaodien.com"
+Search 11:"https:\/\/dulich17.maugiaodien.com" ==============> "http:\/\/dulich17.maugiaodien.com"
+Search 12:"https%3A%2F%2Fdulich17.maugiaodien.com" ==========> "http%3A%2F%2Fdulich17.maugiaodien.com"
+-----------------
+wp_yith_wcbk_booking_notes~ (5)
+wp_yith_wcbk_external_bookings^ (0)
+Search  1:"/home/dulich6.giaodienwebmau.com/public_html/" ===> "/home/maugiaod/public_html/dulich17.maugiaodien.com/"
+Search  2:"\/home\/dulich6.giaodienwebmau.com\/public_html\/" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com\/"
+Search  3:"%2Fhome%2Fdulich6.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com%2F"
+Search  4:"\home\dulich6.giaodienwebmau.com\public_html" ====> "/home/maugiaod/public_html/dulich17.maugiaodien.com"
+Search  5:"\\home\\dulich6.giaodienwebmau.com\\public_html" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com"
+Search  6:"%5Chome%5Cdulich6.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com"
+Search  7:"//dulich6.giaodienwebmau.com" ====================> "//dulich17.maugiaodien.com"
+Search  8:"\/\/dulich6.giaodienwebmau.com" ==================> "\/\/dulich17.maugiaodien.com"
+Search  9:"%2F%2Fdulich6.giaodienwebmau.com" ================> "%2F%2Fdulich17.maugiaodien.com"
+Search 10:"https://dulich17.maugiaodien.com" ================> "http://dulich17.maugiaodien.com"
+Search 11:"https:\/\/dulich17.maugiaodien.com" ==============> "http:\/\/dulich17.maugiaodien.com"
+Search 12:"https%3A%2F%2Fdulich17.maugiaodien.com" ==========> "http%3A%2F%2Fdulich17.maugiaodien.com"
+-----------------
+wp_yith_wcbk_logs~ (113)
+Search  1:"/home/dulich6.giaodienwebmau.com/public_html/" ===> "/home/maugiaod/public_html/dulich17.maugiaodien.com/"
+Search  2:"\/home\/dulich6.giaodienwebmau.com\/public_html\/" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com\/"
+Search  3:"%2Fhome%2Fdulich6.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com%2F"
+Search  4:"\home\dulich6.giaodienwebmau.com\public_html" ====> "/home/maugiaod/public_html/dulich17.maugiaodien.com"
+Search  5:"\\home\\dulich6.giaodienwebmau.com\\public_html" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com"
+Search  6:"%5Chome%5Cdulich6.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com"
+Search  7:"//dulich6.giaodienwebmau.com" ====================> "//dulich17.maugiaodien.com"
+Search  8:"\/\/dulich6.giaodienwebmau.com" ==================> "\/\/dulich17.maugiaodien.com"
+Search  9:"%2F%2Fdulich6.giaodienwebmau.com" ================> "%2F%2Fdulich17.maugiaodien.com"
+Search 10:"https://dulich17.maugiaodien.com" ================> "http://dulich17.maugiaodien.com"
+Search 11:"https:\/\/dulich17.maugiaodien.com" ==============> "http:\/\/dulich17.maugiaodien.com"
+Search 12:"https%3A%2F%2Fdulich17.maugiaodien.com" ==========> "http%3A%2F%2Fdulich17.maugiaodien.com"
+-----------------
+wp_yoast_seo_links~ (79)
+Search  1:"/home/dulich6.giaodienwebmau.com/public_html/" ===> "/home/maugiaod/public_html/dulich17.maugiaodien.com/"
+Search  2:"\/home\/dulich6.giaodienwebmau.com\/public_html\/" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com\/"
+Search  3:"%2Fhome%2Fdulich6.giaodienwebmau.com%2Fpublic_html%2F" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com%2F"
+Search  4:"\home\dulich6.giaodienwebmau.com\public_html" ====> "/home/maugiaod/public_html/dulich17.maugiaodien.com"
+Search  5:"\\home\\dulich6.giaodienwebmau.com\\public_html" => "\/home\/maugiaod\/public_html\/dulich17.maugiaodien.com"
+Search  6:"%5Chome%5Cdulich6.giaodienwebmau.com%5Cpublic_html" => "%2Fhome%2Fmaugiaod%2Fpublic_html%2Fdulich17.maugiaodien.com"
+Search  7:"//dulich6.giaodienwebmau.com" ====================> "//dulich17.maugiaodien.com"
+Search  8:"\/\/dulich6.giaodienwebmau.com" ==================> "\/\/dulich17.maugiaodien.com"
+Search  9:"%2F%2Fdulich6.giaodienwebmau.com" ================> "%2F%2Fdulich17.maugiaodien.com"
+Search 10:"https://dulich17.maugiaodien.com" ================> "http://dulich17.maugiaodien.com"
+Search 11:"https:\/\/dulich17.maugiaodien.com" ==============> "http:\/\/dulich17.maugiaodien.com"
+Search 12:"https%3A%2F%2Fdulich17.maugiaodien.com" ==========> "http%3A%2F%2Fdulich17.maugiaodien.com"
+-----------------
+wp_yoast_seo_meta~ (271)
+--------------------------------------
+SCANNED:	Tables:43 	|	 Rows:4777 	|	 Cells:28273 
+UPDATED:	Tables:2 	|	 Rows:559 	|	 Cells:649 
+ERRORS:		0 
+RUNTIME:	0.327200 sec
+
+====================================
+CONFIGURATION FILE UPDATES:
+====================================
+
+UPDATED WP-CONFIG ARK FILE:
+ - 'dup-wp-config-arc__[HASH].txt'
+SETTING WP DEBUG CONFIG constants
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+- Successfully updated the .htaccess file setting.
+
+====================================
+GENERAL UPDATES & CLEANUP:
+====================================
+
+- Removed '0' schedule storage items
+
+====================================
+NOTICES
+====================================
+
+No General Notices Found
+
+
+STEP-3 COMPLETE @ 04:19:59 - RUNTIME: 0.3473 sec. 
+
+
