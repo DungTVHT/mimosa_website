@@ -20,16 +20,16 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'sql_mimosadreamt' );
+define( 'DB_NAME', 'local' );           // đổi từ 'sql_mimosadreamt'
 
 /** Database username */
-define( 'DB_USER', 'sql_mimosadreamt' );
+define( 'DB_USER', 'root' );            // đổi từ 'sql_mimosadreamt'
 
 /** Database password */
-define( 'DB_PASSWORD', 'b8920415c697' );
+define( 'DB_PASSWORD', 'root' );        // đổi từ 'b8920415c697'
 
 /** Database hostname */
-define( 'DB_HOST', '127.0.0.1' );
+define( 'DB_HOST', 'localhost' );       // đổi từ '127.0.0.1:10010'
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
@@ -89,14 +89,16 @@ define('WP_DEBUG', false);
 
 /* Add any custom values between this line and the "stop editing" line. */
 
+define('WP_HOME', 'http://mimosadreamtravel.local');
+define('WP_SITEURL', 'http://mimosadreamtravel.local');
+
 define( 'RT_WP_NGINX_HELPER_CACHE_PATH', '/www/server/fastcgi_cache' );
 
 define('DISALLOW_FILE_MODS', false);
 
 ini_set('display_errors', 'off');
-define('WP_DEBUG_DISPLAY', false);
 ini_set('log_errors', 'off');
-define('WP_DEBUG_LOG', false);
+define( 'WP_ENVIRONMENT_TYPE', 'local' );
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */

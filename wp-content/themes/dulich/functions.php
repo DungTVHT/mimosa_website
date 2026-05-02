@@ -88,8 +88,8 @@ remove_action( 'admin_notices', 'woothemes_updater_notice' );
    if (!current_user_can('update_plugins'))
    {
         // checks to see if current user can update plugins
-           add_action( 'init', create_function( '$a', "remove_action( 'init', 'wp_version_check' );" ), 2 );
-           add_filter( 'pre_option_update_core', create_function( '$a', "return null;" ) );
+           add_action( 'init', function( $a ) { remove_action( 'init', 'wp_version_check' ); }, 2 );
+           add_filter( 'pre_option_update_core', function( $a ) { return null; } );
    }
 
 //xoa mã bưu điện thanh toán
@@ -173,20 +173,16 @@ add_action( 'init', 'register_my_menu' );
 function Gia_giam() {
     global $product;
     if( $product->is_on_sale() ) {
-        return $product->get_sale_price();
+        return (float)$product->get_sale_price();
     }else{
         return 0;
     }
-   
+
 }
 function Gia_goc() {
     global $product;
-    if( $product->is_on_sale() ) {
-        return $product->get_regular_price();
-    }else{
-        return $product->get_regular_price();
-    }
-   
+    return (float)$product->get_regular_price();
+
 }
 // Enqueue Scripts and Styles.
 add_action( 'wp_enqueue_scripts', 'flatsome_enqueue_scripts_styles' );
@@ -301,8 +297,8 @@ remove_action( 'admin_notices', 'woothemes_updater_notice' );
    if (!current_user_can('update_plugins'))
    {
         // checks to see if current user can update plugins
-           add_action( 'init', create_function( '$a', "remove_action( 'init', 'wp_version_check' );" ), 2 );
-           add_filter( 'pre_option_update_core', create_function( '$a', "return null;" ) );
+           add_action( 'init', function( $a ) { remove_action( 'init', 'wp_version_check' ); }, 2 );
+           add_filter( 'pre_option_update_core', function( $a ) { return null; } );
    }
 
 
@@ -351,8 +347,8 @@ function thong_tin_them_sp(){
 <div class="row row-tien">
 <div class="large-12">
     <?php
-    global $product; 
-$gia=$product->get_price();
+    global $product;
+$gia=(float)$product->get_price();
         $giagiam= gia_giam();
         $giagoc=gia_goc();
         if ( $giagiam != 0){

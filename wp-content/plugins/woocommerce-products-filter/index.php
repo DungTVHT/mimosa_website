@@ -248,7 +248,8 @@ final class WOOF {
 	//for pagination while searching is going only
 	//http://docs.woothemes.com/document/change-number-of-products-displayed-per-page/
 	if ($this->get_option('per_page') > 0 AND $this->is_isset_in_request_data($this->get_swoof_search_slug())) {
-	    add_filter('loop_shop_per_page', create_function('$cols', "return {$this->get_option('per_page')};"), 9999);
+	    $woof_per_page = $this->get_option('per_page');
+	    add_filter('loop_shop_per_page', function($cols) use ($woof_per_page) { return $woof_per_page; }, 9999);
 	}
 
 	//cron
@@ -843,7 +844,7 @@ final class WOOF {
 	<?php
 	$taxonomies = $this->get_taxonomies();
 	$taxonomies_keys = array_keys($taxonomies);
-	array_walk($taxonomies_keys, create_function('&$str', '$str = "\"$str\"";'));
+	array_walk($taxonomies_keys, function(&$str) { $str = '"' . $str . '"'; });
 	$taxonomies_keys = implode(',', $taxonomies_keys);
 	$extensions_html_type_indexes = array();
 
@@ -854,7 +855,7 @@ final class WOOF {
 		}
 	    }
 	}
-	array_walk($extensions_html_type_indexes, create_function('&$str', '$str = "\"$str\"";'));
+	array_walk($extensions_html_type_indexes, function(&$str) { $str = '"' . $str . '"'; });
 	$extensions_html_type_indexes = implode(',', $extensions_html_type_indexes);
 	?>
 	    var woof_accept_array = ["min_price", "orderby", "perpage", <?php echo $extensions_html_type_indexes ?>,<?php echo $taxonomies_keys ?>];

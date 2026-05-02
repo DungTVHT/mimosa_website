@@ -2470,7 +2470,7 @@ final class WP_Installer{
                 //order sub-packages
                 foreach($ordered_packages as $package_id => $package){
                     if(!empty($package['sub-packages'])) {
-                        usort($ordered_packages[$package_id]['sub-packages'], create_function('$a, $b', 'return $a[\'order\'] > $b[\'order\'];'));
+                        usort($ordered_packages[$package_id]['sub-packages'], function($a, $b) { return $a['order'] > $b['order']; });
                     }
                 }
 
