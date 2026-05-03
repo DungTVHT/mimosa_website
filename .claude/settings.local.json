@@ -14,7 +14,18 @@
       "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); [print\\(k, v.get\\('domain',''\\), v.get\\('name',''\\)\\) for k,v in d.items\\(\\)]\")",
       "Bash(python -c ' *)",
       "Bash(mysql *)",
-      "Bash(grep -r --include=\"*.php\" -l '\\\\$[a-zA-Z_][a-zA-Z0-9_]*{[0-9]' \"C:\\\\Users\\\\Tran Van Dung\\\\Local Sites\\\\mimosadreamtravel\\\\app\\\\public\\\\wp-content\\\\plugins\\\\\" 2>/dev/null | head -20)"
+      "Bash(grep -r --include=\"*.php\" -l '\\\\$[a-zA-Z_][a-zA-Z0-9_]*{[0-9]' \"C:\\\\Users\\\\Tran Van Dung\\\\Local Sites\\\\mimosadreamtravel\\\\app\\\\public\\\\wp-content\\\\plugins\\\\\" 2>/dev/null | head -20)",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\Tran Van Dung\\\\Local Sites\\\\mimosadreamtravel\\\\app\\\\public\" -Directory)",
+      "Bash(Select-Object Name)",
+      "Bash(awk '{print $NF}')",
+      "WebFetch(domain:travel.com.vn)",
+      "Bash(Select-String -Path \"C:\\\\Users\\\\Tran Van Dung\\\\Local Sites\\\\mimosadreamtravel\\\\app\\\\public\\\\wp-content\\\\themes\\\\flatsome\\\\assets\\\\css\\\\flatsome.css\" -Pattern \"header-nav\")",
+      "Bash(Select-Object -First 20)",
+      "Bash(Format-List)",
+      "PowerShell(Get-Content *)",
+      "PowerShell($content = Get-Content \"C:\\\\Users\\\\Tran Van Dung\\\\Local Sites\\\\mimosadreamtravel\\\\app\\\\public\\\\wp-content\\\\themes\\\\flatsome\\\\assets\\\\css\\\\flatsome.css\" -Raw; Write-Host \"File size: $\\($content.Length\\) chars\"; $idx = $content.IndexOf\\(\".nav \"\\); Write-Host \"First .nav at: $idx\"; $content.Substring\\($idx, 300\\))",
+      "PowerShell($content = Get-Content \"C:\\\\Users\\\\Tran Van Dung\\\\Local Sites\\\\mimosadreamtravel\\\\app\\\\public\\\\wp-content\\\\themes\\\\flatsome\\\\assets\\\\css\\\\flatsome.css\" -Raw; $idx = $content.IndexOf\\(\".nav>li>a{\"\\); if\\($idx -ge 0\\){ $content.Substring\\($idx, 200\\) } else { Write-Host \"Not found, trying alternate...\"; $idx2 = $content.IndexOf\\(\".nav>li>a,\"\\); $content.Substring\\($idx2, 300\\) })",
+      "PowerShell($content = Get-Content \"C:\\\\Users\\\\Tran Van Dung\\\\Local Sites\\\\mimosadreamtravel\\\\app\\\\public\\\\wp-content\\\\themes\\\\flatsome\\\\assets\\\\css\\\\flatsome.css\" -Raw; $idx = $content.IndexOf\\(\"header-nav-main\"\\); if\\($idx -ge 0\\){ $content.Substring\\($idx, 400\\) } else { Write-Host \"Not found directly\"; $idx2 = $content.IndexOf\\(\"nav-main\"\\); $content.Substring\\($idx2, 400\\) })"
     ]
   }
 }

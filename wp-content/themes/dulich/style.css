@@ -1269,3 +1269,259 @@ max-height: 100px;
 
 
 }
+
+
+/* ================================================
+   HEADER HIỆN ĐẠI - REDESIGN 2026
+   ================================================ */
+
+/* ---- Top bar ---- */
+#top-bar {
+    background: linear-gradient(135deg, #0d2137 0%, #0f3460 100%);
+    border-bottom: none !important;
+    padding: 0;
+    min-height: 36px;
+}
+
+#top-bar .flex-row {
+    min-height: 36px;
+    align-items: center;
+}
+
+#top-bar .nav-small > li > a,
+#top-bar .nav-small > li > span {
+    color: rgba(255,255,255,0.82) !important;
+    font-size: 12.5px !important;
+    padding: 6px 12px !important;
+    letter-spacing: 0.3px;
+    transition: color 0.2s, background 0.2s;
+}
+
+#top-bar .nav-small > li > a:hover {
+    color: #ffffff !important;
+    background: rgba(255,255,255,0.1) !important;
+}
+
+/* ---- Google Translator tích hợp top bar ---- */
+.header-translate {
+    background: linear-gradient(135deg, #0d2137 0%, #0f3460 100%);
+    text-align: right;
+    padding: 3px 0;
+    line-height: 1;
+}
+
+.header-translate .goog-te-gadget-simple {
+    background: transparent !important;
+    border: 1px solid rgba(255,255,255,0.28) !important;
+    border-radius: 4px !important;
+    padding: 3px 8px !important;
+    font-size: 12px !important;
+    vertical-align: middle;
+}
+
+.header-translate .goog-te-gadget-simple span,
+.header-translate .goog-te-gadget-simple a,
+.header-translate .goog-te-gadget-simple a span,
+.header-translate .goog-te-gadget-simple .goog-te-gadget-icon + span {
+    color: rgba(255,255,255,0.85) !important;
+    font-size: 12px !important;
+}
+
+.header-translate .goog-te-gadget-simple:hover {
+    border-color: rgba(255,255,255,0.5) !important;
+    background: rgba(255,255,255,0.08) !important;
+}
+
+/* ---- Main header ---- */
+#masthead.header-main {
+    background: #ffffff !important;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.07) !important;
+    border-top: none !important;
+    border-bottom: 3px solid #0066cc !important;
+    padding: 0 !important;
+    transition: box-shadow 0.3s ease;
+}
+
+.header-main .header-inner {
+    min-height: 70px !important;
+    align-items: center;
+}
+
+/* ---- Logo ---- */
+#logo {
+    padding: 6px 0;
+}
+
+#logo img {
+    max-height: 52px !important;
+    width: auto !important;
+    transition: opacity 0.2s;
+}
+
+#logo img:hover {
+    opacity: 0.88;
+}
+
+/* ---- Nav links ---- */
+.header-nav-main > li > a,
+.header-nav-main > li > span {
+    color: #1a2d4e !important;
+    font-weight: 600 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    letter-spacing: 0.3px;
+    text-transform: uppercase !important;
+    position: relative;
+    transition: color 0.22s !important;
+    white-space: nowrap;
+}
+
+/* Gạch chân animate khi hover */
+.header-nav-main > li > a::after {
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    left: 50%;
+    right: 50%;
+    height: 2px;
+    background: #0066cc;
+    border-radius: 2px;
+    transition: left 0.24s ease, right 0.24s ease;
+}
+
+.header-nav-main > li > a:hover::after,
+.header-nav-main > li.current-menu-item > a::after,
+.header-nav-main > li.current-menu-ancestor > a::after {
+    left: 0;
+    right: 0;
+}
+
+/* Override màu cũ (#95ee74) */
+.header-nav-main li a:hover,
+.header-nav-main > li > a:hover {
+    color: #0066cc !important;
+    background: transparent !important;
+}
+
+.header-nav-main li.current-menu-item a,
+.header-nav-main li.current-menu-item > a {
+    color: #0066cc !important;
+}
+
+/* ---- Dropdown menu ---- */
+.nav-dropdown {
+    border: none !important;
+    border-radius: 10px !important;
+    box-shadow: 0 10px 35px rgba(0,0,0,0.13) !important;
+    margin-top: 8px !important;
+    overflow: hidden;
+    background: #ffffff !important;
+    min-width: 210px !important;
+    animation: dropFadeIn 0.2s ease;
+}
+
+@keyframes dropFadeIn {
+    from { opacity: 0; transform: translateY(-6px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+.nav-dropdown-default .nav-column li > a,
+.nav-dropdown.nav-dropdown-default > li > a {
+    color: #2d3748 !important;
+    font-size: 13.5px !important;
+    padding: 10px 18px !important;
+    border-bottom: 1px solid #f0f4f8 !important;
+    transition: all 0.18s !important;
+    font-weight: 500 !important;
+}
+
+.nav-dropdown-default .nav-column li > a:hover,
+.nav-dropdown.nav-dropdown-default > li > a:hover {
+    background: #e8f2ff !important;
+    color: #0066cc !important;
+    padding-left: 24px !important;
+}
+
+.nav-dropdown-default .nav-column li:last-child > a,
+.nav-dropdown.nav-dropdown-default > li:last-child > a {
+    border-bottom: none !important;
+}
+
+/* ---- Sticky header ---- */
+.header-sticky.sticky #masthead.header-main,
+.header-scroll #masthead.header-main {
+    box-shadow: 0 4px 24px rgba(0,0,0,0.11) !important;
+}
+
+/* Ẩn top-divider cũ */
+.top-divider {
+    display: none !important;
+}
+
+/* ---- Nút hotline trong header (nếu có) ---- */
+.hotline-header {
+    font-size: 13.5px !important;
+    color: #ff6b00 !important;
+    border: 2px solid #ff6b00 !important;
+    border-radius: 20px !important;
+    padding: 6px 14px !important;
+    margin-top: 0 !important;
+    line-height: 1.4 !important;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    transition: all 0.22s;
+}
+
+.hotline-header:hover {
+    background: #ff6b00 !important;
+    color: #fff !important;
+}
+
+/* ---- Back to top ---- */
+.back-to-top {
+    background: #0066cc !important;
+    border-radius: 50% !important;
+    box-shadow: 0 4px 14px rgba(0,102,204,0.4) !important;
+    bottom: 60px !important;
+    transition: transform 0.2s, box-shadow 0.2s !important;
+}
+
+.back-to-top:hover {
+    transform: translateY(-3px) !important;
+    box-shadow: 0 6px 20px rgba(0,102,204,0.5) !important;
+}
+
+/* ---- Mobile header ---- */
+@media (max-width: 849px) {
+    #masthead.header-main {
+        border-bottom-width: 2px !important;
+    }
+
+    .header-translate {
+        padding: 4px 12px;
+        text-align: center;
+    }
+
+    .header-translate .goog-te-gadget-simple {
+        font-size: 11px !important;
+    }
+
+    .mobile-nav .nav-dropdown {
+        border-radius: 6px !important;
+    }
+}
+
+/* ---- Header block (icon box bên phải header) ---- */
+.header-block-block-1 img {
+    padding-top: 0 !important;
+}
+
+.header-block-block-1 .p-header {
+    color: #0066cc !important;
+    font-weight: 500;
+}
+
+p.phone-number {
+    color: #ff6b00 !important;
+    font-weight: 700;
+}
