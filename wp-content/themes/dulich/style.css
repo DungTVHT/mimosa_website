@@ -1525,3 +1525,477 @@ p.phone-number {
     color: #ff6b00 !important;
     font-weight: 700;
 }
+
+
+/* ============================================================
+   TOUR CARD MỚI - Phong cách travel.com.vn
+   ============================================================ */
+
+/* Wrapper card */
+.tour-card-new {
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.09);
+    border: 1px solid #edf0f5;
+    transition: box-shadow 0.25s ease, transform 0.25s ease;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.tour-card-new:hover {
+    box-shadow: 0 8px 28px rgba(0,0,0,0.15);
+    transform: translateY(-3px);
+}
+
+/* ---- Vùng ảnh ---- */
+.tour-card-image {
+    position: relative;
+    overflow: hidden;
+    height: 205px;
+}
+
+.tour-card-image > a:first-child {
+    display: block;
+    height: 100%;
+}
+
+.tour-card-img,
+.tour-card-image img {
+    width: 100% !important;
+    height: 205px !important;
+    object-fit: cover !important;
+    display: block !important;
+    transition: transform 0.38s ease;
+    margin: 0 !important;
+}
+
+.tour-card-new:hover .tour-card-img,
+.tour-card-new:hover .tour-card-image img {
+    transform: scale(1.06);
+}
+
+/* Badge (góc trên trái ảnh) */
+.tour-card-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(25, 118, 210, 0.90);
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 11px;
+    border-radius: 5px;
+    z-index: 3;
+    letter-spacing: 0.2px;
+    pointer-events: none;
+}
+
+/* Nút Xem nhanh (góc dưới phải ảnh) */
+.tour-card-quickview {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.52);
+    color: #ffffff !important;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px 12px;
+    border-radius: 5px;
+    z-index: 3;
+    opacity: 0;
+    transition: opacity 0.22s ease, background 0.2s;
+    text-decoration: none !important;
+    white-space: nowrap;
+}
+
+.tour-card-new:hover .tour-card-quickview {
+    opacity: 1;
+}
+
+.tour-card-quickview:hover {
+    background: rgba(0, 0, 0, 0.78) !important;
+    color: #ffffff !important;
+}
+
+.tour-card-quickview .fa {
+    padding-right: 3px;
+}
+
+/* Hết chỗ */
+.tour-card-oos {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,0.62);
+    color: #fff;
+    padding: 6px 18px;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 14px;
+    pointer-events: none;
+}
+
+/* ---- Phần nội dung ---- */
+.tour-card-body {
+    padding: 12px 14px 14px 14px;
+}
+
+/* Tên tour */
+.tour-card-title {
+    font-size: 14.5px !important;
+    font-weight: 700 !important;
+    margin: 0 0 10px 0 !important;
+    line-height: 1.45;
+    min-height: 42px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.tour-card-title a {
+    color: #1a2d4e !important;
+    text-decoration: none !important;
+    font-size: 14.5px !important;
+    font-weight: 700 !important;
+}
+
+.tour-card-title a:hover {
+    color: #1976d2 !important;
+}
+
+/* Dòng meta: địa điểm + thời gian */
+.tour-card-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #f0f2f6;
+    gap: 6px;
+    font-size: 13px;
+    color: #4a5568;
+    min-height: 22px;
+}
+
+.tour-card-meta-item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    line-height: 1.3;
+}
+
+.tour-card-meta-item .fa {
+    color: #1976d2 !important;
+    font-size: 13px !important;
+    padding-right: 2px;
+}
+
+.tour-card-location {
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.tour-card-duration {
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+/* ---- Footer: giá + nút ---- */
+.tour-card-footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 4px;
+    gap: 8px;
+}
+
+.tour-card-price {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.tour-card-price-label {
+    font-size: 11.5px;
+    color: #888;
+    line-height: 1.2;
+}
+
+.tour-card-price-amount {
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    color: #0d47a1 !important;
+    line-height: 1.25;
+    white-space: nowrap;
+}
+
+/* Nút Xem chi tiết */
+.tour-card-detail-btn {
+    display: inline-block;
+    background: #1976d2;
+    color: #ffffff !important;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none !important;
+    white-space: nowrap;
+    transition: background 0.2s ease;
+    line-height: 1.3;
+    flex-shrink: 0;
+}
+
+.tour-card-detail-btn:hover {
+    background: #0d47a1 !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+}
+
+/* Điều chỉnh khoảng cách column */
+.products .col.product-small {
+    padding-bottom: 20px !important;
+}
+
+/* Responsive cho template mới */
+@media (max-width: 480px) {
+    .tour-card-image,
+    .tour-card-img,
+    .tour-card-image img {
+        height: 180px !important;
+    }
+    .tour-card-price-amount {
+        font-size: 16px !important;
+    }
+    .tour-card-detail-btn {
+        padding: 7px 12px;
+        font-size: 12px;
+    }
+}
+
+/* ============================================================
+   TOUR CARD V2 - Style cho Flatsome template (box-normal)
+   ============================================================ */
+
+/* Restyle card wrapper */
+.product-small .box.box-normal,
+.product-small .box.box-text {
+    border-radius: 10px !important;
+    overflow: hidden !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.09) !important;
+    border: 1px solid #edf0f5 !important;
+    transition: box-shadow 0.25s ease, transform 0.25s ease !important;
+    background: #fff !important;
+}
+
+.product-small.has-hover:hover .box.box-normal,
+.product-small.has-hover:hover .box.box-text {
+    box-shadow: 0 8px 28px rgba(0,0,0,0.15) !important;
+    transform: translateY(-3px) !important;
+}
+
+/* Image */
+.product-small .box-image img {
+    height: 205px !important;
+    object-fit: cover !important;
+    width: 100% !important;
+    display: block !important;
+    transition: transform 0.35s ease !important;
+}
+
+.product-small.has-hover:hover .box-image img {
+    transform: scale(1.05) !important;
+}
+
+/* Badge: luôn hiện, góc trên trái */
+.product-small .image-tools.top.right {
+    top: 0 !important;
+    right: auto !important;
+    left: 0 !important;
+    bottom: auto !important;
+    pointer-events: none;
+    /* Override show-on-hover */
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.tour-v2-badge {
+    display: inline-block;
+    background: rgba(25, 118, 210, 0.90);
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 11px;
+    border-radius: 5px;
+    margin: 10px;
+    pointer-events: none;
+}
+
+/* Box text area */
+.product-small .box-text {
+    padding: 10px 14px 14px !important;
+    min-height: unset !important;
+    background: #ffffff !important;
+}
+
+.product-small .box-text.box-text-bottom {
+    position: static !important;
+}
+
+/* Ẩn price wrapper WooCommerce mặc định */
+.product-small .price-wrapper {
+    display: none !important;
+}
+
+/* Ẩn star rating */
+.product-small .star-rating {
+    display: none !important;
+}
+
+/* Title */
+.product-small .box-text .product-title {
+    min-height: 42px !important;
+    margin: 0 0 0 0 !important;
+    overflow: hidden !important;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2 !important;
+    -webkit-box-orient: vertical !important;
+    font-weight: 700 !important;
+}
+
+.product-small .box-text .product-title a {
+    color: #1a2d4e !important;
+    font-size: 14.5px !important;
+    font-weight: 700 !important;
+    line-height: 1.45 !important;
+    text-decoration: none !important;
+}
+
+.product-small .box-text .product-title a:hover {
+    color: #1976d2 !important;
+}
+
+/* Ẩn tất cả output cũ */
+.product-small .row-tien,
+.product-small .p-thoi-gian,
+.product-small .p-dia-chi,
+.product-small .so-sao,
+.product-small .gia-giam.gia-overlay,
+.product-small .xem-them-ux-product {
+    display: none !important;
+}
+
+/* title-wrapper: remove extra min-height */
+.product-small .title-wrapper {
+    padding: 0 !important;
+}
+
+/* ---- Dòng meta: địa điểm + thời gian ---- */
+.tour-v2-meta {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    font-size: 13px !important;
+    color: #4a5568 !important;
+    padding: 8px 0 !important;
+    border-bottom: 1px solid #f0f2f6 !important;
+    margin-bottom: 8px !important;
+    gap: 6px !important;
+    min-height: 22px !important;
+}
+
+.tour-v2-loc {
+    flex: 1 !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 4px !important;
+    color: #4a5568 !important;
+}
+
+.tour-v2-dur {
+    white-space: nowrap !important;
+    flex-shrink: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 4px !important;
+    color: #4a5568 !important;
+}
+
+.tour-v2-meta .fa {
+    color: #1976d2 !important;
+    font-size: 13px !important;
+    padding-right: 2px !important;
+}
+
+/* ---- Footer: giá + nút ---- */
+.tour-v2-footer {
+    display: flex !important;
+    align-items: flex-end !important;
+    justify-content: space-between !important;
+    gap: 8px !important;
+    margin-top: 4px !important;
+}
+
+.tour-v2-price {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1px !important;
+}
+
+.tour-v2-label {
+    font-size: 11.5px !important;
+    color: #888 !important;
+    line-height: 1.2 !important;
+    font-weight: 400 !important;
+}
+
+.tour-v2-amount {
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    color: #0d47a1 !important;
+    line-height: 1.25 !important;
+    white-space: nowrap !important;
+}
+
+/* Nút Xem chi tiết */
+.tour-v2-btn {
+    display: inline-block !important;
+    background: #1976d2 !important;
+    color: #ffffff !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    padding: 8px 16px !important;
+    border-radius: 6px !important;
+    text-decoration: none !important;
+    white-space: nowrap !important;
+    transition: background 0.2s ease !important;
+    line-height: 1.3 !important;
+    flex-shrink: 0 !important;
+}
+
+.tour-v2-btn:hover {
+    background: #0d47a1 !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+}
+
+/* Responsive V2 */
+@media (max-width: 480px) {
+    .product-small .box-image img {
+        height: 180px !important;
+    }
+    .tour-v2-amount {
+        font-size: 15px !important;
+    }
+    .tour-v2-btn {
+        padding: 7px 11px !important;
+        font-size: 12px !important;
+    }
+}

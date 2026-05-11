@@ -323,146 +323,79 @@ wp_enqueue_style( 'login_css', get_stylesheet_directory_uri() . '/login.css' ); 
 add_action('login_head', 'login_css');
 
 
-add_action('woocommerce_shop_loop_item_title','thong_tin_them_sp');
+add_action( 'woocommerce_shop_loop_item_title', 'thong_tin_them_sp' );
 
-function thong_tin_them_sp(){
-
-    $loai = get_field('loai_san_pham');
-    if( $loai == "Tour du lịch"){
-            $ngay_khoi_hanh=get_field('ngay_khoi_hanh');
-            $thoi_gian=get_field('thoi_gian');
-        $lich_trinh=get_field('lich_trinh');
-        $di_chuyen=get_field('di_chuyen');
-            ?>
-            
-            <?php
-
-}elseif($loai == "Khách sạn"){
-    $dia_chi=get_field('dia_chi');
-    $sosao=get_field('so_sao');
-    $an_sang=get_field('an_sang');
-    $wifi=get_field('wifi');
-}
-?>
-<div class="row row-tien">
-<div class="large-12">
-    <?php
+function thong_tin_them_sp() {
     global $product;
-$gia=(float)$product->get_price();
-        $giagiam= gia_giam();
-        $giagoc=gia_goc();
-        if ( $giagiam != 0){
 
+    $loai = get_field( 'loai_san_pham' );
 
-        ?>
-        
+    // Xác định vị trí hiển thị
+    if ( $loai == 'Tour du lịch' ) {
+        $thoi_gian = get_field( 'thoi_gian' );
+        $di_chuyen = get_field( 'di_chuyen' );
+        $location  = get_field( 'noi_khoi_hanh' ) ?: $di_chuyen;
+    } elseif ( $loai == 'Khách sạn' ) {
+        $location  = get_field( 'dia_chi' );
+        $thoi_gian = '';
+    } else {
+        $location  = '';
+        $thoi_gian = '';
+    }
 
-    
-        <p class="gia-giam gia-overlay"><span class="tien"><?php echo number_format(gia_giam()); ?></span><span> đồng</span></p>
+    // Giá hiển thị
+    $gia_giam = Gia_giam();
+    $gia_goc  = Gia_goc();
+    if ( $gia_giam != 0 ) {
+        $gia = $gia_giam;
+    } elseif ( $gia_goc != 0 ) {
+        $gia = $gia_goc;
+    } else {
+        $gia = (float) $product->get_price();
+    }
+    ?>
+    <div class="tour-v2-meta">
+        <span class="tour-v2-loc">
+            <?php if ( $location ) : ?>
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <?php echo esc_html( $location ); ?>
+            <?php endif; ?>
+        </span>
+        <?php if ( $thoi_gian ) : ?>
+        <span class="tour-v2-dur">
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
+            <?php echo esc_html( $thoi_gian ); ?>
+        </span>
+        <?php endif; ?>
+    </div>
+    <div class="tour-v2-footer">
+        <div class="tour-v2-price">
+            <span class="tour-v2-label">Giá từ:</span>
+            <strong class="tour-v2-amount"><?php echo number_format( $gia ); ?>đ</strong>
+        </div>
+        <a href="<?php echo esc_url( get_the_permalink() ); ?>" class="tour-v2-btn">Xem chi tiết</a>
+    </div>
+    <?php
+}
 
-<?php
-}else{
-        if ( $giagoc != 0){
-
-?>
-        <p class="gia-giam gia-overlay"><span class="tien"><?php echo number_format(gia_goc()); ?></span><span> đồng</span></p>
-        <?php
-
-        }else{
-            ?>
-            <p class="gia-giam gia-overlay"><span class="tien"><?php echo number_format($gia); ?></span><span> đồng</span></p>
-          
-            <?php
+// Badge hiển thị trên góc ảnh
+add_action( 'flatsome_product_box_tools_top', 'tour_v2_badge_loop' );
+function tour_v2_badge_loop() {
+    $badge      = '';
+    $categories = get_the_terms( get_the_ID(), 'product_cat' );
+    if ( $categories && ! is_wp_error( $categories ) ) {
+        $badge = $categories[0]->name;
+        foreach ( $categories as $cat ) {
+            if ( $cat->parent != 0 ) { $badge = $cat->name; break; }
         }
-}
-?>
-
-
-    <a href="<?php echo get_the_permalink(); ?>" class="xem-them-ux-product">Chi tiết</a>
-</div> 
-</div>
-<?php
-if( $loai == "Tour du lịch"){
-    ?>
-
-                               <p class="p-thoi-gian"><i class="fa fa-clock-o" aria-hidden="true"></i>Thời gian: <?php echo $thoi_gian; ?></p>
-                                  <p class="p-thoi-gian">  <i class="fa fa-car" aria-hidden="true"></i>Vận chuyển: <?php echo  $di_chuyen; ?></p>
-                             
-                                  
-
-                                        <?php
-                                    }elseif($loai == "Khách sạn"){
-
-?>
-        <p class="p-dia-chi"><i class="fa fa-map-marker" aria-hidden="true"></i> <?php echo $dia_chi; ?></p>
-                                <ul class="so-sao">
-<?php 
-if($sosao=="1 sao"){
-    ?>
-    <div class="star">
-                                                        <span class="active">★</span>
-                                                            <span class="in-active">★</span>
-                                                            <span class="in-active">★</span>
-                                                            <span class="in-active">★</span>
-                                                            <span class="in-active">★</span>
-                                                </div>
-
-
-<?php
-}elseif($sosao=="2 sao"){
-
-?>
-<div class="star">
-                                                             <span class="active">★</span>
-                                                            <span class="active">★</span>
-                                                            <span class="in-active">★</span>
-                                                            <span class="in-active">★</span>
-                                                            <span class="in-active">★</span>
-                                                </div>
-<?php
-}elseif($sosao=="3 sao"){
-?>
-<div class="star">
-          <span class="active">★</span>
-                                                            <span class="active">★</span>
-                                                            <span class="active">★</span>
-                                                            <span class="in-active">★</span>
-                                                            <span class="in-active">★</span>
-                                                </div>
-<?php
-}elseif($sosao=="4 sao"){
-
-?>
-<div class="star">
-          <span class="active">★</span>
-                                                            <span class="active">★</span>
-                                                            <span class="active">★</span>
-                                                            <span class="active">★</span>
-                                                            <span class="in-active">★</span>
-                                                </div>
-
-<?php
-}else{
-?>
-<div class="star">
-                                                            <span class="active">★</span>
-                                                            <span class="active">★</span>
-                                                            <span class="active">★</span>
-                                                            <span class="active">★</span>
-                                                            <span class="active">★</span>
-                                                </div>
-
-
-<?php
-}
-?>
-
-</ul>
-<?php
-}
-?>
-
-<?php
+    }
+    if ( ! $badge ) {
+        $loai  = get_field( 'loai_san_pham' );
+        $badge = ( $loai == 'Tour du lịch' ) ? 'Tour' : ( $loai ?: '' );
+    }
+    if ( $badge ) {
+        echo '<span class="tour-v2-badge">' . esc_html( $badge ) . '</span>';
+    }
 }
 
 add_action( 'flatsome_custom_single_product_1', 'thongtin_them_sidebar', 16  );
